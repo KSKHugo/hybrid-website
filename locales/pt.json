@@ -1,0 +1,137 @@
+{
+  "langName": "Português",
+  "meta": {
+    "title": "Hybrid — Editor Markdown para Mac | Escreva com IA, publique em equipa",
+    "description": "O Hybrid é o editor Markdown para Mac que se lembra de quem escreveu o quê: você, uma IA ou uma fonte com nome. Colaboração em tempo real, partilha e publicação online com um clique — para PR, marketing, agências, redações e jornalismo.",
+    "keywords": "editor Markdown, Mac, macOS, IA, inteligência artificial, colaboração, partilha, PR, relações públicas, marketing, comunicação, agência, redação, jornalismo, publicação online, proveniência",
+    "jsonLdAlternateName": "Hybrid, editor Markdown para Mac"
+  },
+  "nav": {
+    "ariaLabel": "Navegação principal",
+    "features": "Funções",
+    "audiences": "Para quem",
+    "download": "Descarregar",
+    "languageMenu": "Escolher idioma"
+  },
+  "hero": {
+    "eyebrow": "Hybrid para macOS",
+    "h1": "O editor Markdown que sabe quem escreveu o quê.",
+    "sub": "O Hybrid regista de onde vem cada passagem: escrita por si, gerada por uma IA, citada de uma fonte com nome ou contribuída por um colega. Feito para quem publica — em PR, marketing, agências e redações.",
+    "secondary": "Ver todas as funções",
+    "iosPill": "Em breve",
+    "ios": "O Hybrid chega em breve ao iPhone e ao iPad.",
+    "shotAlt": "O editor Hybrid no macOS com marcações de proveniência: texto de IA sublinhado a violeta, uma citação etiquetada a verde e o medidor de contribuições na barra lateral",
+    "badgeAlt": "Descarregar na Mac App Store"
+  },
+  "prov": {
+    "h2": "Quem escreveu o quê? O seu documento sabe.",
+    "p": "Cada passagem carrega a sua origem — e mantém-na ao guardar, partilhar e editar em conjunto. O registo viaja dentro de um ficheiro .md normal que qualquer outro editor pode abrir; as etiquetas flutuam sobre o texto e não aparecem em nenhuma exportação.",
+    "demoAria": "Exemplo de documento com marcações de proveniência: o seu texto, uma passagem marcada como IA e uma citação etiquetada com a sua fonte",
+    "demoYou": "Este parágrafo foi escrito por si — tudo o que digita conta automaticamente como seu.",
+    "demoAi": "Esta passagem veio de uma IA e está marcada, para que a parte da máquina continue visível.",
+    "aiLabel": "Gerado por IA",
+    "demoSource": "Esta citação vem de uma fonte externa e traz o nome dela como pequena etiqueta.",
+    "sourceLabel": "Wikipédia",
+    "meter": "57 % escrito por si · 25 % gerado por IA · 18 % Wikipédia",
+    "promise": "A promessa central: o que alguém contribuiu continua atribuído a essa pessoa — mesmo que o acesso seja retirado mais tarde. A proveniência regista quem escreveu, não quem tem permissão agora."
+  },
+  "rows": [
+    {
+      "img": "ki-vergleich",
+      "h3": "Compare duas respostas de IA lado a lado",
+      "p": "A mesma pergunta foi feita a duas ferramentas de IA e, à primeira vista, as respostas parecem iguais. O Hybrid realça exatamente onde diferem e conta as diferenças. Atribua a cada resposta o nome da sua ferramenta como fonte: mesmo depois de as fundir, continua a saber que frase veio de qual.",
+      "alt": "Duas respostas de IA à mesma pergunta lado a lado no Hybrid, com as diferenças realçadas a cores"
+    },
+    {
+      "img": "zusammenarbeit",
+      "h3": "Escrever em conjunto, em tempo real",
+      "p": "Partilhe um documento via iCloud Drive e cada passagem mostra o nome do seu autor como etiqueta colorida. As alterações dos outros aparecem em segundos, sem que o cursor ou o scroll saltem. Convida-se pela janela de partilha da Apple — Contactos, Mail ou Mensagens.",
+      "alt": "Modo de colaboração no Hybrid com dois autores, cada passagem etiquetada com o nome e a cor do seu autor"
+    },
+    {
+      "img": "vorschau",
+      "h3": "Uma pré-visualização ao vivo, tal como publicado",
+      "p": "Títulos, listas, tabelas reais e imagens incorporadas, renderizados como os seus leitores os verão. A pré-visualização acompanha a escrita ao vivo numa janela própria — ideal para rever um texto antes de ir para o CMS.",
+      "alt": "A pré-visualização Markdown renderizada do Hybrid com títulos, uma tabela e uma imagem incorporada"
+    }
+  ],
+  "cards": [
+    {
+      "icon": "globe",
+      "h3": "Publicação online com um clique",
+      "p": "Copia o documento como HTML formatado com imagens incorporadas — pronto a colar no WordPress e noutros CMS. As imagens aparecem exatamente no seu lugar, sem links partidos."
+    },
+    {
+      "icon": "sparkles",
+      "h3": "Feito para fluxos com IA",
+      "p": "Envie o seu texto com um clique para o ChatGPT, Claude, Perplexity ou uma app à sua escolha. Marque passagens de IA e leia a parte de cada participante na barra lateral."
+    },
+    {
+      "icon": "file",
+      "h3": "Markdown puro, sem amarras",
+      "p": "Os documentos são puros ficheiros .md que qualquer editor pode abrir. Tudo o que o Hybrid sabe a mais — proveniência, versões, autores — viaja num único comentário invisível."
+    },
+    {
+      "icon": "image",
+      "h3": "Imagens e tabelas por arrastar e largar",
+      "p": "Arraste uma foto para o texto: é redimensionada, convertida e referenciada em Markdown. Um ficheiro CSV ou Excel torna-se uma tabela formatada."
+    },
+    {
+      "icon": "clock",
+      "h3": "Histórico de versões automático",
+      "p": "O Hybrid guarda estados intermédios enquanto escreve. Cada estado pode ser visto e restaurado — nada se perde, mesmo que mude de ideias."
+    },
+    {
+      "icon": "lock",
+      "h3": "Bloqueio com Touch ID",
+      "p": "Bloqueie a app de imediato ou automaticamente após inatividade. Bloqueado é bloqueado: janelas ocultas, exportações desativadas — até o Touch ID voltar a abrir."
+    }
+  ],
+  "aud": {
+    "h2": "Feito para quem publica",
+    "intro": "Onde quer que um texto nasça de várias mãos — humanas e de máquina —, o Hybrid mantém as origens separadas."
+  },
+  "audiences": [
+    {
+      "h3": "PR & comunicação",
+      "p": "Redija comunicados de imprensa com apoio de IA mantendo cada citação verificável. Quando perguntarem o que um humano escreveu, o seu documento tem a resposta — transparência como método, não como remendo."
+    },
+    {
+      "h3": "Marketing & agências",
+      "p": "Muitas mãos, uma só voz. Veja a parte de cada um, compare rascunhos lado a lado e entregue HTML limpo a qualquer CMS — todo o fluxo de conteúdos no seu Mac."
+    },
+    {
+      "h3": "Redações & jornalismo",
+      "p": "Separe as suas palavras das fontes e das sugestões da IA. As fontes com nome ficam ligadas a cada parágrafo — através de revisões, versões e edição partilhada."
+    },
+    {
+      "h3": "Consultoria",
+      "p": "Relatórios coescritos com IA precisam de um rasto auditável. O Hybrid regista quem — ou o quê — escreveu cada passagem, e o bloqueio Touch ID mantém fechados os rascunhos confidenciais."
+    },
+    {
+      "h3": "Profissionais de IA",
+      "p": "Compare resultados de modelos lado a lado, meça a parte de IA de um documento e guarde prompts e resultados como Markdown limpo — legível em qualquer ferramenta."
+    },
+    {
+      "h3": "Publicação online & equipas de conteúdo",
+      "p": "Do Markdown ao CMS com um clique: HTML formatado com as imagens exatamente onde pertencem. E ainda exportação para PDF, Word e Markdown puro."
+    }
+  ],
+  "ios": {
+    "h2": "Em breve no iPhone e no iPad",
+    "p": "O Hybrid chega em breve ao iOS. Os mesmos documentos, a mesma proveniência — no bolso. Até lá, os seus ficheiros são Markdown puro no iCloud Drive, legíveis em qualquer dispositivo."
+  },
+  "langSection": {
+    "h2": "Fala a sua língua",
+    "p": "O Hybrid está disponível em nove idiomas: português, inglês, alemão, francês, espanhol, italiano, neerlandês, japonês e chinês simplificado — e este site também."
+  },
+  "cta": {
+    "h2": "Escreva com IA. Publique com confiança.",
+    "p": "Hybrid para Mac — o editor Markdown para pessoas, IA e tudo o que publica."
+  },
+  "footer": {
+    "tagline": "O Hybrid é um editor Markdown para macOS feito para a colaboração entre pessoas e IA — para PR, marketing, comunicação, agências, redações, jornalismo, consultoria e publicação online. Escrever, partilhar, comparar e publicar — no seu Mac.",
+    "requirements": "macOS 13 (Ventura) ou posterior · Apple Silicon & Intel",
+    "languagesLabel": "Esta página noutros idiomas"
+  }
+}

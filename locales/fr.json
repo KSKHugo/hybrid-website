@@ -1,0 +1,137 @@
+{
+  "langName": "Français",
+  "meta": {
+    "title": "Hybrid — Éditeur Markdown pour Mac | Écrire avec l'IA, publier en équipe",
+    "description": "Hybrid est l'éditeur Markdown pour Mac qui retient qui a écrit quoi — vous, une IA ou une source nommée. Collaboration en temps réel, partage et publication en ligne en un clic — pour les RP, le marketing, les agences, les rédactions et le journalisme.",
+    "keywords": "éditeur Markdown, Mac, macOS, IA, intelligence artificielle, collaboration, partage, RP, relations presse, marketing, communication, agence, rédaction, journalisme, publication en ligne, provenance",
+    "jsonLdAlternateName": "Hybrid, éditeur Markdown pour Mac"
+  },
+  "nav": {
+    "ariaLabel": "Navigation principale",
+    "features": "Fonctions",
+    "audiences": "Pour qui",
+    "download": "Télécharger",
+    "languageMenu": "Choisir la langue"
+  },
+  "hero": {
+    "eyebrow": "Hybrid pour macOS",
+    "h1": "L'éditeur Markdown qui sait qui a écrit quoi.",
+    "sub": "Hybrid retient l'origine de chaque passage : écrit par vous, généré par une IA, cité d'une source nommée ou apporté par un collègue. Conçu pour celles et ceux qui publient — RP, marketing, agences et rédactions.",
+    "secondary": "Voir toutes les fonctions",
+    "iosPill": "Bientôt disponible",
+    "ios": "Hybrid arrive bientôt sur iPhone et iPad.",
+    "shotAlt": "L'éditeur Hybrid sur macOS avec les marques de provenance : texte IA souligné en violet, citation étiquetée en vert et jauge des contributions dans la barre latérale",
+    "badgeAlt": "Télécharger dans le Mac App Store"
+  },
+  "prov": {
+    "h2": "Qui a écrit quoi ? Votre document le sait.",
+    "p": "Chaque passage porte son origine — et la conserve à l'enregistrement, au partage et à l'édition à plusieurs. Ce registre voyage dans un simple fichier .md que tout autre éditeur peut ouvrir ; les étiquettes flottent au-dessus du texte et n'apparaissent dans aucun export.",
+    "demoAria": "Exemple de document avec marques de provenance : votre texte, un passage marqué comme IA et une citation étiquetée avec sa source",
+    "demoYou": "Ce paragraphe a été tapé par vous — tout ce que vous écrivez compte automatiquement comme vôtre.",
+    "demoAi": "Ce passage provient d'une IA et il est marqué, pour que la part de la machine reste visible.",
+    "aiLabel": "Généré par IA",
+    "demoSource": "Cette citation provient d'une source externe et porte son nom en petite étiquette.",
+    "sourceLabel": "Wikipédia",
+    "meter": "57 % écrit par vous · 25 % généré par IA · 18 % Wikipédia",
+    "promise": "La promesse centrale : ce que quelqu'un a apporté lui reste attribué — même si l'accès est retiré plus tard. La provenance dit qui a écrit, pas qui a le droit d'écrire aujourd'hui."
+  },
+  "rows": [
+    {
+      "img": "ki-vergleich",
+      "h3": "Comparer deux réponses d'IA côte à côte",
+      "p": "La même question a été posée à deux outils d'IA, et les réponses se ressemblent au premier regard. Hybrid met en évidence leurs différences et les compte. Donnez à chaque réponse le nom de son outil comme source : même après la fusion, on sait encore quelle phrase vient d'où.",
+      "alt": "Deux réponses d'IA à la même question côte à côte dans Hybrid, différences surlignées en couleur"
+    },
+    {
+      "img": "zusammenarbeit",
+      "h3": "Écrire ensemble, en temps réel",
+      "p": "Partagez un document via iCloud Drive : chaque passage affiche le nom de son auteur en étiquette colorée. Les modifications des autres apparaissent en quelques secondes, sans que le curseur ni le défilement ne bougent. On invite via la fenêtre de partage d'Apple — Contacts, Mail ou Messages.",
+      "alt": "Mode collaboration dans Hybrid avec deux auteurs, chaque passage étiqueté du nom et de la couleur de son auteur"
+    },
+    {
+      "img": "vorschau",
+      "h3": "Un aperçu en direct, tel que publié",
+      "p": "Titres, listes, vraies tableaux et images intégrées, rendus comme vos lecteurs les verront. L'aperçu suit votre frappe en direct dans sa propre fenêtre — idéal pour vérifier un texte avant le CMS.",
+      "alt": "L'aperçu Markdown rendu de Hybrid avec titres, un tableau et une image intégrée"
+    }
+  ],
+  "cards": [
+    {
+      "icon": "globe",
+      "h3": "Publication en ligne en un clic",
+      "p": "Copie votre document en HTML mis en forme avec images intégrées — prêt à coller dans WordPress et d'autres CMS. Les images restent exactement à leur place, pas de liens cassés."
+    },
+    {
+      "icon": "sparkles",
+      "h3": "Pensé pour les flux IA",
+      "p": "Envoyez votre texte en un clic à ChatGPT, Claude, Perplexity ou l'app de votre choix. Marquez les passages IA et lisez la part de chaque contributeur dans la barre latérale."
+    },
+    {
+      "icon": "file",
+      "h3": "Du Markdown pur, sans verrou",
+      "p": "Les documents sont de purs fichiers .md que tout éditeur peut ouvrir. Tout ce que Hybrid sait en plus — provenance, versions, auteurs — voyage dans un seul commentaire invisible."
+    },
+    {
+      "icon": "image",
+      "h3": "Images et tableaux par glisser-déposer",
+      "p": "Déposez une photo dans le texte : elle est redimensionnée, convertie et référencée en Markdown. Un fichier CSV ou Excel devient un tableau mis en forme."
+    },
+    {
+      "icon": "clock",
+      "h3": "Historique de versions automatique",
+      "p": "Hybrid enregistre des états intermédiaires pendant que vous écrivez. Chaque état peut être consulté et restauré — rien ne se perd, même si vous changez d'avis."
+    },
+    {
+      "icon": "lock",
+      "h3": "Verrouillage Touch ID",
+      "p": "Verrouillez l'app immédiatement ou automatiquement après inactivité. Verrouillé veut dire verrouillé : fenêtres masquées, exports désactivés — jusqu'au déverrouillage par Touch ID."
+    }
+  ],
+  "aud": {
+    "h2": "Conçu pour celles et ceux qui publient",
+    "intro": "Partout où un texte naît de plusieurs mains — humaines et machines —, Hybrid garde les origines au clair."
+  },
+  "audiences": [
+    {
+      "h3": "RP & communication",
+      "p": "Rédigez des communiqués avec l'appui de l'IA en gardant chaque citation vérifiable. Quand on demande ce qu'un humain a écrit, votre document a la réponse — la transparence comme méthode, pas comme rattrapage."
+    },
+    {
+      "h3": "Marketing & agences",
+      "p": "Beaucoup de plumes, une seule voix. Voyez la part de chacun, comparez les brouillons côte à côte et livrez un HTML propre à n'importe quel CMS — tout le flux de contenu sur votre Mac."
+    },
+    {
+      "h3": "Rédactions & journalisme",
+      "p": "Séparez vos propres mots des sources et des suggestions d'IA. Les sources nommées restent attachées à chaque paragraphe — à travers les corrections, les versions et l'édition partagée."
+    },
+    {
+      "h3": "Conseil",
+      "p": "Les rapports co-écrits avec l'IA ont besoin d'une piste d'audit. Hybrid consigne qui — ou quoi — a écrit chaque passage, et le verrouillage Touch ID garde les brouillons confidentiels fermés."
+    },
+    {
+      "h3": "Professionnels de l'IA",
+      "p": "Comparez les sorties de modèles côte à côte, mesurez la part d'IA d'un document et conservez prompts et résultats en Markdown propre — lisible dans tout outil."
+    },
+    {
+      "h3": "Publication en ligne & équipes de contenu",
+      "p": "Du Markdown au CMS en un clic : du HTML mis en forme avec les images exactement à leur place. Plus l'export PDF, Word et Markdown pur."
+    }
+  ],
+  "ios": {
+    "h2": "Bientôt sur iPhone et iPad",
+    "p": "Hybrid arrive bientôt sur iOS. Les mêmes documents, la même provenance — en mobilité. D'ici là, vos fichiers restent du Markdown pur dans iCloud Drive, lisibles sur chaque appareil."
+  },
+  "langSection": {
+    "h2": "Parle votre langue",
+    "p": "Hybrid existe en neuf langues : français, anglais, allemand, espagnol, italien, portugais, néerlandais, japonais et chinois simplifié — et ce site aussi."
+  },
+  "cta": {
+    "h2": "Écrire avec l'IA. Publier en confiance.",
+    "p": "Hybrid pour Mac — l'éditeur Markdown pour les humains, l'IA et tout ce que vous publiez."
+  },
+  "footer": {
+    "tagline": "Hybrid est un éditeur Markdown pour macOS conçu pour la collaboration entre humains et IA — pour les RP, le marketing, la communication, les agences, les rédactions, le journalisme, le conseil et la publication en ligne. Écrire, partager, comparer et publier — depuis votre Mac.",
+    "requirements": "macOS 13 (Ventura) ou ultérieur · Apple Silicon & Intel",
+    "languagesLabel": "Cette page dans d'autres langues"
+  }
+}

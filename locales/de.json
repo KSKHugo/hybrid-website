@@ -1,0 +1,137 @@
+{
+  "langName": "Deutsch",
+  "meta": {
+    "title": "Hybrid — Markdown-Editor für den Mac | Mit KI schreiben, im Team veröffentlichen",
+    "description": "Hybrid ist der Markdown-Editor für den Mac, der festhält, wer was geschrieben hat — Sie, eine KI oder eine benannte Quelle. Zusammenarbeit in Echtzeit, Teilen und Online-Publishing mit einem Klick — für PR, Marketing, Agenturen, Redaktionen und Journalismus.",
+    "keywords": "Markdown-Editor, Mac, macOS, KI, künstliche Intelligenz, Zusammenarbeit, Teilen, PR, Marketing, Öffentlichkeitsarbeit, Agentur, Redaktion, Journalismus, Online-Publishing, Herkunft",
+    "jsonLdAlternateName": "Hybrid Markdown-Editor für den Mac"
+  },
+  "nav": {
+    "ariaLabel": "Hauptnavigation",
+    "features": "Funktionen",
+    "audiences": "Für wen",
+    "download": "Laden",
+    "languageMenu": "Sprache wählen"
+  },
+  "hero": {
+    "eyebrow": "Hybrid für macOS",
+    "h1": "Der Markdown-Editor, der weiß, wer was geschrieben hat.",
+    "sub": "Hybrid hält fest, woher jede Passage stammt: selbst geschrieben, von einer KI, aus einer benannten Quelle oder von einer Kollegin. Gemacht für Menschen, die veröffentlichen — in PR, Marketing, Agentur und Redaktion.",
+    "secondary": "Alle Funktionen ansehen",
+    "iosPill": "Bald verfügbar",
+    "ios": "Hybrid erscheint bald auch für iPhone und iPad.",
+    "shotAlt": "Der Hybrid-Editor auf macOS mit Herkunfts-Markierungen: KI-Text violett unterstrichen, ein Quellenzitat grün etikettiert, dazu die Anteilsanzeige in der Seitenleiste",
+    "badgeAlt": "Laden im Mac App Store"
+  },
+  "prov": {
+    "h2": "Wer hat was geschrieben? Ihr Dokument weiß es.",
+    "p": "Jede Passage trägt ihre Herkunft — und behält sie beim Speichern, Teilen und gemeinsamen Bearbeiten. Das Protokoll reist in einer reinen .md-Datei mit, die jeder andere Editor öffnen kann; die Etiketten schweben über dem Text und landen in keinem Export.",
+    "demoAria": "Beispiel eines Dokuments mit Herkunfts-Markierungen: eigener Text, eine als KI markierte Passage und ein Zitat mit Quellen-Etikett",
+    "demoYou": "Dieser Absatz wurde selbst getippt — alles, was Sie schreiben, gilt automatisch als Ihres.",
+    "demoAi": "Diese Passage stammt aus einer KI und ist markiert, damit der Anteil der Maschine am Text sichtbar bleibt.",
+    "aiLabel": "KI-generiert",
+    "demoSource": "Dieses Zitat stammt aus einer externen Quelle und trägt deren Namen als kleines Etikett.",
+    "sourceLabel": "Wikipedia",
+    "meter": "57 % von Ihnen geschrieben · 25 % KI-generiert · 18 % Wikipedia",
+    "promise": "Die zentrale Zusage: Was jemand beigesteuert hat, bleibt ihm dauerhaft zugeschrieben — auch wenn der Zugriff später entzogen wird. Die Herkunft ist ein Protokoll darüber, wer geschrieben hat, nicht darüber, wer gerade darf."
+  },
+  "rows": [
+    {
+      "img": "ki-vergleich",
+      "h3": "Zwei KI-Antworten nebeneinander vergleichen",
+      "p": "Dieselbe Frage ging an zwei KI-Tools, und die Antworten sehen auf den ersten Blick gleich aus. Hybrid hebt hervor, worin sie sich unterscheiden, und zählt die Abweichungen. Vergeben Sie jeder Antwort den Namen ihres Tools als Quelle, bleibt auch nach dem Zusammenführen nachvollziehbar, welcher Satz von welchem stammt.",
+      "alt": "Zwei KI-Antworten auf dieselbe Frage nebeneinander in Hybrid, Unterschiede farbig hervorgehoben"
+    },
+    {
+      "img": "zusammenarbeit",
+      "h3": "Gemeinsam schreiben, in Echtzeit",
+      "p": "Teilen Sie ein Dokument über iCloud Drive, und jede Passage zeigt den Namen ihres Autors als farbiges Etikett. Änderungen der anderen erscheinen binnen Sekunden, ohne dass Cursor oder Scrollposition verspringen. Eingeladen wird über Apples eigenes Freigabefenster — Kontakte, Mail oder Nachrichten.",
+      "alt": "Zusammenarbeitsmodus in Hybrid mit zwei Autoren, jede Passage mit Namen und Farbe ihres Autors etikettiert"
+    },
+    {
+      "img": "vorschau",
+      "h3": "Eine Live-Vorschau, wie veröffentlicht",
+      "p": "Überschriften, Listen, echte Tabellen und eingebettete Bilder — gerendert so, wie Ihre Leser sie sehen werden. Die Vorschau folgt der Eingabe live in einem eigenen Fenster; ideal, um einen Text zu prüfen, bevor er ins CMS geht.",
+      "alt": "Die gerenderte Markdown-Vorschau von Hybrid mit Überschriften, einer Tabelle und einem eingebetteten Bild"
+    }
+  ],
+  "cards": [
+    {
+      "icon": "globe",
+      "h3": "Online-Publishing mit einem Klick",
+      "p": "Kopiert Ihr Dokument als formatiertes HTML mit eingebetteten Bildern — bereit zum Einfügen in WordPress und andere CMS. Bilder erscheinen genau an ihrer Stelle, nicht als kaputte Verweise."
+    },
+    {
+      "icon": "sparkles",
+      "h3": "Gemacht für KI-Workflows",
+      "p": "Senden Sie Ihren Text mit einem Klick an ChatGPT, Claude, Perplexity oder eine App Ihrer Wahl. Markieren Sie KI-Passagen, und lesen Sie die Anteile aller Beteiligten in der Seitenleiste ab."
+    },
+    {
+      "icon": "file",
+      "h3": "Reines Markdown, kein Lock-in",
+      "p": "Dokumente sind pure .md-Dateien, die jeder Editor öffnen kann. Alles, was Hybrid zusätzlich weiß — Herkunft, Versionen, Autoren —, reist in einem einzigen unsichtbaren Kommentar mit."
+    },
+    {
+      "icon": "image",
+      "h3": "Bilder und Tabellen per Drag & Drop",
+      "p": "Ziehen Sie ein Foto in den Text: Es wird verkleinert, umgewandelt und als Markdown-Verweis eingefügt. Aus einer CSV- oder Excel-Datei wird eine formatierte Tabelle."
+    },
+    {
+      "icon": "clock",
+      "h3": "Automatischer Versionsverlauf",
+      "p": "Hybrid sichert beim Schreiben automatisch Zwischenstände. Jeder Stand lässt sich ansehen und wiederherstellen — nichts geht verloren, auch wenn Sie sich anders entscheiden."
+    },
+    {
+      "icon": "lock",
+      "h3": "Touch-ID-Sperre",
+      "p": "Sperren Sie die App sofort oder automatisch nach Inaktivität. Gesperrt heißt gesperrt: alle Fenster verdeckt, Exporte deaktiviert — bis Touch ID wieder öffnet."
+    }
+  ],
+  "aud": {
+    "h2": "Gemacht für Menschen, die veröffentlichen",
+    "intro": "Überall, wo Text aus mehreren Händen entsteht — menschlichen und maschinellen —, hält Hybrid die Herkunft auseinander."
+  },
+  "audiences": [
+    {
+      "h3": "PR & Öffentlichkeitsarbeit",
+      "p": "Pressemitteilungen mit KI-Unterstützung entwerfen und jedes Zitat belegbar halten. Wenn gefragt wird, was ein Mensch geschrieben hat, hat Ihr Dokument die Antwort — Transparenz als Arbeitsweise, nicht als Nachtrag."
+    },
+    {
+      "h3": "Marketing & Agenturen",
+      "p": "Viele Schreibende, eine Stimme. Sehen Sie die Anteile aller Beteiligten, vergleichen Sie Entwürfe nebeneinander und übergeben Sie sauberes HTML an jedes CMS — der ganze Content-Workflow auf Ihrem Mac."
+    },
+    {
+      "h3": "Redaktion & Journalismus",
+      "p": "Eigene Worte von Quellen und KI-Vorschlägen trennen. Benannte Quellen bleiben an jedem Absatz — durch Überarbeitungen, Versionen und gemeinsames Redigieren hindurch."
+    },
+    {
+      "h3": "Unternehmensberatung",
+      "p": "Berichte, die mit KI entstehen, brauchen einen Nachweis. Hybrid protokolliert, wer — oder was — jede Passage geschrieben hat, und die Touch-ID-Sperre hält vertrauliche Entwürfe verschlossen."
+    },
+    {
+      "h3": "KI-Profis",
+      "p": "Modell-Antworten nebeneinander vergleichen, den KI-Anteil eines Dokuments messen und Prompts wie Ergebnisse als sauberes Markdown ablegen — lesbar in jedem Werkzeug."
+    },
+    {
+      "h3": "Online-Publishing & Content-Teams",
+      "p": "Von Markdown ins CMS mit einem Klick: formatiertes HTML mit Bildern genau dort, wo sie hingehören. Dazu Export als PDF, Word und reines Markdown."
+    }
+  ],
+  "ios": {
+    "h2": "Bald auch für iPhone und iPad",
+    "p": "Hybrid erscheint bald für iOS. Dieselben Dokumente, dieselbe Herkunft — für unterwegs. Bis dahin liegen Ihre Dateien als reines Markdown in iCloud Drive, lesbar auf jedem Gerät."
+  },
+  "langSection": {
+    "h2": "Spricht Ihre Sprache",
+    "p": "Hybrid gibt es in neun Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Japanisch und Chinesisch (vereinfacht) — und diese Seite ebenso."
+  },
+  "cta": {
+    "h2": "Mit KI schreiben. Mit gutem Gewissen veröffentlichen.",
+    "p": "Hybrid für den Mac — der Markdown-Editor für Menschen, KI und alles, was Sie veröffentlichen."
+  },
+  "footer": {
+    "tagline": "Hybrid ist ein Markdown-Editor für macOS, gebaut für die Zusammenarbeit von Menschen und KI — für PR, Marketing, Öffentlichkeitsarbeit, Agenturen, Redaktionen, Journalismus, Unternehmensberatung und Online-Publishing. Schreiben, teilen, vergleichen und veröffentlichen — auf Ihrem Mac.",
+    "requirements": "macOS 13 (Ventura) oder neuer · Apple Silicon & Intel",
+    "languagesLabel": "Diese Seite in anderen Sprachen"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "langName": "Nederlands",
+  "meta": {
+    "title": "Hybrid — Markdown-editor voor Mac | Schrijf met AI, publiceer als team",
+    "description": "Hybrid is de Markdown-editor voor de Mac die onthoudt wie wat schreef: jij, een AI of een benoemde bron. Realtime samenwerken, delen en online publiceren met één klik — voor PR, marketing, bureaus, redacties en journalistiek.",
+    "keywords": "Markdown-editor, Mac, macOS, AI, kunstmatige intelligentie, samenwerken, delen, PR, public relations, marketing, communicatie, bureau, redactie, journalistiek, online publiceren, herkomst",
+    "jsonLdAlternateName": "Hybrid, Markdown-editor voor Mac"
+  },
+  "nav": {
+    "ariaLabel": "Hoofdnavigatie",
+    "features": "Functies",
+    "audiences": "Voor wie",
+    "download": "Download",
+    "languageMenu": "Taal kiezen"
+  },
+  "hero": {
+    "eyebrow": "Hybrid voor macOS",
+    "h1": "De Markdown-editor die weet wie wat schreef.",
+    "sub": "Hybrid houdt bij waar elke passage vandaan komt: zelf geschreven, gegenereerd door een AI, geciteerd uit een benoemde bron of bijgedragen door een collega. Gemaakt voor mensen die publiceren — in PR, marketing, bureaus en redacties.",
+    "secondary": "Bekijk alle functies",
+    "iosPill": "Binnenkort",
+    "ios": "Hybrid komt binnenkort ook naar iPhone en iPad.",
+    "shotAlt": "De Hybrid-editor op macOS met herkomstmarkeringen: AI-tekst paars onderstreept, een broncitaat groen gelabeld en de bijdragenmeter in de zijbalk",
+    "badgeAlt": "Download in de Mac App Store"
+  },
+  "prov": {
+    "h2": "Wie schreef wat? Je document weet het.",
+    "p": "Elke passage draagt haar herkomst — en behoudt die bij het bewaren, delen en samen bewerken. Het register reist mee in een gewoon .md-bestand dat elke andere editor kan openen; de labels zweven boven de tekst en belanden in geen enkele export.",
+    "demoAria": "Voorbeeld van een document met herkomstmarkeringen: je eigen tekst, een als AI gemarkeerde passage en een citaat met bronlabel",
+    "demoYou": "Deze alinea heb je zelf getypt — alles wat je schrijft telt automatisch als het jouwe.",
+    "demoAi": "Deze passage komt van een AI en is gemarkeerd, zodat het aandeel van de machine zichtbaar blijft.",
+    "aiLabel": "AI-gegenereerd",
+    "demoSource": "Dit citaat komt uit een externe bron en draagt haar naam als klein label.",
+    "sourceLabel": "Wikipedia",
+    "meter": "57% door jou geschreven · 25% AI-gegenereerd · 18% Wikipedia",
+    "promise": "De centrale belofte: wat iemand heeft bijgedragen, blijft aan die persoon toegeschreven — ook als de toegang later wordt ingetrokken. Herkomst is een register van wie schreef, niet van wie nu mag."
+  },
+  "rows": [
+    {
+      "img": "ki-vergleich",
+      "h3": "Vergelijk twee AI-antwoorden naast elkaar",
+      "p": "Dezelfde vraag ging naar twee AI-tools, en de antwoorden lijken op het eerste gezicht gelijk. Hybrid markeert precies waar ze verschillen en telt de verschillen. Geef elk antwoord de naam van zijn tool als bron: ook na het samenvoegen weet je nog welke zin waarvandaan kwam.",
+      "alt": "Twee AI-antwoorden op dezelfde vraag naast elkaar in Hybrid, verschillen in kleur gemarkeerd"
+    },
+    {
+      "img": "zusammenarbeit",
+      "h3": "Samen schrijven, in realtime",
+      "p": "Deel een document via iCloud Drive en elke passage toont de naam van de auteur als gekleurd label. Wijzigingen van anderen verschijnen binnen seconden, zonder dat je cursor of scrollpositie verspringt. Uitnodigen gaat via Apples eigen deelvenster — Contacten, Mail of Berichten.",
+      "alt": "Samenwerkmodus in Hybrid met twee auteurs, elke passage gelabeld met naam en kleur van de auteur"
+    },
+    {
+      "img": "vorschau",
+      "h3": "Een livevoorbeeld, precies zoals gepubliceerd",
+      "p": "Koppen, lijsten, echte tabellen en ingesloten afbeeldingen, weergegeven zoals je lezers ze zien. Het voorbeeld volgt je typen live in een eigen venster — ideaal om een tekst te controleren voordat die het CMS ingaat.",
+      "alt": "Het gerenderde Markdown-voorbeeld van Hybrid met koppen, een tabel en een ingesloten afbeelding"
+    }
+  ],
+  "cards": [
+    {
+      "icon": "globe",
+      "h3": "Online publiceren met één klik",
+      "p": "Kopieert je document als opgemaakte HTML met ingesloten afbeeldingen — klaar om te plakken in WordPress en andere CMS'en. Afbeeldingen staan precies op hun plek, geen kapotte links."
+    },
+    {
+      "icon": "sparkles",
+      "h3": "Gemaakt voor AI-workflows",
+      "p": "Stuur je tekst met één klik naar ChatGPT, Claude, Perplexity of een app naar keuze. Markeer AI-passages en lees het aandeel van elke deelnemer af in de zijbalk."
+    },
+    {
+      "icon": "file",
+      "h3": "Puur Markdown, geen lock-in",
+      "p": "Documenten zijn pure .md-bestanden die elke editor kan openen. Alles wat Hybrid extra weet — herkomst, versies, auteurs — reist mee in één onzichtbare opmerking."
+    },
+    {
+      "icon": "image",
+      "h3": "Afbeeldingen en tabellen via slepen",
+      "p": "Sleep een foto in de tekst: die wordt verkleind, geconverteerd en als Markdown-verwijzing ingevoegd. Een CSV- of Excel-bestand wordt een opgemaakte tabel."
+    },
+    {
+      "icon": "clock",
+      "h3": "Automatische versiegeschiedenis",
+      "p": "Hybrid bewaart tussenstanden terwijl je schrijft. Elke stand is te bekijken en te herstellen — er gaat niets verloren, ook als je je bedenkt."
+    },
+    {
+      "icon": "lock",
+      "h3": "Touch ID-vergrendeling",
+      "p": "Vergrendel de app direct of automatisch na inactiviteit. Vergrendeld is vergrendeld: alle vensters verborgen, exports uitgeschakeld — tot Touch ID weer opent."
+    }
+  ],
+  "aud": {
+    "h2": "Gemaakt voor mensen die publiceren",
+    "intro": "Overal waar tekst uit meerdere handen ontstaat — menselijke en machinale — houdt Hybrid de herkomst uit elkaar."
+  },
+  "audiences": [
+    {
+      "h3": "PR & communicatie",
+      "p": "Schrijf persberichten met AI-ondersteuning en houd elk citaat verifieerbaar. Als gevraagd wordt wat een mens schreef, heeft je document het antwoord — transparantie als werkwijze, niet als correctie achteraf."
+    },
+    {
+      "h3": "Marketing & bureaus",
+      "p": "Veel schrijvers, één stem. Zie ieders aandeel, vergelijk concepten naast elkaar en lever schone HTML aan elk CMS — de hele contentworkflow op je Mac."
+    },
+    {
+      "h3": "Redacties & journalistiek",
+      "p": "Scheid je eigen woorden van bronnen en AI-suggesties. Benoemde bronnen blijven aan elke alinea gekoppeld — door revisies, versies en gedeeld redigeren heen."
+    },
+    {
+      "h3": "Consultancy",
+      "p": "Rapporten die samen met AI ontstaan, hebben een controleerbaar spoor nodig. Hybrid registreert wie — of wat — elke passage schreef, en de Touch ID-vergrendeling houdt vertrouwelijke concepten gesloten."
+    },
+    {
+      "h3": "AI-professionals",
+      "p": "Vergelijk modeluitvoer naast elkaar, meet het AI-aandeel van een document en bewaar prompts en resultaten als schoon Markdown — leesbaar in elke tool."
+    },
+    {
+      "h3": "Online publiceren & contentteams",
+      "p": "Van Markdown naar CMS met één klik: opgemaakte HTML met afbeeldingen precies waar ze horen. Plus export naar PDF, Word en puur Markdown."
+    }
+  ],
+  "ios": {
+    "h2": "Binnenkort op iPhone en iPad",
+    "p": "Hybrid komt binnenkort naar iOS. Dezelfde documenten, dezelfde herkomst — voor onderweg. Tot die tijd zijn je bestanden puur Markdown in iCloud Drive, leesbaar op elk apparaat."
+  },
+  "langSection": {
+    "h2": "Spreekt jouw taal",
+    "p": "Hybrid is beschikbaar in negen talen: Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Japans en vereenvoudigd Chinees — en deze site ook."
+  },
+  "cta": {
+    "h2": "Schrijf met AI. Publiceer met vertrouwen.",
+    "p": "Hybrid voor Mac — de Markdown-editor voor mensen, AI en alles wat je publiceert."
+  },
+  "footer": {
+    "tagline": "Hybrid is een Markdown-editor voor macOS, gebouwd voor samenwerking tussen mensen en AI — voor PR, marketing, communicatie, bureaus, redacties, journalistiek, consultancy en online publiceren. Schrijven, delen, vergelijken en publiceren — op je Mac.",
+    "requirements": "macOS 13 (Ventura) of nieuwer · Apple Silicon & Intel",
+    "languagesLabel": "Deze pagina in andere talen"
+  }
+}
