@@ -133,7 +133,7 @@ ${alternates}
 
   <header class="site-header">
     <a class="brand" href="${lang.dir ? "../" : "./"}">
-      <img src="${abs("assets/img/hybrid-icon.svg")}" alt="" width="34" height="34">
+      <img src="${abs("assets/img/hybrid-icon.svg")}" alt="" width="48" height="48">
       <span>Hybrid</span>
     </a>
     <nav class="site-nav" aria-label="${esc(t.nav.ariaLabel)}">

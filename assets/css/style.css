@@ -109,13 +109,13 @@ main > section {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   color: var(--ink);
   letter-spacing: -0.01em;
 }
-.brand img { border-radius: 8px; }
+.brand img { border-radius: 11px; }
 .site-nav {
   display: flex;
   gap: 22px;
