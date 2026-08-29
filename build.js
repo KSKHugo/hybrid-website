@@ -7,9 +7,9 @@ const fs = require("fs");
 const path = require("path");
 
 // ── Vor dem Livegang anpassen ────────────────────────────────────────────────
-// example.com ist ein Platzhalter (RFC 2606). Vor dem Deploy durch die echte
-// Domain ersetzen — build.js erneut ausführen genügt.
-const SITE_URL = "https://example.com";
+// Aktuell die GitHub-Pages-Adresse. Bei Umzug auf eine eigene Domain hier
+// ersetzen (ohne Schrägstrich am Ende) — build.js erneut ausführen genügt.
+const SITE_URL = "https://kskhugo.github.io/hybrid-website";
 // Platzhalter: Apple-ID der App aus App Store Connect eintragen.
 const APP_STORE_URL = "https://apps.apple.com/app/idAPPLE-ID-EINSETZEN";
 // ─────────────────────────────────────────────────────────────────────────────
@@ -33,9 +33,6 @@ const esc = (s) => String(s)
   .replace(/"/g, "&quot;");
 
 const urlFor = (lang) => lang.dir ? `${SITE_URL}/${lang.dir}/` : `${SITE_URL}/`;
-// Wurzelrelativ für die Navigation, damit die Links auf jeder Domain
-// und in der lokalen Vorschau funktionieren.
-const pathFor = (lang) => lang.dir ? `/${lang.dir}/` : `/`;
 
 // Kleine, konsistente Strich-Icons (16er-Raster, stroke-basiert).
 const ICONS = {
@@ -52,6 +49,14 @@ function render(t, lang) {
   const prefix = lang.dir ? "../" : "";
   const abs = (p) => `${prefix}${p}`;
 
+  // Seitenrelativ, damit die Navigation auch in einem Unterpfad
+  // (z. B. GitHub Pages) und in der lokalen Vorschau funktioniert.
+  const relFor = (l) => {
+    if (l.code === lang.code) return "./";
+    if (!lang.dir) return `${l.dir}/`;
+    return l.dir ? `../${l.dir}/` : "../";
+  };
+
   const alternates = LANGS.map((l) =>
     `  <link rel="alternate" hreflang="${l.hreflang}" href="${urlFor(l)}">`
   ).join("\n") + `\n  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/">`;
@@ -59,7 +64,7 @@ function render(t, lang) {
   const langLinks = (cls) => LANGS.map((l) => {
     const t2 = locales[l.code];
     const current = l.code === lang.code ? ' aria-current="page"' : "";
-    return `<a href="${pathFor(l)}" lang="${l.hreflang}" hreflang="${l.hreflang}"${current}>${esc(t2.langName)}</a>`;
+    return `<a href="${relFor(l)}" lang="${l.hreflang}" hreflang="${l.hreflang}"${current}>${esc(t2.langName)}</a>`;
   }).join(cls === "footer" ? "\n          " : "\n            ");
 
   const jsonLd = {
