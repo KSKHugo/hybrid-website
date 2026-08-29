@@ -227,7 +227,7 @@ ${audiences}
       <span>${esc(t.footer.languagesLabel)}:</span>
           ${langLinks("footer")}
     </nav>
-    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a></p>
+    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a></p>
   </footer>
 
   <script src="${abs("assets/js/site.js")}" defer></script>
@@ -287,6 +287,9 @@ function renderImpressum() {
         76767 Hagenbach
       </p>
 
+      <h2>Umsatzsteuer-ID</h2>
+      <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br>DE306952683</p>
+
       <h2>Verbraucherstreitbeilegung</h2>
       <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 
@@ -298,7 +301,83 @@ function renderImpressum() {
   </main>
 
   <footer class="site-footer">
-    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid</p>
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid · <a href="../datenschutz/">Datenschutz</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// ── Datenschutzerklärung ─────────────────────────────────────────────────────
+// DSGVO-Pflichtseite für eine statische Seite ohne Cookies und Tracking:
+// GitHub Pages als Hoster, localStorage für die Sprachwahl, Kontakt per Mail.
+function renderDatenschutz() {
+  return `<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung — Hybrid</title>
+  <meta name="description" content="Datenschutzerklärung der Hybrid-Website gemäß DSGVO.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="${SITE_URL}/datenschutz/">
+  <meta name="theme-color" content="#F9F8F7">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/hybrid-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-lang="de">
+  <header class="site-header">
+    <a class="brand" href="../">
+      <img src="../assets/img/hybrid-icon.svg" alt="" width="48" height="48">
+      <span>Hybrid</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="legal">
+      <h1>Datenschutzerklärung</h1>
+      <p lang="en" class="legal-note">This privacy policy is required by the GDPR and German law and therefore provided in German. In short: this site sets no cookies, runs no analytics and no tracking; the hoster GitHub Pages processes server logs, and your language choice is stored only on your own device.</p>
+
+      <h2>1. Verantwortlicher</h2>
+      <p>
+        Pascal Hugo<br>
+        Kropsburgstr. 5a<br>
+        76767 Hagenbach<br>
+        Deutschland<br>
+        E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a>
+      </p>
+
+      <h2>2. Das Wichtigste vorab</h2>
+      <p>Diese Website ist eine rein statische Informationsseite. Sie setzt keine Cookies, bindet keine Analyse-, Tracking- oder Werbedienste ein und lädt keine Inhalte von Drittservern — auch keine externen Schriften. Ein Nutzerkonto gibt es nicht, Formulare gibt es nicht.</p>
+
+      <h2>3. Hosting bei GitHub Pages</h2>
+      <p>Die Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seiten verarbeitet GitHub technisch notwendige Daten, insbesondere die IP-Adresse des aufrufenden Geräts, Datum und Uhrzeit des Zugriffs, die abgerufene Datei und den User-Agent des Browsers (Server-Logdaten).</p>
+      <p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO — das berechtigte Interesse an der sicheren und zuverlässigen Bereitstellung der Website. Die Verarbeitung findet teilweise in den USA statt; GitHub, Inc. ist nach dem EU-U.S. Data Privacy Framework zertifiziert, womit ein Angemessenheitsbeschluss der EU-Kommission nach Art. 45 DSGVO greift. Näheres in der <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Datenschutzerklärung von GitHub</a> und den Angaben zu <a href="https://docs.github.com/de/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" rel="noopener">GitHub Pages</a>. Auf die Logdaten von GitHub habe ich keinen Zugriff und führe sie mit keinen anderen Daten zusammen.</p>
+
+      <h2>4. Speicherung der Sprachwahl (localStorage)</h2>
+      <p>Erkennt die Website, dass Ihre Browsersprache nicht zur angezeigten Sprachversion passt, bietet ein Hinweis den Wechsel an. Ihre Entscheidung — Wechsel oder Ausblenden — wird im localStorage Ihres Browsers gespeichert, damit der Hinweis nicht erneut erscheint. Diese Information verbleibt ausschließlich auf Ihrem Gerät, wird nicht an mich oder Dritte übertragen und enthält keine personenbezogenen Daten. Die Speicherung ist für diese von Ihnen genutzte Funktion erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG); Sie können sie jederzeit über die Website-Daten-Einstellungen Ihres Browsers löschen.</p>
+
+      <h2>5. Kontakt per E-Mail</h2>
+      <p>Wenn Sie mir per E-Mail schreiben, verarbeite ich die übermittelten Daten (E-Mail-Adresse, Inhalt der Nachricht), um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO bzw. Art. 6 Abs. 1 lit. b DSGVO, wenn sich die Anfrage auf ein Vertragsverhältnis bezieht. Die Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+
+      <h2>6. Externe Links</h2>
+      <p>Die Website verlinkt auf den Mac App Store von Apple und auf Dokumentationsseiten von GitHub. Erst wenn Sie einem solchen Link folgen, verarbeitet der jeweilige Anbieter Daten nach seinen eigenen Datenschutzbestimmungen.</p>
+
+      <h2>7. Ihre Rechte</h2>
+      <p>Sie haben gegenüber dem Verantwortlichen das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20) sowie das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen Ihrer besonderen Situation zu widersprechen (Art. 21 DSGVO).</p>
+      <p>Außerdem haben Sie das Recht auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde (Art. 77 DSGVO). Für den Verantwortlichen zuständig ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz, Hintere Bleiche 34, 55116 Mainz.</p>
+
+      <h2>8. Aktualität</h2>
+      <p>Stand dieser Datenschutzerklärung: August 2026. Ändert sich die Website — etwa durch neue Funktionen oder einen anderen Hoster —, wird die Erklärung angepasst.</p>
+
+      <p class="legal-back"><a href="../">← Zurück zur Startseite</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid · <a href="../impressum/">Impressum</a></p>
   </footer>
 </body>
 </html>
@@ -321,7 +400,9 @@ for (const lang of LANGS) {
 
 fs.mkdirSync(path.join(ROOT, "impressum"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "impressum", "index.html"), renderImpressum());
-console.log("✓ impressum");
+fs.mkdirSync(path.join(ROOT, "datenschutz"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, "datenschutz", "index.html"), renderDatenschutz());
+console.log("✓ impressum, datenschutz");
 
 // sitemap.xml
 const today = new Date().toISOString().slice(0, 10);

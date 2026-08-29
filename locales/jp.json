@@ -133,6 +133,7 @@
     "tagline": "HybridはmacOS用のMarkdownエディタ。人とAIの共同作業のために作られました — PR、マーケティング、広報、代理店、編集部、ジャーナリズム、コンサルティング、オンラインパブリッシングのために。書く、共有する、比較する、公開する — あなたのMacで。",
     "requirements": "macOS 13（Ventura）以降 · Apple Silicon & Intel",
     "languagesLabel": "このページの他の言語版",
-    "imprint": "法的情報（Impressum）"
+    "imprint": "法的情報（Impressum）",
+    "privacy": "プライバシー"
   }
 }
