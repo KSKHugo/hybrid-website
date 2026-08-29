@@ -33,6 +33,9 @@ const esc = (s) => String(s)
   .replace(/"/g, "&quot;");
 
 const urlFor = (lang) => lang.dir ? `${SITE_URL}/${lang.dir}/` : `${SITE_URL}/`;
+// Wurzelrelativ für die Navigation, damit die Links auf jeder Domain
+// und in der lokalen Vorschau funktionieren.
+const pathFor = (lang) => lang.dir ? `/${lang.dir}/` : `/`;
 
 // Kleine, konsistente Strich-Icons (16er-Raster, stroke-basiert).
 const ICONS = {
@@ -56,7 +59,7 @@ function render(t, lang) {
   const langLinks = (cls) => LANGS.map((l) => {
     const t2 = locales[l.code];
     const current = l.code === lang.code ? ' aria-current="page"' : "";
-    return `<a href="${urlFor(l)}" lang="${l.hreflang}" hreflang="${l.hreflang}"${current}>${esc(t2.langName)}</a>`;
+    return `<a href="${pathFor(l)}" lang="${l.hreflang}" hreflang="${l.hreflang}"${current}>${esc(t2.langName)}</a>`;
   }).join(cls === "footer" ? "\n          " : "\n            ");
 
   const jsonLd = {
