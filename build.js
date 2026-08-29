@@ -227,10 +227,79 @@ ${audiences}
       <span>${esc(t.footer.languagesLabel)}:</span>
           ${langLinks("footer")}
     </nav>
-    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid</p>
+    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a></p>
   </footer>
 
   <script src="${abs("assets/js/site.js")}" defer></script>
+</body>
+</html>
+`;
+}
+
+// ── Impressum ────────────────────────────────────────────────────────────────
+// Anbieterkennzeichnung nach deutschem Recht (§ 5 DDG). Die Seite ist auf
+// Deutsch — der Anbieter sitzt in Deutschland — und von jeder Sprachversion
+// aus dem Footer erreichbar.
+function renderImpressum() {
+  return `<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impressum — Hybrid</title>
+  <meta name="description" content="Anbieterkennzeichnung der Hybrid-Website gemäß § 5 DDG.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="${SITE_URL}/impressum/">
+  <meta name="theme-color" content="#F9F8F7">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/hybrid-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-lang="de">
+  <header class="site-header">
+    <a class="brand" href="../">
+      <img src="../assets/img/hybrid-icon.svg" alt="" width="48" height="48">
+      <span>Hybrid</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="legal">
+      <h1>Impressum</h1>
+      <p lang="en" class="legal-note">This legal notice is required by German law (§ 5 DDG) and therefore provided in German.</p>
+
+      <h2>Angaben gemäß § 5 DDG</h2>
+      <p>
+        Pascal Hugo<br>
+        Kropsburgstr. 5a<br>
+        76767 Hagenbach<br>
+        Deutschland
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
+
+      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+      <p>
+        Pascal Hugo<br>
+        Kropsburgstr. 5a<br>
+        76767 Hagenbach
+      </p>
+
+      <h2>Verbraucherstreitbeilegung</h2>
+      <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+      <h2>Urheberrecht</h2>
+      <p>Die Inhalte dieser Website unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verbreitung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des Anbieters. Das „Laden im Mac App Store“-Zeichen ist eine Marke der Apple Inc.</p>
+
+      <p class="legal-back"><a href="../">← Zurück zur Startseite</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid</p>
+  </footer>
 </body>
 </html>
 `;
@@ -249,6 +318,10 @@ for (const lang of LANGS) {
   fs.writeFileSync(path.join(outDir, "index.html"), render(locales[lang.code], lang));
   console.log(`✓ ${lang.dir || "(root)"} — ${locales[lang.code].langName}`);
 }
+
+fs.mkdirSync(path.join(ROOT, "impressum"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, "impressum", "index.html"), renderImpressum());
+console.log("✓ impressum");
 
 // sitemap.xml
 const today = new Date().toISOString().slice(0, 10);

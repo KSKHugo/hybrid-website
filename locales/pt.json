@@ -132,6 +132,7 @@
   "footer": {
     "tagline": "O Hybrid é um editor Markdown para macOS feito para a colaboração entre pessoas e IA — para PR, marketing, comunicação, agências, redações, jornalismo, consultoria e publicação online. Escrever, partilhar, comparar e publicar — no seu Mac.",
     "requirements": "macOS 13 (Ventura) ou posterior · Apple Silicon & Intel",
-    "languagesLabel": "Esta página noutros idiomas"
+    "languagesLabel": "Esta página noutros idiomas",
+    "imprint": "Aviso legal"
   }
 }

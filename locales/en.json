@@ -132,6 +132,7 @@
   "footer": {
     "tagline": "Hybrid is a Markdown editor for macOS built for collaboration between people and AI — for PR, marketing, public relations, agencies, newsrooms, journalism, consulting, and online publishing. Write, share, compare, and publish from your Mac.",
     "requirements": "macOS 13 (Ventura) or later · Apple Silicon & Intel",
-    "languagesLabel": "This page in other languages"
+    "languagesLabel": "This page in other languages",
+    "imprint": "Legal Notice (Impressum)"
   }
 }

@@ -132,6 +132,7 @@
   "footer": {
     "tagline": "Hybrid是一款macOS版Markdown编辑器，为人与AI的协作而打造——服务于公关、市场营销、传播、代理机构、编辑部、新闻、咨询和在线发布。在你的Mac上写作、共享、比较、发布。",
     "requirements": "macOS 13（Ventura）或更高版本 · Apple Silicon与Intel",
-    "languagesLabel": "本页面的其他语言版本"
+    "languagesLabel": "本页面的其他语言版本",
+    "imprint": "法律声明（Impressum）"
   }
 }
