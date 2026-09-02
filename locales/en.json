@@ -45,13 +45,13 @@
     {
       "img": "zusammenarbeit",
       "h3": "Write together, in real time",
-      "p": "Share a document via iCloud Drive and every passage shows its author's name as a colored label. Changes from others appear within seconds, without your cursor or scroll position jumping. Inviting people works through Apple's own sharing sheet — Contacts, Mail, or Messages.",
+      "p": "Invite people by link, from Contacts, by Mail or Messages — the document itself stays exclusively in your iCloud. Invitees write along live: every passage carries its author's name and color, and while someone types, their name appears with pulsing dots. Invitees cannot export the document or save it as a file of their own — it belongs to the owner.",
       "alt": "Collaboration mode in Hybrid with two authors, each passage labelled with its author's name and color"
     },
     {
       "img": "vorschau",
       "h3": "A live preview, exactly as published",
-      "p": "Headings, lists, real tables, and embedded images rendered the way your readers will see them. The preview follows your typing live in its own window — ideal for checking a text before it goes into the CMS.",
+      "p": "Headings, lists, real tables, and embedded images rendered the way your readers will see them. The preview follows your typing live — in its own window or as a split view right next to the editor; ideal for checking a text before it goes into the CMS.",
       "alt": "Hybrid's rendered Markdown preview with headings, a table, and an embedded image"
     }
   ],
@@ -79,7 +79,7 @@
     {
       "icon": "clock",
       "h3": "Automatic version history",
-      "p": "Hybrid snapshots your work as you write. Every state can be viewed and restored — nothing is ever lost, even if you change your mind."
+      "p": "Hybrid snapshots your work as you write; every state can be viewed and restored. The history lives in your iCloud, not in the file — documents you pass on contain no old versions."
     },
     {
       "icon": "lock",

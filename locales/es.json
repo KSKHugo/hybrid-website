@@ -45,13 +45,13 @@
     {
       "img": "zusammenarbeit",
       "h3": "Escribid juntos, en tiempo real",
-      "p": "Comparte un documento por iCloud Drive y cada pasaje muestra el nombre de su autor como etiqueta de color. Los cambios de los demás aparecen en segundos, sin que el cursor ni el scroll salten. Se invita con la ventana de compartir de Apple — Contactos, Mail o Mensajes.",
+      "p": "Invita a participantes por enlace, desde Contactos, por Mail o Mensajes — el documento permanece exclusivamente en tu iCloud. Los invitados escriben en directo: cada pasaje lleva el nombre y el color de su autor, y mientras alguien teclea, su nombre aparece con puntos pulsantes. Los invitados no pueden exportar el documento ni guardarlo como archivo propio — pertenece al propietario.",
       "alt": "Modo de colaboración en Hybrid con dos autores, cada pasaje etiquetado con el nombre y color de su autor"
     },
     {
       "img": "vorschau",
       "h3": "Una vista previa en vivo, tal como se publica",
-      "p": "Títulos, listas, tablas reales e imágenes integradas, renderizados como los verán tus lectores. La vista previa sigue tu escritura en vivo en su propia ventana — ideal para revisar un texto antes de llevarlo al CMS.",
+      "p": "Títulos, listas, tablas reales e imágenes integradas, renderizados como los verán tus lectores. La vista previa sigue tu escritura en vivo — en su propia ventana o como vista dividida junto al editor; ideal para revisar un texto antes de llevarlo al CMS.",
       "alt": "La vista previa Markdown renderizada de Hybrid con títulos, una tabla y una imagen integrada"
     }
   ],
@@ -79,7 +79,7 @@
     {
       "icon": "clock",
       "h3": "Historial de versiones automático",
-      "p": "Hybrid guarda estados intermedios mientras escribes. Cada estado se puede ver y restaurar — nada se pierde, aunque cambies de opinión."
+      "p": "Hybrid guarda estados intermedios mientras escribes; cada estado se puede ver y restaurar. El historial vive en tu iCloud, no en el archivo — los documentos que compartes no contienen versiones antiguas."
     },
     {
       "icon": "lock",

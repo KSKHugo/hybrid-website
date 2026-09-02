@@ -45,13 +45,13 @@
     {
       "img": "zusammenarbeit",
       "h3": "Écrire ensemble, en temps réel",
-      "p": "Partagez un document via iCloud Drive : chaque passage affiche le nom de son auteur en étiquette colorée. Les modifications des autres apparaissent en quelques secondes, sans que le curseur ni le défilement ne bougent. On invite via la fenêtre de partage d'Apple — Contacts, Mail ou Messages.",
+      "p": "Invitez des participants par lien, depuis Contacts, par Mail ou Messages — le document, lui, reste exclusivement dans votre iCloud. Les invités écrivent en direct : chaque passage porte le nom et la couleur de son auteur, et pendant qu'une personne tape, son nom apparaît avec des points pulsants. Les invités ne peuvent ni exporter le document ni l'enregistrer comme fichier — il appartient au propriétaire.",
       "alt": "Mode collaboration dans Hybrid avec deux auteurs, chaque passage étiqueté du nom et de la couleur de son auteur"
     },
     {
       "img": "vorschau",
       "h3": "Un aperçu en direct, tel que publié",
-      "p": "Titres, listes, vraies tableaux et images intégrées, rendus comme vos lecteurs les verront. L'aperçu suit votre frappe en direct dans sa propre fenêtre — idéal pour vérifier un texte avant le CMS.",
+      "p": "Titres, listes, vrais tableaux et images intégrées, rendus comme vos lecteurs les verront. L'aperçu suit votre frappe en direct — dans sa propre fenêtre ou en vue partagée juste à côté de l'éditeur ; idéal pour vérifier un texte avant le CMS.",
       "alt": "L'aperçu Markdown rendu de Hybrid avec titres, un tableau et une image intégrée"
     }
   ],
@@ -79,7 +79,7 @@
     {
       "icon": "clock",
       "h3": "Historique de versions automatique",
-      "p": "Hybrid enregistre des états intermédiaires pendant que vous écrivez. Chaque état peut être consulté et restauré — rien ne se perd, même si vous changez d'avis."
+      "p": "Hybrid enregistre des états intermédiaires pendant que vous écrivez ; chaque état peut être consulté et restauré. L'historique vit dans votre iCloud, pas dans le fichier — les documents transmis ne contiennent aucune version antérieure."
     },
     {
       "icon": "lock",

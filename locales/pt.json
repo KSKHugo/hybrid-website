@@ -45,13 +45,13 @@
     {
       "img": "zusammenarbeit",
       "h3": "Escrever em conjunto, em tempo real",
-      "p": "Partilhe um documento via iCloud Drive e cada passagem mostra o nome do seu autor como etiqueta colorida. As alterações dos outros aparecem em segundos, sem que o cursor ou o scroll saltem. Convida-se pela janela de partilha da Apple — Contactos, Mail ou Mensagens.",
+      "p": "Convide participantes por ligação, a partir dos Contactos, por Mail ou Mensagens — o documento permanece exclusivamente no seu iCloud. Os convidados escrevem em direto: cada passagem traz o nome e a cor do seu autor e, enquanto alguém escreve, o seu nome aparece com pontos pulsantes. Os convidados não podem exportar o documento nem guardá-lo como ficheiro próprio — pertence ao proprietário.",
       "alt": "Modo de colaboração no Hybrid com dois autores, cada passagem etiquetada com o nome e a cor do seu autor"
     },
     {
       "img": "vorschau",
       "h3": "Uma pré-visualização ao vivo, tal como publicado",
-      "p": "Títulos, listas, tabelas reais e imagens incorporadas, renderizados como os seus leitores os verão. A pré-visualização acompanha a escrita ao vivo numa janela própria — ideal para rever um texto antes de ir para o CMS.",
+      "p": "Títulos, listas, tabelas reais e imagens incorporadas, renderizados como os seus leitores os verão. A pré-visualização acompanha a escrita ao vivo — numa janela própria ou como vista dividida ao lado do editor; ideal para rever um texto antes de ir para o CMS.",
       "alt": "A pré-visualização Markdown renderizada do Hybrid com títulos, uma tabela e uma imagem incorporada"
     }
   ],
@@ -79,7 +79,7 @@
     {
       "icon": "clock",
       "h3": "Histórico de versões automático",
-      "p": "O Hybrid guarda estados intermédios enquanto escreve. Cada estado pode ser visto e restaurado — nada se perde, mesmo que mude de ideias."
+      "p": "O Hybrid guarda estados intermédios enquanto escreve; cada estado pode ser visto e restaurado. O histórico vive no seu iCloud, não no ficheiro — os documentos que partilha não contêm versões antigas."
     },
     {
       "icon": "lock",

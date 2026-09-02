@@ -45,13 +45,13 @@
     {
       "img": "zusammenarbeit",
       "h3": "Gemeinsam schreiben, in Echtzeit",
-      "p": "Teilen Sie ein Dokument über iCloud Drive, und jede Passage zeigt den Namen ihres Autors als farbiges Etikett. Änderungen der anderen erscheinen binnen Sekunden, ohne dass Cursor oder Scrollposition verspringen. Eingeladen wird über Apples eigenes Freigabefenster — Kontakte, Mail oder Nachrichten.",
+      "p": "Laden Sie Teilnehmer per Link, aus den Kontakten, per Mail oder Nachrichten ein — das Dokument bleibt dabei ausschließlich in Ihrer iCloud. Eingeladene schreiben live mit: Jede Passage trägt Namen und Farbe ihres Autors, und während jemand tippt, erscheint sein Name mit pulsierenden Punkten. Exportieren oder als eigene Datei sichern können Eingeladene nicht — das Dokument gehört dem Besitzer.",
       "alt": "Zusammenarbeitsmodus in Hybrid mit zwei Autoren, jede Passage mit Namen und Farbe ihres Autors etikettiert"
     },
     {
       "img": "vorschau",
       "h3": "Eine Live-Vorschau, wie veröffentlicht",
-      "p": "Überschriften, Listen, echte Tabellen und eingebettete Bilder — gerendert so, wie Ihre Leser sie sehen werden. Die Vorschau folgt der Eingabe live in einem eigenen Fenster; ideal, um einen Text zu prüfen, bevor er ins CMS geht.",
+      "p": "Überschriften, Listen, echte Tabellen und eingebettete Bilder — gerendert so, wie Ihre Leser sie sehen werden. Die Vorschau folgt der Eingabe live, in einem eigenen Fenster oder als geteilte Ansicht direkt neben dem Editor; ideal, um einen Text zu prüfen, bevor er ins CMS geht.",
       "alt": "Die gerenderte Markdown-Vorschau von Hybrid mit Überschriften, einer Tabelle und einem eingebetteten Bild"
     }
   ],
@@ -79,7 +79,7 @@
     {
       "icon": "clock",
       "h3": "Automatischer Versionsverlauf",
-      "p": "Hybrid sichert beim Schreiben automatisch Zwischenstände. Jeder Stand lässt sich ansehen und wiederherstellen — nichts geht verloren, auch wenn Sie sich anders entscheiden."
+      "p": "Hybrid sichert beim Schreiben automatisch Zwischenstände; jeder Stand lässt sich ansehen und wiederherstellen. Der Verlauf liegt in Ihrer iCloud statt in der Datei — weitergegebene Dokumente enthalten keine Altfassungen."
     },
     {
       "icon": "lock",
