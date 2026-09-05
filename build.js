@@ -7,9 +7,9 @@ const fs = require("fs");
 const path = require("path");
 
 // ── Vor dem Livegang anpassen ────────────────────────────────────────────────
-// Aktuell die GitHub-Pages-Adresse. Bei Umzug auf eine eigene Domain hier
-// ersetzen (ohne Schrägstrich am Ende) — build.js erneut ausführen genügt.
-const SITE_URL = "https://kskhugo.github.io/hybrid-website";
+// Die Domain der Website (ohne Schrägstrich am Ende). Muss zur Datei CNAME
+// passen; nach einer Änderung build.js erneut ausführen.
+const SITE_URL = "https://hybrid-editor.com";
 // Platzhalter: Apple-ID der App aus App Store Connect eintragen.
 const APP_STORE_URL = "https://apps.apple.com/app/idAPPLE-ID-EINSETZEN";
 // ─────────────────────────────────────────────────────────────────────────────

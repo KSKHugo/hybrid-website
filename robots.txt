@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kskhugo.github.io/hybrid-website/sitemap.xml
+Sitemap: https://hybrid-editor.com/sitemap.xml
