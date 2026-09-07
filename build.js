@@ -339,6 +339,7 @@ function renderDatenschutz() {
     <section class="legal">
       <h1>Datenschutzerklärung</h1>
       <p lang="en" class="legal-note">This privacy policy is required by the GDPR and German law and therefore provided in German. In short: this site sets no cookies, runs no analytics and no tracking; the hoster GitHub Pages processes server logs, and your language choice is stored only on your own device.</p>
+      <p>Diese Erklärung betrifft die Website. Für die Mac-App gilt die eigene <a href="../datenschutz-app/">Datenschutzerklärung für die Hybrid-App</a>.</p>
 
       <h2>1. Verantwortlicher</h2>
       <p>
@@ -384,6 +385,138 @@ function renderDatenschutz() {
 `;
 }
 
+// ── Datenschutzerklärung für die App ─────────────────────────────────────────
+// Zum Verlinken aus der App und für das Feld „Privacy Policy URL" in App Store
+// Connect. Deutsch ist die verbindliche Fassung, die vollständige englische
+// Übersetzung folgt auf derselben Seite — eine URL genügt für alle Länder.
+function renderAppDatenschutz() {
+  return `<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung für die Hybrid-App</title>
+  <meta name="description" content="Datenschutzerklärung der Mac-App Hybrid: keine eigenen Server, keine Analyse-Dienste — Dokumente bleiben lokal oder in Ihrer iCloud, das Abo läuft über Apple.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="${SITE_URL}/datenschutz-app/">
+  <meta name="theme-color" content="#F9F8F7">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/hybrid-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-lang="de">
+  <header class="site-header">
+    <a class="brand" href="../">
+      <img src="../assets/img/hybrid-icon.svg" alt="" width="48" height="48">
+      <span>Hybrid</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="legal">
+      <h1>Datenschutzerklärung für die Hybrid-App</h1>
+      <p lang="en" class="legal-note"><a href="#english">English version below.</a> In short: Hybrid has no account system and no servers of its own, and collects no analytics. Your documents stay on your Mac or in your own iCloud; the subscription is handled entirely by Apple.</p>
+
+      <h2>1. Verantwortlicher</h2>
+      <p>
+        Pascal Hugo<br>
+        Kropsburgstr. 5a<br>
+        76767 Hagenbach<br>
+        Deutschland<br>
+        E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a>
+      </p>
+
+      <h2>2. Das Wichtigste vorab</h2>
+      <p>Hybrid ist ein Markdown-Editor für macOS. Die App hat kein Konto-System, betreibt keine eigenen Server und enthält keine Analyse-, Werbe- oder Tracking-Dienste. Ihre Dokumente werden ausschließlich auf Ihrem Mac und — wenn Sie das nutzen — in Ihrem eigenen iCloud-Konto verarbeitet. Ich als Entwickler habe zu keinem Zeitpunkt Zugriff auf Ihre Dokumente, deren Inhalte oder Metadaten.</p>
+
+      <h2>3. Dokumente und Herkunftsdaten</h2>
+      <p>Hybrid speichert Dokumente als Markdown-Dateien dort, wo Sie sie ablegen — lokal oder z. B. in iCloud Drive. Die Herkunftsinformationen, die Hybrid festhält (welche Passage von Ihnen, einer KI, einer benannten Quelle oder einer anderen Person stammt, samt Namen der Beteiligten), liegen als unsichtbarer Kommentar in der Datei selbst. Diese Verarbeitung findet vollständig auf Ihrem Gerät statt.</p>
+
+      <h2>4. iCloud und Zusammenarbeit (CloudKit)</h2>
+      <p>Die Zusammenarbeit in Echtzeit und der Versionsverlauf nutzen Apples CloudKit-Dienst. Die Daten liegen dabei im iCloud-Konto des Dokument-Besitzers; Apple verarbeitet sie als dessen Anbieter nach den <a href="https://www.apple.com/legal/privacy/" rel="noopener">Datenschutzbestimmungen von Apple</a>. Ich habe darauf keinen Zugriff.</p>
+      <p>Wenn Sie an einer Zusammenarbeit teilnehmen, sehen die anderen aktuell Teilnehmenden Ihren Namen (wie in macOS bzw. Ihrem Apple-Konto hinterlegt), Ihre Beiträge und eine Tipp-Anzeige, während Sie schreiben. Eingeladene sehen Beiträge früherer Teilnehmer nur anonymisiert als „Anderer Teilnehmer"; die vollständige Mitwirkenden-Historie und die Anteils-Statistik sieht nur der Besitzer. Der Versionsverlauf liegt in Ihrem eigenen iCloud-Konto, nicht in der Datei — weitergegebene Dateien enthalten keine Altfassungen.</p>
+
+      <h2>5. Abo und Testphase (App Store)</h2>
+      <p>Das Abonnement wird vollständig über Apples App Store abgewickelt (StoreKit). Kauf, Bezahlung, Rechnung, Verlängerung und Kündigung verarbeitet Apple nach eigenen Datenschutzbestimmungen; ich erhalte dabei weder Ihren Namen noch Ihre Adresse oder Zahlungsdaten. Die App fragt beim App Store lediglich ab, ob ein gültiges Abo besteht, um die Funktionen freizuschalten. Der Beginn der kostenlosen Testphase wird lokal im Schlüsselbund Ihres Macs gespeichert. Verwalten und kündigen können Sie das Abo jederzeit in den App-Store-Einstellungen Ihres Apple-Kontos.</p>
+
+      <h2>6. Weitergabe an KI-Tools — nur auf Ihren Befehl</h2>
+      <p>Die Funktion „Bereitstellen für KI-Tool" kopiert den Dokumenttext in die Zwischenablage und öffnet das von Ihnen eingestellte Ziel (z. B. ChatGPT, Claude, Perplexity, eine eigene App oder Webseite). Das geschieht ausschließlich, wenn Sie den Befehl selbst auslösen — Hybrid sendet niemals von sich aus Inhalte an KI-Dienste. Ab der Übergabe gelten die Datenschutzbestimmungen des jeweiligen Anbieters.</p>
+
+      <h2>7. Apple-Schreibtools</h2>
+      <p>Nutzen Sie Apples Schreibtools (Korrekturlesen, Umschreiben, Zusammenfassen; ab macOS 15.2), verarbeitet Apple den ausgewählten Text nach den Regeln von Apple Intelligence — auf dem Gerät oder in Apples Private Cloud Compute. Diese Verarbeitung liegt bei Apple; Hybrid reicht nur Ihre Auswahl an das System weiter.</p>
+
+      <h2>8. Touch-ID-Sperre</h2>
+      <p>Die optionale Sperre nutzt die Biometrie-Funktionen von macOS. Ihre biometrischen Daten verbleiben in der Secure Enclave Ihres Macs und sind für Hybrid nicht zugänglich — die App erfährt nur, ob das Entsperren erfolgreich war.</p>
+
+      <h2>9. Keine Datenerhebung durch den Entwickler</h2>
+      <p>Hybrid kontaktiert keine Server des Entwicklers und enthält keine Analyse- oder Absturzberichts-Dienste von Drittanbietern. Absturzberichte erreichen mich höchstens anonymisiert über Apple — und nur, wenn Sie die Weitergabe von Diagnosedaten in den macOS-Einstellungen selbst erlaubt haben.</p>
+
+      <h2>10. Ihre Rechte</h2>
+      <p>Soweit ich überhaupt personenbezogene Daten verarbeite (praktisch nur bei E-Mail-Kontakt), haben Sie die Rechte aus Art. 15–21 DSGVO: Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch. Außerdem haben Sie das Recht auf Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO); zuständig ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz, Hintere Bleiche 34, 55116 Mainz. Für Daten in Ihrem iCloud-Konto und beim App Store ist Apple Ihr Ansprechpartner.</p>
+
+      <h2>11. Aktualität</h2>
+      <p>Stand: September 2026. Ändert sich die App — etwa durch neue Funktionen —, wird diese Erklärung angepasst. Für die Website gilt die eigene <a href="../datenschutz/">Datenschutzerklärung der Website</a>.</p>
+
+      <hr style="border: 0; border-top: 1px solid #E8E4E0; margin: 3em 0;">
+
+      <div lang="en" id="english">
+        <h1>Privacy Policy for the Hybrid App</h1>
+        <p class="legal-note">This is a courtesy translation; the German version above is the binding one.</p>
+
+        <h2>1. Controller</h2>
+        <p>
+          Pascal Hugo<br>
+          Kropsburgstr. 5a<br>
+          76767 Hagenbach<br>
+          Germany<br>
+          E-mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a>
+        </p>
+
+        <h2>2. The essentials first</h2>
+        <p>Hybrid is a Markdown editor for macOS. The app has no account system, operates no servers of its own, and contains no analytics, advertising, or tracking services. Your documents are processed exclusively on your Mac and — if you use it — in your own iCloud account. As the developer, I never have access to your documents, their contents, or their metadata.</p>
+
+        <h2>3. Documents and provenance data</h2>
+        <p>Hybrid stores documents as Markdown files wherever you keep them — locally or, for example, in iCloud Drive. The provenance information Hybrid records (which passage came from you, an AI, a named source, or another person, including the names of contributors) lives as an invisible comment inside the file itself. This processing happens entirely on your device.</p>
+
+        <h2>4. iCloud and collaboration (CloudKit)</h2>
+        <p>Real-time collaboration and the version history use Apple's CloudKit service. The data resides in the document owner's iCloud account; Apple processes it as that person's provider under <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's privacy policy</a>. I have no access to it.</p>
+        <p>When you take part in a collaboration, the other current participants see your name (as set in macOS or your Apple account), your contributions, and a typing indicator while you write. Invitees see contributions of earlier participants only anonymized as "Other participant"; the full contributor history and the share statistics are visible to the owner alone. The version history lives in your own iCloud account, not in the file — files you pass on contain no old versions.</p>
+
+        <h2>5. Subscription and free trial (App Store)</h2>
+        <p>The subscription is handled entirely through Apple's App Store (StoreKit). Purchase, payment, billing, renewal, and cancellation are processed by Apple under Apple's own privacy policy; I receive neither your name nor your address or payment details. The app merely asks the App Store whether a valid subscription exists in order to unlock its features. The start of the free trial is stored locally in your Mac's keychain. You can manage and cancel the subscription at any time in the App Store settings of your Apple account.</p>
+
+        <h2>6. Handing text to AI tools — only on your command</h2>
+        <p>The "Provide to AI tool" feature copies the document text to the clipboard and opens the destination you configured (e.g. ChatGPT, Claude, Perplexity, an app or website of your choice). This happens only when you trigger the command yourself — Hybrid never sends content to AI services on its own. From the moment of handover, the privacy policy of the respective provider applies.</p>
+
+        <h2>7. Apple Writing Tools</h2>
+        <p>If you use Apple's Writing Tools (proofread, rewrite, summarize; macOS 15.2 or later), Apple processes the selected text under the rules of Apple Intelligence — on device or in Apple's Private Cloud Compute. This processing is Apple's; Hybrid only passes your selection to the system.</p>
+
+        <h2>8. Touch ID lock</h2>
+        <p>The optional lock uses the biometric features of macOS. Your biometric data remains in your Mac's Secure Enclave and is not accessible to Hybrid — the app only learns whether unlocking succeeded.</p>
+
+        <h2>9. No data collection by the developer</h2>
+        <p>Hybrid contacts no developer servers and contains no third-party analytics or crash-reporting services. Crash reports reach me at most in anonymized form via Apple — and only if you have allowed the sharing of diagnostic data in your macOS settings yourself.</p>
+
+        <h2>10. Your rights</h2>
+        <p>To the extent that I process personal data at all (in practice only when you contact me by e-mail), you have the rights under Articles 15–21 GDPR: access, rectification, erasure, restriction, data portability, and objection. You also have the right to lodge a complaint with a supervisory authority (Article 77 GDPR); the authority responsible for me is the State Commissioner for Data Protection and Freedom of Information of Rhineland-Palatinate, Hintere Bleiche 34, 55116 Mainz, Germany. For data in your iCloud account and at the App Store, Apple is your point of contact.</p>
+
+        <h2>11. Currency</h2>
+        <p>Version: September 2026. If the app changes — for example through new features — this policy will be updated. For the website, the separate <a href="../datenschutz/">website privacy policy</a> applies.</p>
+      </div>
+
+      <p class="legal-back"><a href="../">← Zurück zur Startseite</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid · <a href="../impressum/">Impressum</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
 // ── Bauen ────────────────────────────────────────────────────────────────────
 const locales = {};
 for (const lang of LANGS) {
@@ -402,7 +535,9 @@ fs.mkdirSync(path.join(ROOT, "impressum"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "impressum", "index.html"), renderImpressum());
 fs.mkdirSync(path.join(ROOT, "datenschutz"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz", "index.html"), renderDatenschutz());
-console.log("✓ impressum, datenschutz");
+fs.mkdirSync(path.join(ROOT, "datenschutz-app"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, "datenschutz-app", "index.html"), renderAppDatenschutz());
+console.log("✓ impressum, datenschutz, datenschutz-app");
 
 // sitemap.xml
 const today = new Date().toISOString().slice(0, 10);
