@@ -530,6 +530,61 @@ function renderAppDatenschutz() {
 `;
 }
 
+// ── Support-Seite ────────────────────────────────────────────────────────────
+// Für das Feld „Support-URL" in App Store Connect: E-Mail-Kontakt, zwei Sätze,
+// Link auf die App-Datenschutzerklärung. Deutsch und Englisch auf einer Seite.
+function renderSupport() {
+  return `<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Hybrid</title>
+  <meta name="description" content="Support für die Mac-App Hybrid: Fragen, Probleme und Wünsche per E-Mail an den Entwickler.">
+  <link rel="canonical" href="${SITE_URL}/support/">
+  <meta name="theme-color" content="#F9F8F7">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/hybrid-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-lang="de">
+  <header class="site-header">
+    <a class="brand" href="../">
+      <img src="../assets/img/hybrid-icon.svg" alt="" width="48" height="48">
+      <span>Hybrid</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="legal">
+      <h1>Support</h1>
+
+      <p>Fragen, Probleme oder Wünsche zu Hybrid? Schreiben Sie mir eine E-Mail — ich helfe gern weiter. Hilfreich sind Ihre macOS- und Hybrid-Version (Über Hybrid) und, bei Problemen, eine kurze Beschreibung der Schritte.</p>
+      <p>E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
+      <p>Wie Hybrid mit Ihren Daten umgeht, steht in der <a href="../datenschutz-app/">Datenschutzerklärung für die App</a>.</p>
+
+      <hr style="border: 0; border-top: 1px solid #E8E4E0; margin: 3em 0;">
+
+      <div lang="en">
+        <h2>Support (English)</h2>
+        <p>Questions, problems, or requests about Hybrid? Send me an e-mail — I'm happy to help. It helps to include your macOS and Hybrid version (About Hybrid) and, for problems, a short description of the steps.</p>
+        <p>E-mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
+        <p>How Hybrid handles your data is described in the <a href="../datenschutz-app/">app privacy policy</a>.</p>
+      </div>
+
+      <p class="legal-back"><a href="../">← Zurück zur Startseite</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid · <a href="../impressum/">Impressum</a> · <a href="../datenschutz/">Datenschutz</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
 // ── Bauen ────────────────────────────────────────────────────────────────────
 const locales = {};
 for (const lang of LANGS) {
@@ -550,7 +605,9 @@ fs.mkdirSync(path.join(ROOT, "datenschutz"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz", "index.html"), renderDatenschutz());
 fs.mkdirSync(path.join(ROOT, "datenschutz-app"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz-app", "index.html"), renderAppDatenschutz());
-console.log("✓ impressum, datenschutz, datenschutz-app");
+fs.mkdirSync(path.join(ROOT, "support"), { recursive: true });
+fs.writeFileSync(path.join(ROOT, "support", "index.html"), renderSupport());
+console.log("✓ impressum, datenschutz, datenschutz-app, support");
 
 // sitemap.xml
 const today = new Date().toISOString().slice(0, 10);
