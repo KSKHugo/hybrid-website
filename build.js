@@ -28,6 +28,14 @@ const LANGS = [
 
 const ROOT = __dirname;
 
+// Sprachfassung der App-Datenschutzerklärung je Website-Sprache
+// ("" = die deutsche Hauptseite; die pt-Seiten sprechen europäisches
+// Portugiesisch, also pt-pt statt der brasilianischen pt-Fassung).
+const APP_PRIVACY_DIR = {
+  de: "", en: "en", fr: "fr", es: "es", it: "it",
+  pt: "pt-pt", nl: "nl", jp: "jp", zh: "zh",
+};
+
 const esc = (s) => String(s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
   .replace(/"/g, "&quot;");
@@ -241,7 +249,7 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
       <span>${esc(t.footer.languagesLabel)}:</span>
           ${langLinks("footer")}
     </nav>
-    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a> · <a href="${lang.dir ? "../datenschutz-app/" : "datenschutz-app/"}" hreflang="de">${esc(t.footer.privacyApp)}</a></p>
+    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a> · <a href="${prefix}datenschutz-app/${APP_PRIVACY_DIR[lang.code] ? APP_PRIVACY_DIR[lang.code] + "/" : ""}" hreflang="${APP_PRIVACY_DIR[lang.code] ? lang.hreflang : "de"}">${esc(t.footer.privacyApp)}</a> · <a href="${prefix}support/">${esc(t.footer.support)}</a></p>
   </footer>
 
   <script src="${abs("assets/js/site.js")}" defer></script>
