@@ -431,7 +431,7 @@ function renderAppDatenschutz() {
     <section class="legal">
       <h1>Datenschutzerklärung für die Hybrid-App</h1>
       <p lang="en" class="legal-note"><a href="#english">English version below.</a> In short: Hybrid has no account system and no servers of its own, and collects no analytics. Your documents stay on your Mac or in your own iCloud; the subscription is handled entirely by Apple.</p>
-      <p class="legal-note">Weitere Sprachen: <a href="en/" lang="en">English</a> · <a href="fr/" lang="fr">Français</a> · <a href="es/" lang="es">Español</a> · <a href="it/" lang="it">Italiano</a> · <a href="pt/" lang="pt">Português</a> · <a href="nl/" lang="nl">Nederlands</a> · <a href="jp/" lang="ja">日本語</a> · <a href="zh/" lang="zh-Hans">简体中文</a></p>
+      <p class="legal-note">Weitere Sprachen: <a href="en/" lang="en">English</a> · <a href="fr/" lang="fr">Français</a> · <a href="es/" lang="es">Español</a> · <a href="it/" lang="it">Italiano</a> · <a href="pt/" lang="pt-BR">Português (Brasil)</a> · <a href="pt-pt/" lang="pt-PT">Português (Portugal)</a> · <a href="nl/" lang="nl">Nederlands</a> · <a href="jp/" lang="ja">日本語</a> · <a href="zh/" lang="zh-Hans">简体中文</a></p>
 
       <h2>1. Verantwortlicher</h2>
       <p>
@@ -536,7 +536,7 @@ function renderAppDatenschutz() {
 // Je eine Seite unter /datenschutz-app/<code>/ — für die Datenschutz-URL-Felder
 // in App Store Connect, die pro Store-Sprache gefüllt werden. Verbindlich
 // bleibt die deutsche Fassung eine Ebene höher; jede Übersetzung sagt das.
-function renderAppPrivacyLocale(d) {
+function renderAppPrivacyLocale(code, d) {
   const sections = d.sections.map((s) => `      <h2>${s.h}</h2>
 ${s.html.map((p) => `      <p>${p}</p>`).join("\n")}`).join("\n\n");
   return `<!doctype html>
@@ -547,7 +547,7 @@ ${s.html.map((p) => `      <p>${p}</p>`).join("\n")}`).join("\n\n");
   <title>${d.title}</title>
   <meta name="description" content="${d.desc}">
   <meta name="robots" content="noindex, follow">
-  <link rel="canonical" href="${SITE_URL}/datenschutz-app/${d.homeDir || "en"}/">
+  <link rel="canonical" href="${SITE_URL}/datenschutz-app/${code}/">
   <meta name="theme-color" content="#F9F8F7">
   <link rel="icon" type="image/svg+xml" href="../../assets/img/hybrid-icon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32.png">
@@ -660,7 +660,7 @@ const appPrivacy = JSON.parse(fs.readFileSync(path.join(ROOT, "locales", "app-pr
 for (const code of Object.keys(appPrivacy)) {
   const dir = path.join(ROOT, "datenschutz-app", code);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "index.html"), renderAppPrivacyLocale(appPrivacy[code]));
+  fs.writeFileSync(path.join(dir, "index.html"), renderAppPrivacyLocale(code, appPrivacy[code]));
 }
 fs.mkdirSync(path.join(ROOT, "support"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "support", "index.html"), renderSupport());
