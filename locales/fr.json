@@ -136,5 +136,23 @@
     "imprint": "Mentions légales",
     "privacy": "Confidentialité",
     "privacyApp": "Confidentialité (app)"
+  },
+  "pro": {
+    "h2": "Hybrid Pro",
+    "intro": "Après l'installation, Hybrid est gratuit et pleinement utilisable pendant 7 jours. Ensuite, l'abonnement Hybrid Pro débloque toutes les fonctions — le prix est indiqué dans le Mac App Store.",
+    "points": [
+      {
+        "h3": "7 jours d'essai gratuit",
+        "p": "Toutes les fonctions dès le premier lancement — sans compte ni données de paiement."
+      },
+      {
+        "h3": "Mensuel ou annuel",
+        "p": "L'abonnement passe par l'App Store et peut y être résilié à tout moment. Sans abonnement, Hybrid reste une liseuse : ouvrir, lire, chercher et l'aperçu restent gratuits."
+      },
+      {
+        "h3": "Les invités écrivent gratuitement",
+        "p": "Toute personne invitée à une collaboration écrit sans abonnement propre — seul le propriétaire du document en a besoin."
+      }
+    ]
   }
 }

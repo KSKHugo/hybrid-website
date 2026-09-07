@@ -136,5 +136,23 @@
     "imprint": "Colofon (Impressum)",
     "privacy": "Privacy",
     "privacyApp": "Privacy (app)"
+  },
+  "pro": {
+    "h2": "Hybrid Pro",
+    "intro": "Na installatie is Hybrid 7 dagen gratis en volledig te gebruiken. Daarna ontgrendelt het abonnement Hybrid Pro alle functies — de prijs staat in de Mac App Store.",
+    "points": [
+      {
+        "h3": "Probeer 7 dagen gratis",
+        "p": "Alle functies vanaf de eerste start — zonder account en zonder betaalgegevens."
+      },
+      {
+        "h3": "Maandelijks of jaarlijks",
+        "p": "Het abonnement loopt via de App Store en is daar altijd opzegbaar. Zonder abonnement blijft Hybrid een lezer: openen, lezen, zoeken en het voorbeeld blijven gratis."
+      },
+      {
+        "h3": "Gasten schrijven gratis",
+        "p": "Wie voor een samenwerking is uitgenodigd, schrijft mee zonder eigen abonnement — alleen de eigenaar van het document heeft er een nodig."
+      }
+    ]
   }
 }

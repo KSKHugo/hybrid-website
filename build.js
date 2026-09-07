@@ -203,6 +203,19 @@ ${audiences}
       </div>
     </section>
 
+    <section class="pro" id="pro">
+      <div class="section-head">
+        <h2>${esc(t.pro.h2)}</h2>
+        <p>${esc(t.pro.intro)}</p>
+      </div>
+      <div class="pro-grid">
+${t.pro.points.map((p) => `        <article class="pro-point">
+          <h3>${esc(p.h3)}</h3>
+          <p>${esc(p.p)}</p>
+        </article>`).join("\n")}
+      </div>
+    </section>
+
     <section class="ios" id="ios">
       <h2>${esc(t.ios.h2)}</h2>
       <p>${esc(t.ios.p)}</p>
