@@ -163,6 +163,7 @@ ${alternates}
         ${badge()}
         <a class="btn-secondary" href="#features">${esc(t.hero.secondary)}</a>
       </div>
+      <p class="trial-note">${esc(t.hero.trial)}</p>
       <p class="ios-note"><span class="ios-pill">${esc(t.hero.iosPill)}</span> ${esc(t.hero.ios)}</p>
       <figure class="shot hero-shot">
         <img src="${abs(`assets/img/${lang.code}/editor.jpg`)}" alt="${esc(t.hero.shotAlt)}" width="1600" height="778" fetchpriority="high">
@@ -430,6 +431,7 @@ function renderAppDatenschutz() {
     <section class="legal">
       <h1>Datenschutzerklärung für die Hybrid-App</h1>
       <p lang="en" class="legal-note"><a href="#english">English version below.</a> In short: Hybrid has no account system and no servers of its own, and collects no analytics. Your documents stay on your Mac or in your own iCloud; the subscription is handled entirely by Apple.</p>
+      <p class="legal-note">Weitere Sprachen: <a href="en/" lang="en">English</a> · <a href="fr/" lang="fr">Français</a> · <a href="es/" lang="es">Español</a> · <a href="it/" lang="it">Italiano</a> · <a href="pt/" lang="pt">Português</a> · <a href="nl/" lang="nl">Nederlands</a> · <a href="jp/" lang="ja">日本語</a> · <a href="zh/" lang="zh-Hans">简体中文</a></p>
 
       <h2>1. Verantwortlicher</h2>
       <p>
@@ -530,6 +532,55 @@ function renderAppDatenschutz() {
 `;
 }
 
+// ── Übersetzte Fassungen der App-Datenschutzerklärung ────────────────────────
+// Je eine Seite unter /datenschutz-app/<code>/ — für die Datenschutz-URL-Felder
+// in App Store Connect, die pro Store-Sprache gefüllt werden. Verbindlich
+// bleibt die deutsche Fassung eine Ebene höher; jede Übersetzung sagt das.
+function renderAppPrivacyLocale(d) {
+  const sections = d.sections.map((s) => `      <h2>${s.h}</h2>
+${s.html.map((p) => `      <p>${p}</p>`).join("\n")}`).join("\n\n");
+  return `<!doctype html>
+<html lang="${d.htmlLang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${d.title}</title>
+  <meta name="description" content="${d.desc}">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="${SITE_URL}/datenschutz-app/${d.homeDir || "en"}/">
+  <meta name="theme-color" content="#F9F8F7">
+  <link rel="icon" type="image/svg+xml" href="../../assets/img/hybrid-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body data-lang="${d.homeDir || "en"}">
+  <header class="site-header">
+    <a class="brand" href="../../${d.homeDir ? d.homeDir + "/" : ""}">
+      <img src="../../assets/img/hybrid-icon.svg" alt="" width="48" height="48">
+      <span>Hybrid</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="legal">
+      <h1>${d.title}</h1>
+      <p class="legal-note">${d.note}</p>
+
+${sections}
+
+      <p class="legal-back"><a href="../../${d.homeDir ? d.homeDir + "/" : ""}">${d.back}</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid · <a href="../../impressum/">Impressum</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
 // ── Support-Seite ────────────────────────────────────────────────────────────
 // Für das Feld „Support-URL" in App Store Connect: E-Mail-Kontakt, zwei Sätze,
 // Link auf die App-Datenschutzerklärung. Deutsch und Englisch auf einer Seite.
@@ -605,9 +656,15 @@ fs.mkdirSync(path.join(ROOT, "datenschutz"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz", "index.html"), renderDatenschutz());
 fs.mkdirSync(path.join(ROOT, "datenschutz-app"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz-app", "index.html"), renderAppDatenschutz());
+const appPrivacy = JSON.parse(fs.readFileSync(path.join(ROOT, "locales", "app-privacy.json"), "utf8"));
+for (const code of Object.keys(appPrivacy)) {
+  const dir = path.join(ROOT, "datenschutz-app", code);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, "index.html"), renderAppPrivacyLocale(appPrivacy[code]));
+}
 fs.mkdirSync(path.join(ROOT, "support"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "support", "index.html"), renderSupport());
-console.log("✓ impressum, datenschutz, datenschutz-app, support");
+console.log(`✓ impressum, datenschutz, datenschutz-app (+${Object.keys(appPrivacy).length} Sprachen), support`);
 
 // sitemap.xml
 const today = new Date().toISOString().slice(0, 10);

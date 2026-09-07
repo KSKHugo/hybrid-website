@@ -21,7 +21,8 @@
     "iosPill": "近日登場",
     "ios": "HybridはまもなくiPhoneとiPadにも登場します。",
     "shotAlt": "macOS上のHybridエディタ。AIテキストは紫の下線、出典引用は緑のラベル、サイドバーには貢献度メーターが表示されている",
-    "badgeAlt": "Mac App Storeでダウンロード"
+    "badgeAlt": "Mac App Storeでダウンロード",
+    "trial": "7日間無料で試せます"
   },
   "prov": {
     "h2": "誰が何を書いたか？ドキュメントが知っています。",

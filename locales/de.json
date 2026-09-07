@@ -21,7 +21,8 @@
     "iosPill": "Bald verfügbar",
     "ios": "Hybrid erscheint bald auch für iPhone und iPad.",
     "shotAlt": "Der Hybrid-Editor auf macOS mit Herkunfts-Markierungen: KI-Text violett unterstrichen, ein Quellenzitat grün etikettiert, dazu die Anteilsanzeige in der Seitenleiste",
-    "badgeAlt": "Laden im Mac App Store"
+    "badgeAlt": "Laden im Mac App Store",
+    "trial": "7 Tage gratis testen"
   },
   "prov": {
     "h2": "Wer hat was geschrieben? Ihr Dokument weiß es.",

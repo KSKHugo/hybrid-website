@@ -21,7 +21,8 @@
     "iosPill": "Coming soon",
     "ios": "Hybrid is coming to iPhone and iPad.",
     "shotAlt": "The Hybrid editor on macOS with provenance labels: AI-generated text underlined in purple, a source quote labelled in green, and the contribution meter in the sidebar",
-    "badgeAlt": "Download on the Mac App Store"
+    "badgeAlt": "Download on the Mac App Store",
+    "trial": "Try it free for 7 days"
   },
   "prov": {
     "h2": "Who wrote what? Your document knows.",

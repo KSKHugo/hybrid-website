@@ -208,8 +208,14 @@ main > section {
   font-weight: 600;
 }
 .btn-secondary:hover { border-color: var(--amber); color: var(--amber); }
+.trial-note {
+  margin: 14px 0 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--amber-deep);
+}
 .ios-note {
-  margin-top: 22px;
+  margin-top: 16px;
   color: var(--ink-soft);
   font-size: 0.95rem;
   display: flex;

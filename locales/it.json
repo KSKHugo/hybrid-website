@@ -21,7 +21,8 @@
     "iosPill": "In arrivo",
     "ios": "Hybrid arriverà presto su iPhone e iPad.",
     "shotAlt": "L'editor Hybrid su macOS con le marcature di provenienza: testo IA sottolineato in viola, una citazione etichettata in verde e l'indicatore dei contributi nella barra laterale",
-    "badgeAlt": "Scarica sul Mac App Store"
+    "badgeAlt": "Scarica sul Mac App Store",
+    "trial": "Prova gratis per 7 giorni"
   },
   "prov": {
     "h2": "Chi ha scritto cosa? Il tuo documento lo sa.",

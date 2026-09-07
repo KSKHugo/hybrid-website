@@ -21,7 +21,8 @@
     "iosPill": "即将推出",
     "ios": "Hybrid即将登陆iPhone和iPad。",
     "shotAlt": "macOS上的Hybrid编辑器，带溯源标记：AI文本以紫色下划线标出，来源引文带绿色标签，侧边栏显示贡献比例",
-    "badgeAlt": "在Mac App Store下载"
+    "badgeAlt": "在Mac App Store下载",
+    "trial": "免费试用7天"
   },
   "prov": {
     "h2": "谁写了什么？你的文档知道。",
