@@ -583,7 +583,38 @@ ${sections}
 
 // ── Support-Seite ────────────────────────────────────────────────────────────
 // Für das Feld „Support-URL" in App Store Connect: E-Mail-Kontakt, zwei Sätze,
-// Link auf die App-Datenschutzerklärung. Deutsch und Englisch auf einer Seite.
+// Link auf die App-Datenschutzerklärung — Deutsch zuerst, darunter alle
+// weiteren Store-Sprachen, damit eine URL für jedes Land genügt.
+const SUPPORT_BLOCKS = [
+  { lang: "en", h2: "Support (English)", mail: "E-mail:", privacyDir: "en",
+    p1: "Questions, problems, or requests about Hybrid? Send me an e-mail — I'm happy to help. It helps to include your macOS and Hybrid version (About Hybrid) and, for problems, a short description of the steps.",
+    privacyPre: "How Hybrid handles your data is described in the ", privacyLabel: "app privacy policy", privacyPost: "." },
+  { lang: "fr", h2: "Assistance (Français)", mail: "E-mail :", privacyDir: "fr",
+    p1: "Des questions, des problèmes ou des suggestions à propos de Hybrid ? Écrivez-moi un e-mail — je vous aiderai volontiers. Il est utile d'indiquer vos versions de macOS et de Hybrid (À propos de Hybrid) et, en cas de problème, une brève description des étapes.",
+    privacyPre: "La manière dont Hybrid traite vos données est décrite dans la ", privacyLabel: "politique de confidentialité de l'app", privacyPost: "." },
+  { lang: "es", h2: "Soporte (Español)", mail: "Correo:", privacyDir: "es",
+    p1: "¿Preguntas, problemas o sugerencias sobre Hybrid? Escríbeme un correo — te ayudaré con gusto. Ayuda indicar tu versión de macOS y de Hybrid (Acerca de Hybrid) y, si hay problemas, una breve descripción de los pasos.",
+    privacyPre: "Cómo trata Hybrid tus datos se describe en la ", privacyLabel: "política de privacidad de la app", privacyPost: "." },
+  { lang: "it", h2: "Supporto (Italiano)", mail: "E-mail:", privacyDir: "it",
+    p1: "Domande, problemi o suggerimenti su Hybrid? Scrivimi un'e-mail — sarò felice di aiutarti. È utile indicare la versione di macOS e di Hybrid (Informazioni su Hybrid) e, in caso di problemi, una breve descrizione dei passaggi.",
+    privacyPre: "Come Hybrid tratta i tuoi dati è descritto nell'", privacyLabel: "informativa sulla privacy dell'app", privacyPost: "." },
+  { lang: "pt-BR", h2: "Suporte (Português do Brasil)", mail: "E-mail:", privacyDir: "pt",
+    p1: "Perguntas, problemas ou sugestões sobre o Hybrid? Envie-me um e-mail — ficarei feliz em ajudar. Ajuda incluir sua versão do macOS e do Hybrid (Sobre o Hybrid) e, em caso de problemas, uma breve descrição dos passos.",
+    privacyPre: "Como o Hybrid trata seus dados está descrito na ", privacyLabel: "política de privacidade do app", privacyPost: "." },
+  { lang: "pt-PT", h2: "Suporte (Português de Portugal)", mail: "E-mail:", privacyDir: "pt-pt",
+    p1: "Perguntas, problemas ou sugestões sobre o Hybrid? Envie-me um e-mail — terei todo o gosto em ajudar. Ajuda incluir a sua versão do macOS e do Hybrid (Acerca do Hybrid) e, em caso de problemas, uma breve descrição dos passos.",
+    privacyPre: "Como o Hybrid trata os seus dados está descrito na ", privacyLabel: "política de privacidade da app", privacyPost: "." },
+  { lang: "nl", h2: "Ondersteuning (Nederlands)", mail: "E-mail:", privacyDir: "nl",
+    p1: "Vragen, problemen of suggesties over Hybrid? Stuur me een e-mail — ik help je graag. Het helpt om je macOS- en Hybrid-versie te vermelden (Over Hybrid) en bij problemen een korte beschrijving van de stappen.",
+    privacyPre: "Hoe Hybrid met je gegevens omgaat, staat in het ", privacyLabel: "privacybeleid van de app", privacyPost: "." },
+  { lang: "ja", h2: "サポート（日本語）", mail: "メール:", privacyDir: "jp",
+    p1: "Hybridについての質問・問題・ご要望は、メールでお知らせください。喜んでお手伝いします。macOSとHybridのバージョン（「Hybridについて」）と、問題の場合は手順の簡単な説明を添えていただけると助かります。",
+    privacyPre: "Hybridのデータの扱いは", privacyLabel: "アプリのプライバシーポリシー", privacyPost: "に記載しています。" },
+  { lang: "zh-Hans", h2: "支持（简体中文）", mail: "电子邮件:", privacyDir: "zh",
+    p1: "关于Hybrid有疑问、问题或建议？请给我发电子邮件——我很乐意帮忙。请附上你的macOS和Hybrid版本（「关于Hybrid」），如遇问题，最好再简单描述一下操作步骤。",
+    privacyPre: "Hybrid如何处理你的数据，见", privacyLabel: "应用隐私政策", privacyPost: "。" },
+];
+
 function renderSupport() {
   return `<!doctype html>
 <html lang="de">
@@ -615,23 +646,14 @@ function renderSupport() {
       <p>E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
       <p>Wie Hybrid mit Ihren Daten umgeht, steht in der <a href="../datenschutz-app/">Datenschutzerklärung für die App</a>.</p>
 
-      <hr style="border: 0; border-top: 1px solid #E8E4E0; margin: 3em 0;">
+${SUPPORT_BLOCKS.map((b) => `      <hr style="border: 0; border-top: 1px solid #E8E4E0; margin: 3em 0;">
 
-      <div lang="en">
-        <h2>Support (English)</h2>
-        <p>Questions, problems, or requests about Hybrid? Send me an e-mail — I'm happy to help. It helps to include your macOS and Hybrid version (About Hybrid) and, for problems, a short description of the steps.</p>
-        <p>E-mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
-        <p>How Hybrid handles your data is described in the <a href="../datenschutz-app/en/">app privacy policy</a>.</p>
-      </div>
-
-      <hr style="border: 0; border-top: 1px solid #E8E4E0; margin: 3em 0;">
-
-      <div lang="pt-PT">
-        <h2>Suporte (Português)</h2>
-        <p>Perguntas, problemas ou sugestões sobre o Hybrid? Envie-me um e-mail — terei todo o gosto em ajudar. Ajuda incluir a sua versão do macOS e do Hybrid (Acerca do Hybrid) e, em caso de problemas, uma breve descrição dos passos.</p>
-        <p>E-mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
-        <p>Como o Hybrid trata os seus dados está descrito na <a href="../datenschutz-app/pt-pt/">política de privacidade da app</a>.</p>
-      </div>
+      <div lang="${b.lang}">
+        <h2>${b.h2}</h2>
+        <p>${b.p1}</p>
+        <p>${b.mail} <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
+        <p>${b.privacyPre}<a href="../datenschutz-app/${b.privacyDir}/">${b.privacyLabel}</a>${b.privacyPost}</p>
+      </div>`).join("\n\n")}
 
       <p class="legal-back"><a href="../">← Zurück zur Startseite</a></p>
     </section>
