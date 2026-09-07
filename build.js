@@ -227,7 +227,7 @@ ${audiences}
       <span>${esc(t.footer.languagesLabel)}:</span>
           ${langLinks("footer")}
     </nav>
-    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a></p>
+    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a> · <a href="${lang.dir ? "../datenschutz-app/" : "datenschutz-app/"}" hreflang="de">${esc(t.footer.privacyApp)}</a></p>
   </footer>
 
   <script src="${abs("assets/js/site.js")}" defer></script>
