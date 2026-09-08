@@ -70,7 +70,7 @@
     {
       "icon": "file",
       "h3": "Reines Markdown, kein Lock-in",
-      "p": "Dokumente sind pure .md-Dateien, die jeder Editor öffnen kann. Alles, was Hybrid zusätzlich weiß — Herkunft, Versionen, Autoren —, reist in einem einzigen unsichtbaren Kommentar mit."
+      "p": "Markdown können Menschen und KI-Tools gleichermaßen einfach bearbeiten — das perfekte Format für die Zusammenarbeit von Mensch und Maschine. Dokumente sind pure .md-Dateien, die jeder Editor öffnen kann; alles, was Hybrid zusätzlich weiß, reist in einem einzigen unsichtbaren Kommentar mit."
     },
     {
       "icon": "image",

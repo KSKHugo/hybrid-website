@@ -70,7 +70,7 @@
     {
       "icon": "file",
       "h3": "Plain Markdown, no lock-in",
-      "p": "Documents are pure .md files any editor can open. Everything Hybrid knows on top — provenance, versions, authors — travels in a single invisible comment."
+      "p": "Markdown is equally easy for humans and AI tools to edit — the perfect format for people and machines working together. Documents are pure .md files any editor can open; everything Hybrid knows on top travels in a single invisible comment."
     },
     {
       "icon": "image",

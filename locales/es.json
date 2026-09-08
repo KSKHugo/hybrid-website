@@ -70,7 +70,7 @@
     {
       "icon": "file",
       "h3": "Markdown puro, sin ataduras",
-      "p": "Los documentos son archivos .md puros que cualquier editor puede abrir. Todo lo que Hybrid sabe además — procedencia, versiones, autores — viaja en un único comentario invisible."
+      "p": "El Markdown resulta igual de fácil de editar para personas y herramientas de IA — el formato perfecto para la colaboración entre humanos y máquinas. Los documentos son archivos .md puros que cualquier editor puede abrir; todo lo que Hybrid sabe además viaja en un único comentario invisible."
     },
     {
       "icon": "image",
