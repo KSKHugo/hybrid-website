@@ -218,7 +218,7 @@ ${audiences}
 
     <section class="pro" id="pro">
       <div class="section-head">
-        <h2>${esc(t.pro.h2)}</h2>
+        <h2>${hl(t.pro.h2)}</h2>
         <p>${esc(t.pro.intro)}</p>
       </div>
       <div class="pro-grid">
