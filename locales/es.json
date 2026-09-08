@@ -95,7 +95,7 @@
   "audiences": [
     {
       "h3": "PR & comunicación",
-      "p": "Redacta notas de prensa con apoyo de IA y mantén cada cita verificable. Cuando pregunten qué escribió un humano, tu documento tiene la respuesta — transparencia como método, no como apaño."
+      "p": "Redacta notas de prensa con apoyo de IA sin perder de vista qué cita viene de qué fuente. Lo que aportaron una persona, una IA o una fuente queda registrado en el propio documento — transparencia como método, no como apaño."
     },
     {
       "h3": "Marketing & agencias",
@@ -107,7 +107,7 @@
     },
     {
       "h3": "Consultoría",
-      "p": "Los informes co-escritos con IA necesitan un rastro auditable. Hybrid registra quién — o qué — escribió cada pasaje, y el bloqueo con Touch ID mantiene cerrados los borradores confidenciales."
+      "p": "En los informes co-escritos con IA, lo importante es saber quién escribió qué. Hybrid registra quién — o qué — escribió cada pasaje, y el bloqueo con Touch ID mantiene cerrados los borradores confidenciales."
     },
     {
       "h3": "Profesionales de la IA",
