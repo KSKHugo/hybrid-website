@@ -15,7 +15,7 @@
   },
   "hero": {
     "eyebrow": "Hybrid para macOS",
-    "h1": "O editor Markdown que sabe quem escreveu o quê.",
+    "h1": "O editor Markdown que sabe **quem escreveu o quê**.",
     "sub": "O Hybrid regista de onde vem cada passagem: escrita por si, gerada por uma IA, citada de uma fonte com nome ou contribuída por um colega. Feito para quem publica — em PR, marketing, agências e redações.",
     "secondary": "Ver todas as funções",
     "iosPill": "Em breve",
@@ -25,7 +25,7 @@
     "trial": "Experimente grátis por 7 dias"
   },
   "prov": {
-    "h2": "Quem escreveu o quê? O seu documento sabe.",
+    "h2": "Quem escreveu o quê? **O seu documento sabe.**",
     "p": "Cada passagem carrega a sua origem — e mantém-na ao guardar, partilhar e editar em conjunto. O registo viaja dentro de um ficheiro .md normal que qualquer outro editor pode abrir; as etiquetas flutuam sobre o texto e não aparecem em nenhuma exportação.",
     "demoAria": "Exemplo de documento com marcações de proveniência: o seu texto, uma passagem marcada como IA e uma citação etiquetada com a sua fonte",
     "demoYou": "Este parágrafo foi escrito por si — tudo o que digita conta automaticamente como seu.",
@@ -89,7 +89,7 @@
     }
   ],
   "aud": {
-    "h2": "Feito para quem publica",
+    "h2": "Feito para **quem publica**",
     "intro": "Onde quer que um texto nasça de várias mãos — humanas e de máquina —, o Hybrid mantém as origens separadas."
   },
   "audiences": [
@@ -119,15 +119,15 @@
     }
   ],
   "ios": {
-    "h2": "Em breve no iPhone e no iPad",
+    "h2": "Em breve no **iPhone e no iPad**",
     "p": "O Hybrid chega em breve ao iOS. Os mesmos documentos, a mesma proveniência — no bolso. Até lá, os seus ficheiros são Markdown puro no iCloud Drive, legíveis em qualquer dispositivo."
   },
   "langSection": {
-    "h2": "Fala a sua língua",
+    "h2": "Fala **a sua língua**",
     "p": "O Hybrid está disponível em nove idiomas: português, inglês, alemão, francês, espanhol, italiano, neerlandês, japonês e chinês simplificado — e este site também."
   },
   "cta": {
-    "h2": "Escreva com IA. Publique com confiança.",
+    "h2": "Escreva com IA. **Publique com confiança.**",
     "p": "Hybrid para Mac — o editor Markdown para pessoas, IA e tudo o que publica."
   },
   "footer": {

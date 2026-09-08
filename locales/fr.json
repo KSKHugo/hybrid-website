@@ -15,7 +15,7 @@
   },
   "hero": {
     "eyebrow": "Hybrid pour macOS",
-    "h1": "L'éditeur Markdown qui sait qui a écrit quoi.",
+    "h1": "L'éditeur Markdown qui sait **qui a écrit quoi**.",
     "sub": "Hybrid retient l'origine de chaque passage : écrit par vous, généré par une IA, cité d'une source nommée ou apporté par un collègue. Conçu pour celles et ceux qui publient — RP, marketing, agences et rédactions.",
     "secondary": "Voir toutes les fonctions",
     "iosPill": "Bientôt disponible",
@@ -25,7 +25,7 @@
     "trial": "7 jours d'essai gratuit"
   },
   "prov": {
-    "h2": "Qui a écrit quoi ? Votre document le sait.",
+    "h2": "Qui a écrit quoi ? **Votre document le sait.**",
     "p": "Chaque passage porte son origine — et la conserve à l'enregistrement, au partage et à l'édition à plusieurs. Ce registre voyage dans un simple fichier .md que tout autre éditeur peut ouvrir ; les étiquettes flottent au-dessus du texte et n'apparaissent dans aucun export.",
     "demoAria": "Exemple de document avec marques de provenance : votre texte, un passage marqué comme IA et une citation étiquetée avec sa source",
     "demoYou": "Ce paragraphe a été tapé par vous — tout ce que vous écrivez compte automatiquement comme vôtre.",
@@ -89,7 +89,7 @@
     }
   ],
   "aud": {
-    "h2": "Conçu pour celles et ceux qui publient",
+    "h2": "Conçu pour celles et ceux **qui publient**",
     "intro": "Partout où un texte naît de plusieurs mains — humaines et machines —, Hybrid garde les origines au clair."
   },
   "audiences": [
@@ -119,15 +119,15 @@
     }
   ],
   "ios": {
-    "h2": "Bientôt sur iPhone et iPad",
+    "h2": "Bientôt sur **iPhone et iPad**",
     "p": "Hybrid arrive bientôt sur iOS. Les mêmes documents, la même provenance — en mobilité. D'ici là, vos fichiers restent du Markdown pur dans iCloud Drive, lisibles sur chaque appareil."
   },
   "langSection": {
-    "h2": "Parle votre langue",
+    "h2": "Parle **votre langue**",
     "p": "Hybrid existe en neuf langues : français, anglais, allemand, espagnol, italien, portugais, néerlandais, japonais et chinois simplifié — et ce site aussi."
   },
   "cta": {
-    "h2": "Écrire avec l'IA. Publier en confiance.",
+    "h2": "Écrire avec l'IA. **Publier en confiance.**",
     "p": "Hybrid pour Mac — l'éditeur Markdown pour les humains, l'IA et tout ce que vous publiez."
   },
   "footer": {

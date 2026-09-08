@@ -15,7 +15,7 @@
   },
   "hero": {
     "eyebrow": "Hybrid für macOS",
-    "h1": "Der Markdown-Editor, der weiß, wer was geschrieben hat.",
+    "h1": "Der Markdown-Editor, der weiß, **wer was geschrieben hat**.",
     "sub": "Hybrid hält fest, woher jede Passage stammt: selbst geschrieben, von einer KI, aus einer benannten Quelle oder von einer Kollegin. Gemacht für Menschen, die veröffentlichen — in PR, Marketing, Agentur und Redaktion.",
     "secondary": "Alle Funktionen ansehen",
     "iosPill": "Bald verfügbar",
@@ -25,7 +25,7 @@
     "trial": "7 Tage gratis testen"
   },
   "prov": {
-    "h2": "Wer hat was geschrieben? Ihr Dokument weiß es.",
+    "h2": "Wer hat was geschrieben? **Ihr Dokument weiß es.**",
     "p": "Jede Passage trägt ihre Herkunft — und behält sie beim Speichern, Teilen und gemeinsamen Bearbeiten. Das Protokoll reist in einer reinen .md-Datei mit, die jeder andere Editor öffnen kann; die Etiketten schweben über dem Text und landen in keinem Export.",
     "demoAria": "Beispiel eines Dokuments mit Herkunfts-Markierungen: eigener Text, eine als KI markierte Passage und ein Zitat mit Quellen-Etikett",
     "demoYou": "Dieser Absatz wurde selbst getippt — alles, was Sie schreiben, gilt automatisch als Ihres.",
@@ -89,7 +89,7 @@
     }
   ],
   "aud": {
-    "h2": "Gemacht für Menschen, die veröffentlichen",
+    "h2": "Gemacht für Menschen, **die veröffentlichen**",
     "intro": "Überall, wo Text aus mehreren Händen entsteht — menschlichen und maschinellen —, hält Hybrid die Herkunft auseinander."
   },
   "audiences": [
@@ -119,15 +119,15 @@
     }
   ],
   "ios": {
-    "h2": "Bald auch für iPhone und iPad",
+    "h2": "Bald auch für **iPhone und iPad**",
     "p": "Hybrid erscheint bald für iOS. Dieselben Dokumente, dieselbe Herkunft — für unterwegs. Bis dahin liegen Ihre Dateien als reines Markdown in iCloud Drive, lesbar auf jedem Gerät."
   },
   "langSection": {
-    "h2": "Spricht Ihre Sprache",
+    "h2": "Spricht **Ihre Sprache**",
     "p": "Hybrid gibt es in neun Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Japanisch und Chinesisch (vereinfacht) — und diese Seite ebenso."
   },
   "cta": {
-    "h2": "Mit KI schreiben. Mit gutem Gewissen veröffentlichen.",
+    "h2": "Mit KI schreiben. **Mit gutem Gewissen veröffentlichen.**",
     "p": "Hybrid für den Mac — der Markdown-Editor für Menschen, KI und alles, was Sie veröffentlichen."
   },
   "footer": {

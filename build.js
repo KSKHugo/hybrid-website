@@ -40,6 +40,10 @@ const esc = (s) => String(s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
   .replace(/"/g, "&quot;");
 
+// Überschriften: **so markierte** Phrasen werden bernsteinfarben —
+// dasselbe Muster wie in den App-Store-Bildern.
+const hl = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
+
 const urlFor = (lang) => lang.dir ? `${SITE_URL}/${lang.dir}/` : `${SITE_URL}/`;
 
 // Kleine, konsistente Strich-Icons (16er-Raster, stroke-basiert).
@@ -165,7 +169,7 @@ ${alternates}
   <main>
     <section class="hero">
       <p class="eyebrow">${esc(t.hero.eyebrow)}</p>
-      <h1>${esc(t.hero.h1)}</h1>
+      <h1>${hl(t.hero.h1)}</h1>
       <p class="hero-sub">${esc(t.hero.sub)}</p>
       <div class="hero-cta">
         ${badge()}
@@ -180,7 +184,7 @@ ${alternates}
 
     <section class="provenance" id="provenance">
       <div class="section-head">
-        <h2>${esc(t.prov.h2)}</h2>
+        <h2>${hl(t.prov.h2)}</h2>
         <p>${esc(t.prov.p)}</p>
       </div>
       <div class="prov-demo" role="img" aria-label="${esc(t.prov.demoAria)}">
@@ -204,7 +208,7 @@ ${cards}
 
     <section class="audiences" id="audiences">
       <div class="section-head">
-        <h2>${esc(t.aud.h2)}</h2>
+        <h2>${hl(t.aud.h2)}</h2>
         <p>${esc(t.aud.intro)}</p>
       </div>
       <div class="aud-grid">
@@ -226,17 +230,17 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
     </section>
 
     <section class="ios" id="ios">
-      <h2>${esc(t.ios.h2)}</h2>
+      <h2>${hl(t.ios.h2)}</h2>
       <p>${esc(t.ios.p)}</p>
     </section>
 
     <section class="langs" id="languages">
-      <h2>${esc(t.langSection.h2)}</h2>
+      <h2>${hl(t.langSection.h2)}</h2>
       <p>${esc(t.langSection.p)}</p>
     </section>
 
     <section class="cta" id="download">
-      <h2>${esc(t.cta.h2)}</h2>
+      <h2>${hl(t.cta.h2)}</h2>
       <p>${esc(t.cta.p)}</p>
       ${badge(" badge-lg")}
       <p class="requirements">${esc(t.footer.requirements)}</p>

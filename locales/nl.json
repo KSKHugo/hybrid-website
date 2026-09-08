@@ -15,7 +15,7 @@
   },
   "hero": {
     "eyebrow": "Hybrid voor macOS",
-    "h1": "De Markdown-editor die weet wie wat schreef.",
+    "h1": "De Markdown-editor die weet **wie wat schreef**.",
     "sub": "Hybrid houdt bij waar elke passage vandaan komt: zelf geschreven, gegenereerd door een AI, geciteerd uit een benoemde bron of bijgedragen door een collega. Gemaakt voor mensen die publiceren — in PR, marketing, bureaus en redacties.",
     "secondary": "Bekijk alle functies",
     "iosPill": "Binnenkort",
@@ -25,7 +25,7 @@
     "trial": "Probeer 7 dagen gratis"
   },
   "prov": {
-    "h2": "Wie schreef wat? Je document weet het.",
+    "h2": "Wie schreef wat? **Je document weet het.**",
     "p": "Elke passage draagt haar herkomst — en behoudt die bij het bewaren, delen en samen bewerken. Het register reist mee in een gewoon .md-bestand dat elke andere editor kan openen; de labels zweven boven de tekst en belanden in geen enkele export.",
     "demoAria": "Voorbeeld van een document met herkomstmarkeringen: je eigen tekst, een als AI gemarkeerde passage en een citaat met bronlabel",
     "demoYou": "Deze alinea heb je zelf getypt — alles wat je schrijft telt automatisch als het jouwe.",
@@ -89,7 +89,7 @@
     }
   ],
   "aud": {
-    "h2": "Gemaakt voor mensen die publiceren",
+    "h2": "Gemaakt voor mensen **die publiceren**",
     "intro": "Overal waar tekst uit meerdere handen ontstaat — menselijke en machinale — houdt Hybrid de herkomst uit elkaar."
   },
   "audiences": [
@@ -119,15 +119,15 @@
     }
   ],
   "ios": {
-    "h2": "Binnenkort op iPhone en iPad",
+    "h2": "Binnenkort op **iPhone en iPad**",
     "p": "Hybrid komt binnenkort naar iOS. Dezelfde documenten, dezelfde herkomst — voor onderweg. Tot die tijd zijn je bestanden puur Markdown in iCloud Drive, leesbaar op elk apparaat."
   },
   "langSection": {
-    "h2": "Spreekt jouw taal",
+    "h2": "Spreekt **jouw taal**",
     "p": "Hybrid is beschikbaar in negen talen: Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Japans en vereenvoudigd Chinees — en deze site ook."
   },
   "cta": {
-    "h2": "Schrijf met AI. Publiceer met vertrouwen.",
+    "h2": "Schrijf met AI. **Publiceer met vertrouwen.**",
     "p": "Hybrid voor Mac — de Markdown-editor voor mensen, AI en alles wat je publiceert."
   },
   "footer": {

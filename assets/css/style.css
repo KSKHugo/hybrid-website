@@ -466,3 +466,6 @@ main > section {
   .prov-tag { position: static; margin-inline-start: 8px; }
   .prov-line { padding-top: 0; }
 }
+
+/* Bernstein-Hervorhebung in Überschriften (wie in den Store-Bildern) */
+h1 .hl, h2 .hl { color: var(--amber); }
