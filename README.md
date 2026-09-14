@@ -11,9 +11,7 @@ Beide stehen am Anfang von `build.js`:
 1. **`SITE_URL`** — steht auf `https://example.com`. Die echte Domain
    eintragen (ohne Schrägstrich am Ende). Sie landet in Canonical-Links,
    hreflang-Alternativen, Open-Graph-Tags, `sitemap.xml` und `robots.txt`.
-2. **`APP_STORE_URL`** — steht auf `https://apps.apple.com/app/idAPPLE-ID-EINSETZEN`.
-   Die Apple-ID der App aus App Store Connect einsetzen, sobald die App
-   angenommen ist.
+2. **`APP_STORE_URL`** — der Mac-App-Store-Eintrag der App (bereits gesetzt: Apple-ID 6809209701).
 
 Danach einmal neu bauen:
 

@@ -10,8 +10,8 @@ const path = require("path");
 // Die Domain der Website (ohne Schrägstrich am Ende). Muss zur Datei CNAME
 // passen; nach einer Änderung build.js erneut ausführen.
 const SITE_URL = "https://hybrid-editor.com";
-// Platzhalter: Apple-ID der App aus App Store Connect eintragen.
-const APP_STORE_URL = "https://apps.apple.com/app/idAPPLE-ID-EINSETZEN";
+// Der Mac-App-Store-Eintrag der App.
+const APP_STORE_URL = "https://apps.apple.com/app/hybrid-editor/id6809209701";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const LANGS = [
