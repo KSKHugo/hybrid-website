@@ -18,11 +18,12 @@
     "h1": "L'éditeur Markdown qui sait **qui a écrit quoi**.",
     "sub": "Hybrid retient l'origine de chaque passage : écrit par vous, généré par une IA, cité d'une source nommée ou apporté par un collègue. Conçu pour celles et ceux qui publient — RP, marketing, agences et rédactions.",
     "secondary": "Voir toutes les fonctions",
-    "iosPill": "Bientôt disponible",
-    "ios": "Hybrid arrive bientôt sur iPhone et iPad.",
+    "iosPill": "Bêta iOS",
+    "ios": "Hybrid pour iPhone et iPad est disponible en bêta.",
     "shotAlt": "L'éditeur Hybrid sur macOS avec les marques de provenance : texte IA souligné en violet, citation étiquetée en vert et jauge des contributions dans la barre latérale",
     "badgeAlt": "Télécharger dans le Mac App Store",
-    "trial": "7 jours d'essai gratuit"
+    "trial": "7 jours d'essai gratuit",
+    "betaCta": "Participer à la bêta →"
   },
   "prov": {
     "h2": "Qui a écrit quoi ? **Votre document le sait.**",
@@ -119,8 +120,9 @@
     }
   ],
   "ios": {
-    "h2": "Bientôt sur **iPhone et iPad**",
-    "p": "Hybrid arrive bientôt sur iOS. Les mêmes documents, la même provenance — en mobilité. D'ici là, vos fichiers restent du Markdown pur dans iCloud Drive, lisibles sur chaque appareil."
+    "h2": "La bêta pour **iPhone et iPad** est là",
+    "p": "Hybrid arrive sur iPhone et iPad — et vous pouvez y être en avance. La bêta passe par TestFlight d'Apple : touchez le lien, installez TestFlight, écrivez. Les mêmes documents, la même provenance — et vos retours nourrissent directement la version finale.",
+    "cta": "Participer à la bêta"
   },
   "langSection": {
     "h2": "Parle **votre langue**",

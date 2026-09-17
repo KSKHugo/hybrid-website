@@ -12,6 +12,8 @@ const path = require("path");
 const SITE_URL = "https://hybrid-editor.com";
 // Der Mac-App-Store-Eintrag der App.
 const APP_STORE_URL = "https://apps.apple.com/app/hybrid-editor/id6809209701";
+// Öffentliche TestFlight-Einladung zur iOS-Beta.
+const TESTFLIGHT_URL = "https://testflight.apple.com/join/vSs27gRv";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const LANGS = [
@@ -176,7 +178,7 @@ ${alternates}
         <a class="btn-secondary" href="#features">${esc(t.hero.secondary)}</a>
       </div>
       <p class="trial-note">${esc(t.hero.trial)}</p>
-      <p class="ios-note"><span class="ios-pill">${esc(t.hero.iosPill)}</span> ${esc(t.hero.ios)}</p>
+      <p class="ios-note"><span class="ios-pill">${esc(t.hero.iosPill)}</span> ${esc(t.hero.ios)} <a href="${TESTFLIGHT_URL}" rel="noopener">${esc(t.hero.betaCta)}</a></p>
       <figure class="shot hero-shot">
         <img src="${abs(`assets/img/${lang.code}/editor.jpg`)}" alt="${esc(t.hero.shotAlt)}" width="1600" height="778" fetchpriority="high">
       </figure>
@@ -232,6 +234,7 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
     <section class="ios" id="ios">
       <h2>${hl(t.ios.h2)}</h2>
       <p>${esc(t.ios.p)}</p>
+      <a class="btn-primary" href="${TESTFLIGHT_URL}" rel="noopener">${esc(t.ios.cta)}</a>
     </section>
 
     <section class="langs" id="languages">

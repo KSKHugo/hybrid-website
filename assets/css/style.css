@@ -208,6 +208,16 @@ main > section {
   font-weight: 600;
 }
 .btn-secondary:hover { border-color: var(--amber); color: var(--amber); }
+.btn-primary {
+  display: inline-block;
+  padding: 13px 28px;
+  border-radius: 999px;
+  background: var(--amber);
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.btn-primary:hover { background: var(--amber-deep); color: #FFFFFF; }
+.ios .btn-primary { margin-top: 8px; }
 .trial-note {
   margin: 14px 0 0;
   font-size: 0.92rem;

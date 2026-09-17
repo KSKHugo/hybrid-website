@@ -18,11 +18,12 @@
     "h1": "De Markdown-editor die weet **wie wat schreef**.",
     "sub": "Hybrid houdt bij waar elke passage vandaan komt: zelf geschreven, gegenereerd door een AI, geciteerd uit een benoemde bron of bijgedragen door een collega. Gemaakt voor mensen die publiceren — in PR, marketing, bureaus en redacties.",
     "secondary": "Bekijk alle functies",
-    "iosPill": "Binnenkort",
-    "ios": "Hybrid komt binnenkort ook naar iPhone en iPad.",
+    "iosPill": "iOS-bèta",
+    "ios": "Hybrid voor iPhone en iPad is nu in bèta.",
     "shotAlt": "De Hybrid-editor op macOS met herkomstmarkeringen: AI-tekst paars onderstreept, een broncitaat groen gelabeld en de bijdragenmeter in de zijbalk",
     "badgeAlt": "Download in de Mac App Store",
-    "trial": "Probeer 7 dagen gratis"
+    "trial": "Probeer 7 dagen gratis",
+    "betaCta": "Doe mee met de bèta →"
   },
   "prov": {
     "h2": "Wie schreef wat? **Je document weet het.**",
@@ -119,8 +120,9 @@
     }
   ],
   "ios": {
-    "h2": "Binnenkort op **iPhone en iPad**",
-    "p": "Hybrid komt binnenkort naar iOS. Dezelfde documenten, dezelfde herkomst — voor onderweg. Tot die tijd zijn je bestanden puur Markdown in iCloud Drive, leesbaar op elk apparaat."
+    "h2": "De bèta voor **iPhone en iPad** is er",
+    "p": "Hybrid komt naar iPhone en iPad — en jij kunt er vroeg bij zijn. De bèta loopt via Apples TestFlight: tik op de link, installeer TestFlight en schrijf mee. Dezelfde documenten, dezelfde herkomst — en jouw feedback stroomt direct in de definitieve versie.",
+    "cta": "Meedoen met de bèta"
   },
   "langSection": {
     "h2": "Spreekt **jouw taal**",
