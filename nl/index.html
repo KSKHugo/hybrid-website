@@ -62,7 +62,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero segment">
       <p class="eyebrow">Hybrid voor macOS</p>
       <h1>De Markdown-editor die weet <span class="hl">wie wat schreef</span>.</h1>
       <p class="hero-sub">Hybrid houdt bij waar elke passage vandaan komt: zelf geschreven, gegenereerd door een AI, geciteerd uit een benoemde bron of bijgedragen door een collega. Gemaakt voor mensen die publiceren — in PR, marketing, bureaus en redacties.</p>
@@ -73,17 +73,17 @@
       </div>
       <p class="trial-note">Probeer 7 dagen gratis</p>
       <p class="ios-note"><span class="ios-pill">iOS-bèta</span> Hybrid voor iPhone en iPad is nu in bèta. <a href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">Doe mee met de bèta →</a></p>
-      <figure class="shot hero-shot">
+      <figure class="shot hero-shot reveal">
         <img src="../assets/img/nl/editor.jpg" alt="De Hybrid-editor op macOS met herkomstmarkeringen: AI-tekst paars onderstreept, een broncitaat groen gelabeld en de bijdragenmeter in de zijbalk" width="1600" height="778" fetchpriority="high">
       </figure>
     </section>
 
-    <section class="provenance" id="provenance">
-      <div class="section-head">
+    <section class="provenance segment" id="provenance">
+      <div class="section-head reveal">
         <h2>Wie schreef wat? <span class="hl">Je document weet het.</span></h2>
         <p>Elke passage draagt haar herkomst — en behoudt die bij het bewaren, delen en samen bewerken. Het register reist mee in een gewoon .md-bestand dat elke andere editor kan openen; de labels zweven boven de tekst en belanden in geen enkele export.</p>
       </div>
-      <div class="prov-demo" role="img" aria-label="Voorbeeld van een document met herkomstmarkeringen: je eigen tekst, een als AI gemarkeerde passage en een citaat met bronlabel">
+      <div class="prov-demo reveal" role="img" aria-label="Voorbeeld van een document met herkomstmarkeringen: je eigen tekst, een als AI gemarkeerde passage en een citaat met bronlabel">
         <p class="prov-line">Deze alinea heb je zelf getypt — alles wat je schrijft telt automatisch als het jouwe.</p>
         <p class="prov-line prov-ai">Deze passage komt van een AI en is gemarkeerd, zodat het aandeel van de machine zichtbaar blijft.<span class="prov-tag tag-ai">AI-gegenereerd</span></p>
         <p class="prov-line prov-src">Dit citaat komt uit een externe bron en draagt haar naam als klein label.<span class="prov-tag tag-src">Wikipedia</span></p>
@@ -92,41 +92,47 @@
           <span class="meter-caption">57% door jou geschreven · 25% AI-gegenereerd · 18% Wikipedia</span>
         </div>
       </div>
-      <p class="prov-promise">De centrale belofte: wat iemand heeft bijgedragen, blijft aan die persoon toegeschreven — ook als de toegang later wordt ingetrokken. Herkomst is een register van wie schreef, niet van wie nu mag.</p>
+      <p class="prov-promise reveal">De centrale belofte: wat iemand heeft bijgedragen, blijft aan die persoon toegeschreven — ook als de toegang later wordt ingetrokken. Herkomst is een register van wie schreef, niet van wie nu mag.</p>
     </section>
 
-    <section class="features" id="features">
-
+    <section class="feature-scene segment" id="features">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>Vergelijk twee AI-antwoorden naast elkaar</h3>
           <p>Dezelfde vraag ging naar twee AI-tools, en de antwoorden lijken op het eerste gezicht gelijk. Hybrid markeert precies waar ze verschillen en telt de verschillen. Geef elk antwoord de naam van zijn tool als bron: ook na het samenvoegen weet je nog welke zin waarvandaan kwam.</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/nl/ki-vergleich.jpg" alt="Twee AI-antwoorden op dezelfde vraag naast elkaar in Hybrid, verschillen in kleur gemarkeerd" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row reverse">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>Samen schrijven, in realtime</h3>
           <p>Nodig deelnemers uit per link, uit Contacten, via Mail of Berichten — het document blijft daarbij uitsluitend in jouw iCloud. Genodigden schrijven live mee: elke passage draagt naam en kleur van de auteur, en terwijl iemand typt verschijnt zijn naam met pulserende puntjes. Genodigden kunnen het document niet exporteren of als eigen bestand bewaren — het blijft van de eigenaar.</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/nl/zusammenarbeit.jpg" alt="Samenwerkmodus in Hybrid met twee auteurs, elke passage gelabeld met naam en kleur van de auteur" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>Een livevoorbeeld, precies zoals gepubliceerd</h3>
           <p>Koppen, lijsten, echte tabellen en ingesloten afbeeldingen, weergegeven zoals je lezers ze zien. Het voorbeeld volgt je typen live — in een eigen venster of als gedeelde weergave naast de editor; ideaal om een tekst te controleren voordat die het CMS ingaat.</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/nl/vorschau.jpg" alt="Het gerenderde Markdown-voorbeeld van Hybrid met koppen, een tabel en een ingesloten afbeelding" loading="lazy" width="1600" height="778">
         </figure>
       </div>
-      <div class="card-grid">
+    </section>
+
+    <section class="cards-scene segment">
+      <div class="card-grid reveal-group">
 
         <article class="card">
           <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg></span>
@@ -166,12 +172,12 @@
       </div>
     </section>
 
-    <section class="audiences" id="audiences">
-      <div class="section-head">
+    <section class="audiences segment" id="audiences">
+      <div class="section-head reveal">
         <h2>Gemaakt voor mensen <span class="hl">die publiceren</span></h2>
         <p>Overal waar tekst uit meerdere handen ontstaat — menselijke en machinale — houdt Hybrid de herkomst uit elkaar.</p>
       </div>
-      <div class="aud-grid">
+      <div class="aud-grid reveal-group">
 
         <article class="aud-card">
           <h3>PR &amp; communicatie</h3>
@@ -205,12 +211,12 @@
       </div>
     </section>
 
-    <section class="pro" id="pro">
-      <div class="section-head">
+    <section class="pro segment" id="pro">
+      <div class="section-head reveal">
         <h2>Hybrid <span class="hl">Pro</span></h2>
         <p>Na installatie is Hybrid 7 dagen gratis en volledig te gebruiken. Daarna ontgrendelt het abonnement Hybrid Pro alle functies — de prijs staat in de Mac App Store.</p>
       </div>
-      <div class="pro-grid">
+      <div class="pro-grid reveal-group">
         <article class="pro-point">
           <h3>Probeer 7 dagen gratis</h3>
           <p>Alle functies vanaf de eerste start — zonder account en zonder betaalgegevens.</p>
@@ -226,18 +232,18 @@
       </div>
     </section>
 
-    <section class="ios" id="ios">
+    <section class="ios segment reveal-group" id="ios">
       <h2>De bèta voor <span class="hl">iPhone en iPad</span> is er</h2>
       <p>Hybrid komt naar iPhone en iPad — en jij kunt er vroeg bij zijn. De bèta loopt via Apples TestFlight: tik op de link, installeer TestFlight en schrijf mee. Dezelfde documenten, dezelfde herkomst — en jouw feedback stroomt direct in de definitieve versie.</p>
       <a class="btn-primary" href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">Meedoen met de bèta</a>
     </section>
 
-    <section class="langs" id="languages">
+    <section class="langs reveal-group" id="languages">
       <h2>Spreekt <span class="hl">jouw taal</span></h2>
       <p>Hybrid is beschikbaar in negen talen: Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Japans en vereenvoudigd Chinees — en deze site ook.</p>
     </section>
 
-    <section class="cta" id="download">
+    <section class="cta segment reveal-group" id="download">
       <h2>Schrijf met AI. <span class="hl">Publiceer met vertrouwen.</span></h2>
       <p>Hybrid voor Mac — de Markdown-editor voor mensen, AI en alles wat je publiceert.</p>
       <a class="store-badge badge-lg" href="https://apps.apple.com/app/hybrid-editor/id6809209701" rel="noopener">

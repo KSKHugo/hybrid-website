@@ -95,16 +95,17 @@ function render(t, lang) {
     author: { "@type": "Person", name: "Pascal Hugo" },
   };
 
-  const rows = t.rows.map((row, i) => `
+  const rows = t.rows.map((row, i) => `    <section class="feature-scene segment"${i === 0 ? ' id="features"' : ""}>
       <div class="feature-row${i % 2 ? " reverse" : ""}">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>${esc(row.h3)}</h3>
           <p>${esc(row.p)}</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="${abs(`assets/img/${lang.code}/${row.img}.jpg`)}" alt="${esc(row.alt)}" loading="lazy" width="1600" height="778">
         </figure>
-      </div>`).join("\n");
+      </div>
+    </section>`).join("\n\n");
 
   const cards = t.cards.map((c) => `
         <article class="card">
@@ -169,7 +170,7 @@ ${alternates}
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero segment">
       <p class="eyebrow">${esc(t.hero.eyebrow)}</p>
       <h1>${hl(t.hero.h1)}</h1>
       <p class="hero-sub">${esc(t.hero.sub)}</p>
@@ -179,17 +180,17 @@ ${alternates}
       </div>
       <p class="trial-note">${esc(t.hero.trial)}</p>
       <p class="ios-note"><span class="ios-pill">${esc(t.hero.iosPill)}</span> ${esc(t.hero.ios)} <a href="${TESTFLIGHT_URL}" rel="noopener">${esc(t.hero.betaCta)}</a></p>
-      <figure class="shot hero-shot">
+      <figure class="shot hero-shot reveal">
         <img src="${abs(`assets/img/${lang.code}/editor.jpg`)}" alt="${esc(t.hero.shotAlt)}" width="1600" height="778" fetchpriority="high">
       </figure>
     </section>
 
-    <section class="provenance" id="provenance">
-      <div class="section-head">
+    <section class="provenance segment" id="provenance">
+      <div class="section-head reveal">
         <h2>${hl(t.prov.h2)}</h2>
         <p>${esc(t.prov.p)}</p>
       </div>
-      <div class="prov-demo" role="img" aria-label="${esc(t.prov.demoAria)}">
+      <div class="prov-demo reveal" role="img" aria-label="${esc(t.prov.demoAria)}">
         <p class="prov-line">${esc(t.prov.demoYou)}</p>
         <p class="prov-line prov-ai">${esc(t.prov.demoAi)}<span class="prov-tag tag-ai">${esc(t.prov.aiLabel)}</span></p>
         <p class="prov-line prov-src">${esc(t.prov.demoSource)}<span class="prov-tag tag-src">${esc(t.prov.sourceLabel)}</span></p>
@@ -198,32 +199,33 @@ ${alternates}
           <span class="meter-caption">${esc(t.prov.meter)}</span>
         </div>
       </div>
-      <p class="prov-promise">${esc(t.prov.promise)}</p>
+      <p class="prov-promise reveal">${esc(t.prov.promise)}</p>
     </section>
 
-    <section class="features" id="features">
 ${rows}
-      <div class="card-grid">
+
+    <section class="cards-scene segment">
+      <div class="card-grid reveal-group">
 ${cards}
       </div>
     </section>
 
-    <section class="audiences" id="audiences">
-      <div class="section-head">
+    <section class="audiences segment" id="audiences">
+      <div class="section-head reveal">
         <h2>${hl(t.aud.h2)}</h2>
         <p>${esc(t.aud.intro)}</p>
       </div>
-      <div class="aud-grid">
+      <div class="aud-grid reveal-group">
 ${audiences}
       </div>
     </section>
 
-    <section class="pro" id="pro">
-      <div class="section-head">
+    <section class="pro segment" id="pro">
+      <div class="section-head reveal">
         <h2>${hl(t.pro.h2)}</h2>
         <p>${esc(t.pro.intro)}</p>
       </div>
-      <div class="pro-grid">
+      <div class="pro-grid reveal-group">
 ${t.pro.points.map((p) => `        <article class="pro-point">
           <h3>${esc(p.h3)}</h3>
           <p>${esc(p.p)}</p>
@@ -231,18 +233,18 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
       </div>
     </section>
 
-    <section class="ios" id="ios">
+    <section class="ios segment reveal-group" id="ios">
       <h2>${hl(t.ios.h2)}</h2>
       <p>${esc(t.ios.p)}</p>
       <a class="btn-primary" href="${TESTFLIGHT_URL}" rel="noopener">${esc(t.ios.cta)}</a>
     </section>
 
-    <section class="langs" id="languages">
+    <section class="langs reveal-group" id="languages">
       <h2>${hl(t.langSection.h2)}</h2>
       <p>${esc(t.langSection.p)}</p>
     </section>
 
-    <section class="cta" id="download">
+    <section class="cta segment reveal-group" id="download">
       <h2>${hl(t.cta.h2)}</h2>
       <p>${esc(t.cta.p)}</p>
       ${badge(" badge-lg")}

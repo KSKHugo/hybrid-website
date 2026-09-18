@@ -99,13 +99,19 @@ main > section {
 
 /* ── Kopfzeile ────────────────────────────────────────────────────────── */
 .site-header {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 18px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  padding: 14px max(24px, calc(50% - 516px));
   display: flex;
   align-items: center;
   gap: 28px;
+  background: rgba(249, 248, 247, 0.82);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(232, 228, 224, 0.6);
 }
+.site-header > * { flex-shrink: 0; }
 .brand {
   display: flex;
   align-items: center;
@@ -454,6 +460,55 @@ main > section {
   padding-left: 14px;
 }
 .legal-back { margin-top: 3em; }
+
+/* ── Segmentierter Scroll (Apple-artig) ───────────────────────────────── */
+/* Vollhohe Szenen mit sanftem Einrasten — proximity statt mandatory,
+   damit lange Sektionen nie eingesperrt werden. Nur auf großen Screens;
+   mobil bleibt der Scroll frei. */
+@media (min-width: 861px) {
+  html {
+    scroll-snap-type: y proximity;
+    scroll-padding-top: 72px;
+  }
+  .segment { scroll-snap-align: start; }
+  .hero, .feature-scene, .provenance, .cards-scene,
+  .audiences, .pro, .ios, .cta {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero { min-height: calc(100svh - 72px); }
+  .ios { border: 0; }
+  /* Inline-Elemente nicht auf Flex-Breite strecken */
+  .hero .eyebrow,
+  .cta .store-badge,
+  .ios .btn-primary { align-self: center; }
+}
+.feature-scene .feature-row { margin-bottom: 0; }
+
+/* ── Scroll-Reveals ───────────────────────────────────────────────────── */
+/* Versteckt wird erst, wenn das Skript läuft (html.reveal-ready) und
+   Bewegung erwünscht ist — ohne JS und bei Reduced Motion bleibt alles
+   sichtbar, Crawler sehen immer den vollen Inhalt. */
+@media (prefers-reduced-motion: no-preference) {
+  html.reveal-ready .reveal,
+  html.reveal-ready .reveal-group > * {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.55s ease-out, transform 0.55s ease-out;
+  }
+  html.reveal-ready .reveal.in-view,
+  html.reveal-ready .reveal-group.in-view > * {
+    opacity: 1;
+    transform: none;
+  }
+  html.reveal-ready .reveal-group.in-view > *:nth-child(2) { transition-delay: 70ms; }
+  html.reveal-ready .reveal-group.in-view > *:nth-child(3) { transition-delay: 140ms; }
+  html.reveal-ready .reveal-group.in-view > *:nth-child(4) { transition-delay: 210ms; }
+  html.reveal-ready .reveal-group.in-view > *:nth-child(5) { transition-delay: 280ms; }
+  html.reveal-ready .reveal-group.in-view > *:nth-child(6) { transition-delay: 350ms; }
+}
 
 /* ── Responsiv ────────────────────────────────────────────────────────── */
 @media (max-width: 860px) {

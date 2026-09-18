@@ -62,7 +62,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero segment">
       <p class="eyebrow">Hybrid for macOS</p>
       <h1><span class="hl">誰が何を書いたか</span>を知っているMarkdownエディタ。</h1>
       <p class="hero-sub">Hybridはすべての文章の由来を記録します。自分で書いたのか、AIが生成したのか、名前付きの出典からの引用か、同僚の寄稿か。PR、マーケティング、代理店、編集部 — 「公開する人」のためのエディタです。</p>
@@ -73,17 +73,17 @@
       </div>
       <p class="trial-note">7日間無料で試せます</p>
       <p class="ios-note"><span class="ios-pill">iOSベータ</span> iPhoneとiPad版Hybridがベータ版として登場しました。 <a href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">ベータに参加 →</a></p>
-      <figure class="shot hero-shot">
+      <figure class="shot hero-shot reveal">
         <img src="../assets/img/jp/editor.jpg" alt="macOS上のHybridエディタ。AIテキストは紫の下線、出典引用は緑のラベル、サイドバーには貢献度メーターが表示されている" width="1600" height="778" fetchpriority="high">
       </figure>
     </section>
 
-    <section class="provenance" id="provenance">
-      <div class="section-head">
+    <section class="provenance segment" id="provenance">
+      <div class="section-head reveal">
         <h2>誰が何を書いたか？<span class="hl">ドキュメントが知っています。</span></h2>
         <p>すべての文章はその由来を持ち、保存・共有・共同編集を経ても保たれます。記録は普通の.mdファイルの中を旅し、他のどのエディタでも開けます。ラベルはテキストの上に浮かび、書き出しには一切含まれません。</p>
       </div>
-      <div class="prov-demo" role="img" aria-label="由来マーク付きドキュメントの例：自分のテキスト、AIとしてマークされた文章、出典ラベル付きの引用">
+      <div class="prov-demo reveal" role="img" aria-label="由来マーク付きドキュメントの例：自分のテキスト、AIとしてマークされた文章、出典ラベル付きの引用">
         <p class="prov-line">この段落はあなたが入力したもの — 書いたものは自動的にあなたのものとして数えられます。</p>
         <p class="prov-line prov-ai">この文章はAIによるもので、マークされているため、機械の割合が常に見えます。<span class="prov-tag tag-ai">AI生成</span></p>
         <p class="prov-line prov-src">この引用は外部の出典からのもので、その名前が小さなラベルとして付いています。<span class="prov-tag tag-src">Wikipedia</span></p>
@@ -92,41 +92,47 @@
           <span class="meter-caption">57% あなたが執筆 · 25% AI生成 · 18% Wikipedia</span>
         </div>
       </div>
-      <p class="prov-promise">中心となる約束：誰かが寄稿したものは、後からアクセス権が取り消されても、その人のものとして記録され続けます。由来は「誰が書いたか」の記録であり、「誰に今権限があるか」の記録ではありません。</p>
+      <p class="prov-promise reveal">中心となる約束：誰かが寄稿したものは、後からアクセス権が取り消されても、その人のものとして記録され続けます。由来は「誰が書いたか」の記録であり、「誰に今権限があるか」の記録ではありません。</p>
     </section>
 
-    <section class="features" id="features">
-
+    <section class="feature-scene segment" id="features">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>2つのAI回答を並べて比較</h3>
           <p>同じ質問を2つのAIツールに投げると、回答は一見同じに見えます。Hybridは相違点を正確にハイライトし、その数を数えます。それぞれの回答にツール名を出典として付ければ、統合した後もどの文がどちら由来か分かります。</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/jp/ki-vergleich.jpg" alt="Hybridで同じ質問への2つのAI回答を並べ、相違点を色でハイライトした画面" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row reverse">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>リアルタイムで一緒に書く</h3>
           <p>リンク、連絡先、メール、メッセージで参加者を招待 — ドキュメント自体はあなたのiCloudから出ません。招待された人はライブで一緒に書けます：各文章には執筆者の名前と色が付き、誰かが入力中はその名前が脈打つドットとともに表示されます。招待された人はドキュメントを書き出したり自分のファイルとして保存したりできません — ドキュメントは所有者のものです。</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/jp/zusammenarbeit.jpg" alt="Hybridの共同編集モード。2人の執筆者の文章がそれぞれ名前と色でラベル付けされている" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>公開時そのままのライブプレビュー</h3>
           <p>見出し、リスト、本物の表、埋め込み画像を、読者が目にする形でレンダリング。プレビューは入力にライブで追従します — 専用ウインドウでも、エディタの隣の分割表示でも。CMSに入れる前の確認に最適です。</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/jp/vorschau.jpg" alt="Hybridのレンダリング済みMarkdownプレビュー。見出し、表、埋め込み画像を表示" loading="lazy" width="1600" height="778">
         </figure>
       </div>
-      <div class="card-grid">
+    </section>
+
+    <section class="cards-scene segment">
+      <div class="card-grid reveal-group">
 
         <article class="card">
           <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg></span>
@@ -166,12 +172,12 @@
       </div>
     </section>
 
-    <section class="audiences" id="audiences">
-      <div class="section-head">
+    <section class="audiences segment" id="audiences">
+      <div class="section-head reveal">
         <h2><span class="hl">公開する人</span>のために</h2>
         <p>人と機械、複数の手からテキストが生まれる場所ならどこでも、Hybridは由来を明確に保ちます。</p>
       </div>
-      <div class="aud-grid">
+      <div class="aud-grid reveal-group">
 
         <article class="aud-card">
           <h3>PR・広報</h3>
@@ -205,12 +211,12 @@
       </div>
     </section>
 
-    <section class="pro" id="pro">
-      <div class="section-head">
+    <section class="pro segment" id="pro">
+      <div class="section-head reveal">
         <h2>Hybrid <span class="hl">Pro</span></h2>
         <p>インストール後7日間は、Hybridを無料でフル機能のまま使えます。その後はサブスクリプション「Hybrid Pro」が全機能を解放します — 価格はMac App Storeでご確認ください。</p>
       </div>
-      <div class="pro-grid">
+      <div class="pro-grid reveal-group">
         <article class="pro-point">
           <h3>7日間無料で試す</h3>
           <p>初回起動からフル機能。アカウントも支払い情報も不要です。</p>
@@ -226,18 +232,18 @@
       </div>
     </section>
 
-    <section class="ios" id="ios">
+    <section class="ios segment reveal-group" id="ios">
       <h2><span class="hl">iPhoneとiPad</span>のベータ版が登場</h2>
       <p>HybridがiPhoneとiPadにやってきます — 一足先に試せます。ベータはAppleのTestFlightで配信：リンクをタップし、TestFlightをインストールして書き始めるだけ。同じドキュメント、同じ由来 — あなたのフィードバックがそのまま製品版に活きます。</p>
       <a class="btn-primary" href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">ベータに参加する</a>
     </section>
 
-    <section class="langs" id="languages">
+    <section class="langs reveal-group" id="languages">
       <h2><span class="hl">あなたの言語</span>で</h2>
       <p>Hybridは9言語に対応：日本語、英語、ドイツ語、フランス語、スペイン語、イタリア語、ポルトガル語、オランダ語、簡体字中国語 — このサイトも同様です。</p>
     </section>
 
-    <section class="cta" id="download">
+    <section class="cta segment reveal-group" id="download">
       <h2>AIと書く。<span class="hl">自信を持って公開する。</span></h2>
       <p>Hybrid for Mac — 人とAI、そして公開するすべてのもののためのMarkdownエディタ。</p>
       <a class="store-badge badge-lg" href="https://apps.apple.com/app/hybrid-editor/id6809209701" rel="noopener">

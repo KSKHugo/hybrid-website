@@ -95,4 +95,28 @@
 
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
+
+  // Scroll-Reveals: Elemente blenden sanft ein, sobald sie ins Bild kommen.
+  // Die Klasse reveal-ready fällt nur, wenn der Observer wirklich startet —
+  // ohne JS oder bei reduzierter Bewegung bleibt alles sofort sichtbar.
+  try {
+    if (
+      "IntersectionObserver" in window &&
+      !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      var targets = document.querySelectorAll(".reveal, .reveal-group");
+      if (targets.length) {
+        document.documentElement.classList.add("reveal-ready");
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              io.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: "0px 0px -10% 0px" });
+        targets.forEach(function (el) { io.observe(el); });
+      }
+    }
+  } catch (e) { /* dann eben ohne Einblendungen */ }
 })();

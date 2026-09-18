@@ -62,7 +62,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero segment">
       <p class="eyebrow">Hybrid für macOS</p>
       <h1>Der Markdown-Editor, der weiß, <span class="hl">wer was geschrieben hat</span>.</h1>
       <p class="hero-sub">Hybrid hält fest, woher jede Passage stammt: selbst geschrieben, von einer KI, aus einer benannten Quelle oder von einer Kollegin. Gemacht für Menschen, die veröffentlichen — in PR, Marketing, Agentur und Redaktion.</p>
@@ -73,17 +73,17 @@
       </div>
       <p class="trial-note">7 Tage gratis testen</p>
       <p class="ios-note"><span class="ios-pill">iOS-Beta</span> Hybrid für iPhone und iPad gibt es jetzt als Beta. <a href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">Jetzt mittesten →</a></p>
-      <figure class="shot hero-shot">
+      <figure class="shot hero-shot reveal">
         <img src="../assets/img/de/editor.jpg" alt="Der Hybrid-Editor auf macOS mit Herkunfts-Markierungen: KI-Text violett unterstrichen, ein Quellenzitat grün etikettiert, dazu die Anteilsanzeige in der Seitenleiste" width="1600" height="778" fetchpriority="high">
       </figure>
     </section>
 
-    <section class="provenance" id="provenance">
-      <div class="section-head">
+    <section class="provenance segment" id="provenance">
+      <div class="section-head reveal">
         <h2>Wer hat was geschrieben? <span class="hl">Ihr Dokument weiß es.</span></h2>
         <p>Jede Passage trägt ihre Herkunft — und behält sie beim Speichern, Teilen und gemeinsamen Bearbeiten. Das Protokoll reist in einer reinen .md-Datei mit, die jeder andere Editor öffnen kann; die Etiketten schweben über dem Text und landen in keinem Export.</p>
       </div>
-      <div class="prov-demo" role="img" aria-label="Beispiel eines Dokuments mit Herkunfts-Markierungen: eigener Text, eine als KI markierte Passage und ein Zitat mit Quellen-Etikett">
+      <div class="prov-demo reveal" role="img" aria-label="Beispiel eines Dokuments mit Herkunfts-Markierungen: eigener Text, eine als KI markierte Passage und ein Zitat mit Quellen-Etikett">
         <p class="prov-line">Dieser Absatz wurde selbst getippt — alles, was Sie schreiben, gilt automatisch als Ihres.</p>
         <p class="prov-line prov-ai">Diese Passage stammt aus einer KI und ist markiert, damit der Anteil der Maschine am Text sichtbar bleibt.<span class="prov-tag tag-ai">KI-generiert</span></p>
         <p class="prov-line prov-src">Dieses Zitat stammt aus einer externen Quelle und trägt deren Namen als kleines Etikett.<span class="prov-tag tag-src">Wikipedia</span></p>
@@ -92,41 +92,47 @@
           <span class="meter-caption">57 % von Ihnen geschrieben · 25 % KI-generiert · 18 % Wikipedia</span>
         </div>
       </div>
-      <p class="prov-promise">Die zentrale Zusage: Was jemand beigesteuert hat, bleibt ihm dauerhaft zugeschrieben — auch wenn der Zugriff später entzogen wird. Die Herkunft ist ein Protokoll darüber, wer geschrieben hat, nicht darüber, wer gerade darf.</p>
+      <p class="prov-promise reveal">Die zentrale Zusage: Was jemand beigesteuert hat, bleibt ihm dauerhaft zugeschrieben — auch wenn der Zugriff später entzogen wird. Die Herkunft ist ein Protokoll darüber, wer geschrieben hat, nicht darüber, wer gerade darf.</p>
     </section>
 
-    <section class="features" id="features">
-
+    <section class="feature-scene segment" id="features">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>Zwei KI-Antworten nebeneinander vergleichen</h3>
           <p>Dieselbe Frage ging an zwei KI-Tools, und die Antworten sehen auf den ersten Blick gleich aus. Hybrid hebt hervor, worin sie sich unterscheiden, und zählt die Abweichungen. Vergeben Sie jeder Antwort den Namen ihres Tools als Quelle, bleibt auch nach dem Zusammenführen nachvollziehbar, welcher Satz von welchem stammt.</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/de/ki-vergleich.jpg" alt="Zwei KI-Antworten auf dieselbe Frage nebeneinander in Hybrid, Unterschiede farbig hervorgehoben" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row reverse">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>Gemeinsam schreiben, in Echtzeit</h3>
           <p>Laden Sie Teilnehmer per Link, aus den Kontakten, per Mail oder Nachrichten ein — das Dokument bleibt dabei ausschließlich in Ihrer iCloud. Eingeladene schreiben live mit: Jede Passage trägt Namen und Farbe ihres Autors, und während jemand tippt, erscheint sein Name mit pulsierenden Punkten. Exportieren oder als eigene Datei sichern können Eingeladene nicht — das Dokument gehört dem Besitzer.</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/de/zusammenarbeit.jpg" alt="Zusammenarbeitsmodus in Hybrid mit zwei Autoren, jede Passage mit Namen und Farbe ihres Autors etikettiert" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>Eine Live-Vorschau, wie veröffentlicht</h3>
           <p>Überschriften, Listen, echte Tabellen und eingebettete Bilder — gerendert so, wie Ihre Leser sie sehen werden. Die Vorschau folgt der Eingabe live, in einem eigenen Fenster oder als geteilte Ansicht direkt neben dem Editor; ideal, um einen Text zu prüfen, bevor er ins CMS geht.</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/de/vorschau.jpg" alt="Die gerenderte Markdown-Vorschau von Hybrid mit Überschriften, einer Tabelle und einem eingebetteten Bild" loading="lazy" width="1600" height="778">
         </figure>
       </div>
-      <div class="card-grid">
+    </section>
+
+    <section class="cards-scene segment">
+      <div class="card-grid reveal-group">
 
         <article class="card">
           <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg></span>
@@ -166,12 +172,12 @@
       </div>
     </section>
 
-    <section class="audiences" id="audiences">
-      <div class="section-head">
+    <section class="audiences segment" id="audiences">
+      <div class="section-head reveal">
         <h2>Gemacht für Menschen, <span class="hl">die veröffentlichen</span></h2>
         <p>Überall, wo Text aus mehreren Händen entsteht — menschlichen und maschinellen —, hält Hybrid die Herkunft auseinander.</p>
       </div>
-      <div class="aud-grid">
+      <div class="aud-grid reveal-group">
 
         <article class="aud-card">
           <h3>PR &amp; Öffentlichkeitsarbeit</h3>
@@ -205,12 +211,12 @@
       </div>
     </section>
 
-    <section class="pro" id="pro">
-      <div class="section-head">
+    <section class="pro segment" id="pro">
+      <div class="section-head reveal">
         <h2>Hybrid <span class="hl">Pro</span></h2>
         <p>Nach der Installation ist Hybrid 7 Tage lang kostenlos und voll nutzbar. Danach schaltet das Abo Hybrid Pro alle Funktionen frei — den Preis nennt der Mac App Store.</p>
       </div>
-      <div class="pro-grid">
+      <div class="pro-grid reveal-group">
         <article class="pro-point">
           <h3>7 Tage gratis testen</h3>
           <p>Voller Funktionsumfang ab dem ersten Start — ohne Konto und ohne Zahlungsdaten.</p>
@@ -226,18 +232,18 @@
       </div>
     </section>
 
-    <section class="ios" id="ios">
+    <section class="ios segment reveal-group" id="ios">
       <h2>Die Beta für <span class="hl">iPhone und iPad</span> ist da</h2>
       <p>Hybrid kommt auf iPhone und iPad — und Sie können vorab dabei sein. Die Beta läuft über Apples TestFlight: Link antippen, TestFlight installieren, mitschreiben. Dieselben Dokumente, dieselbe Herkunft — und Ihre Rückmeldung fließt direkt in die fertige Version ein.</p>
       <a class="btn-primary" href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">An der Beta teilnehmen</a>
     </section>
 
-    <section class="langs" id="languages">
+    <section class="langs reveal-group" id="languages">
       <h2>Spricht <span class="hl">Ihre Sprache</span></h2>
       <p>Hybrid gibt es in neun Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Japanisch und Chinesisch (vereinfacht) — und diese Seite ebenso.</p>
     </section>
 
-    <section class="cta" id="download">
+    <section class="cta segment reveal-group" id="download">
       <h2>Mit KI schreiben. <span class="hl">Mit gutem Gewissen veröffentlichen.</span></h2>
       <p>Hybrid für den Mac — der Markdown-Editor für Menschen, KI und alles, was Sie veröffentlichen.</p>
       <a class="store-badge badge-lg" href="https://apps.apple.com/app/hybrid-editor/id6809209701" rel="noopener">

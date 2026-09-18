@@ -62,7 +62,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero segment">
       <p class="eyebrow">Hybrid for macOS</p>
       <h1>知道<span class="hl">每段文字出自谁手</span>的Markdown编辑器。</h1>
       <p class="hero-sub">Hybrid记录每段文字的来源：你亲自撰写、AI生成、引自署名来源，还是同事贡献。为发布内容的人而生——公关、市场营销、代理机构和编辑部。</p>
@@ -73,17 +73,17 @@
       </div>
       <p class="trial-note">免费试用7天</p>
       <p class="ios-note"><span class="ios-pill">iOS测试版</span> iPhone和iPad版Hybrid现已开启测试。 <a href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">参与测试 →</a></p>
-      <figure class="shot hero-shot">
+      <figure class="shot hero-shot reveal">
         <img src="../assets/img/zh/editor.jpg" alt="macOS上的Hybrid编辑器，带溯源标记：AI文本以紫色下划线标出，来源引文带绿色标签，侧边栏显示贡献比例" width="1600" height="778" fetchpriority="high">
       </figure>
     </section>
 
-    <section class="provenance" id="provenance">
-      <div class="section-head">
+    <section class="provenance segment" id="provenance">
+      <div class="section-head reveal">
         <h2>谁写了什么？<span class="hl">你的文档知道。</span></h2>
         <p>每段文字都携带自己的来源——在保存、共享和协作编辑中始终保留。这份记录藏在一个普通的.md文件里，任何其他编辑器都能打开；标签浮在文字上方，绝不会出现在任何导出中。</p>
       </div>
-      <div class="prov-demo" role="img" aria-label="带溯源标记的文档示例：你自己的文字、一段标记为AI的内容，以及带来源标签的引文">
+      <div class="prov-demo reveal" role="img" aria-label="带溯源标记的文档示例：你自己的文字、一段标记为AI的内容，以及带来源标签的引文">
         <p class="prov-line">这一段是你自己输入的——你写下的一切自动算作你的。</p>
         <p class="prov-line prov-ai">这一段来自AI并已标记，机器在文本中的占比始终可见。<span class="prov-tag tag-ai">AI生成</span></p>
         <p class="prov-line prov-src">这条引文来自外部来源，来源名称以小标签形式标注。<span class="prov-tag tag-src">维基百科</span></p>
@@ -92,41 +92,47 @@
           <span class="meter-caption">57% 由你撰写 · 25% AI生成 · 18% 维基百科</span>
         </div>
       </div>
-      <p class="prov-promise">核心承诺：某人贡献的内容永远归属于此人——即使日后访问权限被撤销。溯源记录的是谁写过，而不是谁现在有权限。</p>
+      <p class="prov-promise reveal">核心承诺：某人贡献的内容永远归属于此人——即使日后访问权限被撤销。溯源记录的是谁写过，而不是谁现在有权限。</p>
     </section>
 
-    <section class="features" id="features">
-
+    <section class="feature-scene segment" id="features">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>并排比较两个AI的回答</h3>
           <p>同一个问题发给两个AI工具，回答乍看一样。Hybrid精确高亮它们的差异并计数。给每个回答标上工具名称作为来源，即使合并之后，你仍然知道哪句话来自哪个工具。</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/zh/ki-vergleich.jpg" alt="在Hybrid中并排显示同一问题的两个AI回答，差异以颜色高亮" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row reverse">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>实时协同写作</h3>
           <p>通过链接、通讯录、邮件或信息邀请参与者——文档本身始终只存放在你的iCloud中。受邀者可实时共同写作：每段文字都带有作者的姓名和颜色，有人输入时，其名字会伴随跳动的圆点显示。受邀者无法导出文档，也无法将其保存为自己的文件——文档属于所有者。</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/zh/zusammenarbeit.jpg" alt="Hybrid的协作模式，两位作者的文字分别以姓名和颜色标注" loading="lazy" width="1600" height="778">
         </figure>
       </div>
+    </section>
 
+    <section class="feature-scene segment">
       <div class="feature-row">
-        <div class="feature-row-text">
+        <div class="feature-row-text reveal">
           <h3>实时预览，所见即发布</h3>
           <p>标题、列表、真正的表格和嵌入图片，以读者将看到的样子呈现。预览实时跟随你的输入——可在独立窗口中，也可在编辑器旁的分屏视图中；发布到CMS之前检查文稿的理想方式。</p>
         </div>
-        <figure class="shot">
+        <figure class="shot reveal">
           <img src="../assets/img/zh/vorschau.jpg" alt="Hybrid渲染后的Markdown预览，含标题、表格和嵌入图片" loading="lazy" width="1600" height="778">
         </figure>
       </div>
-      <div class="card-grid">
+    </section>
+
+    <section class="cards-scene segment">
+      <div class="card-grid reveal-group">
 
         <article class="card">
           <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg></span>
@@ -166,12 +172,12 @@
       </div>
     </section>
 
-    <section class="audiences" id="audiences">
-      <div class="section-head">
+    <section class="audiences segment" id="audiences">
+      <div class="section-head reveal">
         <h2>为<span class="hl">发布内容的人</span>而生</h2>
         <p>凡是文字出自多人之手的地方——无论人还是机器——Hybrid都让来源一清二楚。</p>
       </div>
-      <div class="aud-grid">
+      <div class="aud-grid reveal-group">
 
         <article class="aud-card">
           <h3>公关与传播</h3>
@@ -205,12 +211,12 @@
       </div>
     </section>
 
-    <section class="pro" id="pro">
-      <div class="section-head">
+    <section class="pro segment" id="pro">
+      <div class="section-head reveal">
         <h2>Hybrid <span class="hl">Pro</span></h2>
         <p>安装后7天内，Hybrid免费且功能完整。之后由订阅「Hybrid Pro」解锁全部功能——价格见Mac App Store。</p>
       </div>
-      <div class="pro-grid">
+      <div class="pro-grid reveal-group">
         <article class="pro-point">
           <h3>免费试用7天</h3>
           <p>首次启动即享全部功能——无需账户，无需支付信息。</p>
@@ -226,18 +232,18 @@
       </div>
     </section>
 
-    <section class="ios" id="ios">
+    <section class="ios segment reveal-group" id="ios">
       <h2><span class="hl">iPhone和iPad</span>测试版已推出</h2>
       <p>Hybrid即将登陆iPhone和iPad——你可以抢先体验。测试通过Apple的TestFlight进行：点开链接，安装TestFlight，开始写作。同样的文档，同样的溯源——你的反馈将直接融入正式版。</p>
       <a class="btn-primary" href="https://testflight.apple.com/join/vSs27gRv" rel="noopener">参与Beta测试</a>
     </section>
 
-    <section class="langs" id="languages">
+    <section class="langs reveal-group" id="languages">
       <h2>说<span class="hl">你的语言</span></h2>
       <p>Hybrid提供九种语言：简体中文、英语、德语、法语、西班牙语、意大利语、葡萄牙语、荷兰语和日语——本网站亦然。</p>
     </section>
 
-    <section class="cta" id="download">
+    <section class="cta segment reveal-group" id="download">
       <h2>与AI一起写作。<span class="hl">放心发布。</span></h2>
       <p>Hybrid for Mac——为人、AI以及你发布的一切而生的Markdown编辑器。</p>
       <a class="store-badge badge-lg" href="https://apps.apple.com/app/hybrid-editor/id6809209701" rel="noopener">
