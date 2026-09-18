@@ -259,7 +259,7 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
       <span>${esc(t.footer.languagesLabel)}:</span>
           ${langLinks("footer")}
     </nav>
-    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a> · <a href="${prefix}datenschutz-app/${APP_PRIVACY_DIR[lang.code] ? APP_PRIVACY_DIR[lang.code] + "/" : ""}" hreflang="${APP_PRIVACY_DIR[lang.code] ? lang.hreflang : "de"}">${esc(t.footer.privacyApp)}</a> · <a href="${prefix}support/">${esc(t.footer.support)}</a></p>
+    <p class="footer-legal">© <span id="year">2026</span> Pascal Hugo · Hybrid · <a href="${lang.dir ? "../impressum/" : "impressum/"}" hreflang="de">${esc(t.footer.imprint)}</a> · <a href="${lang.dir ? "../datenschutz/" : "datenschutz/"}" hreflang="de">${esc(t.footer.privacy)}</a> · <a href="${prefix}datenschutz-app/${APP_PRIVACY_DIR[lang.code] ? APP_PRIVACY_DIR[lang.code] + "/" : ""}" hreflang="${APP_PRIVACY_DIR[lang.code] ? lang.hreflang : "de"}">${esc(t.footer.privacyApp)}</a> · <a href="${prefix}support/">${esc(t.footer.support)}</a> · <a href="press/">${esc(pressLocales[lang.code].footerLabel)}</a></p>
   </footer>
 
   <script src="${abs("assets/js/site.js")}" defer></script>
@@ -685,11 +685,111 @@ ${SUPPORT_BLOCKS.map((b) => `      <hr style="border: 0; border-top: 1px solid #
 `;
 }
 
+// ── Pressebereich ────────────────────────────────────────────────────────────
+// Je Sprache eine Presse-Übersichtsseite unter <sprache>/press/ und die
+// Pressemitteilung als eigene HTML-Seite unter <sprache>/press/hybrid-1-0/.
+// Die PDF/Word-Downloads liegen einmal zentral unter /press/downloads/.
+const PRESS_CONTACT = `Pascal Hugo<br>E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a><br>Web: <a href="https://hybrid-editor.com">hybrid-editor.com</a>`;
+
+const pressUrl = (lang, sub) => `${SITE_URL}/${lang.dir ? lang.dir + "/" : ""}press/${sub}`;
+
+function pressShell(lang, depth, title, desc, canonical, alternatesSub, bodyHtml) {
+  const root = "../".repeat(depth);
+  const home = lang.dir ? `${root}${lang.dir}/` : root;
+  const alternates = LANGS.map((l) =>
+    `  <link rel="alternate" hreflang="${l.hreflang}" href="${pressUrl(l, alternatesSub)}">`
+  ).join("\n") + `\n  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/press/${alternatesSub}">`;
+  return `<!doctype html>
+<html lang="${lang.hreflang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(desc)}">
+  <link rel="canonical" href="${canonical}">
+${alternates}
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Hybrid">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(desc)}">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:image" content="${SITE_URL}/assets/img/${lang.code}/editor.jpg">
+  <meta name="theme-color" content="#F9F8F7">
+  <link rel="icon" type="image/svg+xml" href="${root}assets/img/hybrid-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="${root}assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="${root}assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="${root}assets/css/style.css">
+</head>
+<body data-lang="${lang.code}">
+  <header class="site-header">
+    <a class="brand" href="${home}">
+      <img src="${root}assets/img/hybrid-icon.svg" alt="" width="48" height="48">
+      <span>Hybrid</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="legal press">
+${bodyHtml}
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-legal">© 2026 Pascal Hugo · Hybrid · <a href="${root}impressum/">Impressum</a> · <a href="${root}datenschutz/">Datenschutz</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+function renderPressIndex(lang, p) {
+  const depth = lang.dir ? 2 : 1;
+  const root = "../".repeat(depth);
+  const body = `      <h1>${esc(p.areaTitle)}</h1>
+      <p>${esc(p.areaIntro)}</p>
+
+      <h2>${esc(p.releasesH)}</h2>
+      <p class="release-item"><a href="hybrid-1-0/">${esc(p.relTitle)}</a><br><span class="release-sub">${esc(p.relSub)}</span></p>
+
+      <h2>${esc(p.downloadsH)}</h2>
+      <ul class="press-downloads">
+${p.downloads.map((d) => `        <li><a href="${root}press/downloads/${d.href}">${esc(d.label)}</a></li>`).join("\n")}
+      </ul>
+      <p class="legal-note">${esc(p.screenshotsNote)}</p>
+
+      <h2>${esc(p.contactH)}</h2>
+      <p>${PRESS_CONTACT}</p>`;
+  return pressShell(lang, depth, `${p.areaTitle} — Hybrid`, p.areaIntro, pressUrl(lang, ""), "", body);
+}
+
+function renderPressRelease(lang, p) {
+  const depth = lang.dir ? 3 : 2;
+  const blocks = p.blocks.map((b) => {
+    if (b.t === "h") return `      <h2>${b.h}</h2>`;
+    if (b.t === "q") return `      <blockquote class="press-quote"><p>${b.h}</p></blockquote>`;
+    return `      <p>${b.h}</p>`;
+  }).join("\n");
+  const body = `      <p class="press-kicker">${esc(p.kicker)}</p>
+      <h1>${esc(p.relTitle)}</h1>
+      <p><strong>${esc(p.relSub)}</strong></p>
+
+${blocks}
+
+      <h2>${esc(p.contactH)}</h2>
+      <p>${PRESS_CONTACT}</p>
+
+      <p class="legal-note">${esc(p.note)}</p>
+      <p class="legal-back"><a href="../">← ${esc(p.areaTitle)}</a></p>`;
+  return pressShell(lang, depth, `${p.relTitle}`, p.relSub, pressUrl(lang, "hybrid-1-0/"), "hybrid-1-0/", body);
+}
+
 // ── Bauen ────────────────────────────────────────────────────────────────────
 const locales = {};
+const pressLocales = {};
 for (const lang of LANGS) {
   const file = path.join(ROOT, "locales", `${lang.code}.json`);
   locales[lang.code] = JSON.parse(fs.readFileSync(file, "utf8"));
+  pressLocales[lang.code] = JSON.parse(fs.readFileSync(path.join(ROOT, "locales", "press", `${lang.code}.json`), "utf8"));
 }
 
 for (const lang of LANGS) {
@@ -705,6 +805,15 @@ fs.mkdirSync(path.join(ROOT, "datenschutz"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz", "index.html"), renderDatenschutz());
 fs.mkdirSync(path.join(ROOT, "datenschutz-app"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "datenschutz-app", "index.html"), renderAppDatenschutz());
+for (const lang of LANGS) {
+  const p = pressLocales[lang.code];
+  const base = lang.dir ? path.join(ROOT, lang.dir, "press") : path.join(ROOT, "press");
+  fs.mkdirSync(path.join(base, "hybrid-1-0"), { recursive: true });
+  fs.writeFileSync(path.join(base, "index.html"), renderPressIndex(lang, p));
+  fs.writeFileSync(path.join(base, "hybrid-1-0", "index.html"), renderPressRelease(lang, p));
+}
+console.log("✓ press (9 Sprachen, je Übersicht + Mitteilung)");
+
 const appPrivacy = JSON.parse(fs.readFileSync(path.join(ROOT, "locales", "app-privacy.json"), "utf8"));
 for (const code of Object.keys(appPrivacy)) {
   const dir = path.join(ROOT, "datenschutz-app", code);
@@ -725,6 +834,14 @@ ${LANGS.map((l) => `  <url>
     <lastmod>${today}</lastmod>
 ${LANGS.map((a) => `    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${urlFor(a)}"/>`).join("\n")}
     <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/"/>
+  </url>`).join("\n")}
+${LANGS.map((l) => `  <url>
+    <loc>${pressUrl(l, "")}</loc>
+    <lastmod>${today}</lastmod>
+  </url>
+  <url>
+    <loc>${pressUrl(l, "hybrid-1-0/")}</loc>
+    <lastmod>${today}</lastmod>
   </url>`).join("\n")}
 </urlset>
 `;

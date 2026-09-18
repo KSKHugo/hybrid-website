@@ -471,6 +471,27 @@ main > section {
 }
 .legal-back { margin-top: 3em; }
 
+/* ── Presse ───────────────────────────────────────────────────────────── */
+.press-kicker {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 6px;
+}
+.press .release-item a { font-weight: 600; }
+.press .release-sub { color: var(--ink-soft); font-size: 0.92rem; }
+.press-downloads { margin: 0 0 1em; padding-left: 1.2em; }
+.press-downloads li { margin-bottom: 6px; }
+.press-quote {
+  margin: 0 0 1em;
+  padding: 2px 0 2px 18px;
+  border-left: 3px solid var(--amber-tint);
+  font-style: italic;
+}
+.press-quote p { color: var(--ink); margin: 0; }
+
 /* ── Bernstein-Bänder und -Akzente ────────────────────────────────────── */
 /* Volle Seitenbreite trotz zentrierter Sektionen: der box-shadow/clip-
    path-Trick malt den Hintergrund über den Viewport hinaus. */
