@@ -335,6 +335,9 @@ main > section {
   align-items: center;
   margin-bottom: 72px;
 }
+/* Gespiegelte Zeile: Bild links in der breiten, Text rechts in der
+   schmalen Spalte — die Spaltenbreiten drehen sich mit. */
+.feature-row.reverse { grid-template-columns: 2.4fr minmax(240px, 1fr); }
 .feature-row.reverse .feature-row-text { order: 2; }
 .feature-row h3 { font-size: 1.55rem; }
 .feature-row p { color: var(--ink-soft); }
