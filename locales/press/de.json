@@ -4,10 +4,6 @@
   "areaIntro": "Mitteilungen, Material und Kontakt für Redaktionen.",
   "releasesH": "Pressemitteilungen",
   "downloadsH": "Material",
-  "downloads": [
-    { "label": "Pressemitteilung als PDF (Deutsch)", "href": "Pressemitteilung-Hybrid.pdf" },
-    { "label": "Pressemitteilung als Word-Dokument (Deutsch)", "href": "Pressemitteilung-Hybrid.docx" }
-  ],
   "screenshotsNote": "Screenshots in allen neun Sprachen zeigen die Produktseiten dieser Website; weiteres Bildmaterial gern auf Anfrage.",
   "contactH": "Pressekontakt",
   "kicker": "Pressemitteilung",
@@ -15,25 +11,94 @@
   "relTitle": "Hybrid für den Mac: Der Markdown-Editor für Menschen, KI und alle, die veröffentlichen",
   "relSub": "Neue macOS-App macht die Herkunft von Text sichtbar und bringt Echtzeit-Zusammenarbeit und Ein-Klick-Publishing in den redaktionellen Alltag. 7 Tage kostenlos testen",
   "blocks": [
-    { "t": "p", "h": "Mit Hybrid ist ab sofort ein Markdown-Editor für macOS im Mac App Store erhältlich, der bei einer Frage hilft, die sich Redaktionen, Agenturen und Beratungen im KI-Zeitalter täglich stellen: Wer hat das eigentlich geschrieben? In Hybrid trägt jede Passage ihre Herkunft: selbst getippt, als KI-generiert markiert, einer benannten Quelle zugeordnet oder von einer Kollegin beigesteuert. Diese Zuordnung übersteht Speichern, Teilen und gemeinsames Bearbeiten und macht Transparenz damit zur Arbeitsweise statt zum Nachtrag." },
-    { "t": "p", "h": "Entwickelt hat die App der Journalist Pascal Hugo, der seit fast 20 Jahren als Redakteur und Medienschaffender arbeitet. <em>„In Redaktionen, Agenturen und Beratungen schreiben längst Menschen und KI-Systeme gemeinsam an Texten. Aber es gab bislang keine App, die diese Zusammenarbeit ehrlich abbildet“</em>, sagt Hugo. <em>„Die Werkzeuge tun so, als wäre ein Text aus einem Guss. In Wirklichkeit ist er ein Gewebe aus eigenen Sätzen, KI-Vorschlägen und Zitaten. Hybrid zeigt dieses Gewebe.“</em>" },
-    { "t": "h", "h": "Herkunft einer Passage markieren" },
-    { "t": "p", "h": "KI-Passagen markiert der Autor selbst mit einem Klick und kann das Etikett ebenso wieder entfernen. Die Markierung ist damit kein externer Nachweis, sondern ein Arbeitsinstrument: Sie hilft, beim Schreiben und Überarbeiten den Überblick zu behalten, welche Passagen woher stammen. Externe Quellen wie Wikipedia können einen eigenen Namen und ein farbiges Etikett am Absatz erhalten. Die Seitenleiste weist den Anteil jedes Beteiligten am Dokument aus, etwa 57 Prozent selbst geschrieben, 25 Prozent KI-generiert, 18 Prozent aus einer externen Quelle. Gespeichert wird dennoch reines Markdown: Die Herkunftsdaten reisen als einzelner unsichtbarer Kommentar in der .md-Datei mit, die jeder andere Editor öffnen kann." },
-    { "t": "p", "h": "Der geschriebene Text kann mit einem Klick in ein Word-Dokument oder eine pdf exportiert werden, um ihn beispielsweise mit dem Kunden abzustimmen. Für das Online-Publishing bietet Hybrid die Möglichkeit an, den Beitrag als html zu exportieren – inklusive eingebetteter Bilder, Tabellen und Links. Das Dokument kann anschließend in WordPress und andere Content-Management-Systeme eingefügt werden, ohne dass eine weitere Formatierung notwendig wäre. Die Etiketten verbleiben in der Markdown-Datei des Autors und tauchen in keiner der exportierten Versionen auf." },
-    { "t": "q", "h": "„Wer mit KI schreibt, verliert schnell den Überblick, welcher Satz von wem stammt“, sagt Hugo. „Wenn ein Text erscheint, will ich noch wissen, was von mir kommt, was aus dem Interview und was aus dem Chatbot. Diese Auskunft soll mir das Dokument selbst geben, nicht mein Gedächtnis.“" },
-    { "t": "h", "h": "Warum Markdown?" },
-    { "t": "p", "h": "Dass Hybrid auf Markdown setzt, hat einen einfachen Grund: Markdown-Dateien lassen sich von Menschen wie von KI-Tools gleichermaßen leicht lesen und bearbeiten. Es ist damit das perfekte Format für die Zusammenarbeit von Mensch und Maschine. Zugleich bleibt jedes Hybrid-Dokument eine gewöhnliche .md-Datei ohne Herstellerbindung, die jeder andere Editor öffnen kann." },
-    { "t": "h", "h": "Vergleichen, zusammenarbeiten, veröffentlichen" },
-    { "t": "p", "h": "Manchmal möchte man fast gleiche Dokumente miteinander vergleichen, um die Unterschiede festzustellen. Worin unterscheiden sich der von ChatGPT und der von Claude geschriebene Text? Um beispielsweise die Leistungsfähigkeit von KI-Modellen miteinander zu vergleichen, bringt Hybrid einen Seite-an-Seite-Vergleich mit: Unterschiede werden auf Wunsch farbig hervorgehoben und gezählt. Per Klick kann der Text wieder zu ChatGPT, Claude, Perplexity oder einem Werkzeug eigener Wahl zurückgespielt und weiter bearbeitet werden. Wird das Ergebnis in den Text eingefügt, kann der Autor es selbst als „KI-generiert“ markieren." },
-    { "t": "p", "h": "Die Zusammenarbeit mit Kollegen oder Externen in Echtzeit läuft über die iCloud des Dokument-Besitzers: Eingeladene schreiben live mit, jede Passage trägt Namen und Farbe ihres Autors. Während des Tippens erscheint eine Anzeige mit pulsierenden Punkten. Das Dokument verlässt dabei nie das Konto des Besitzers. Gäste benötigen für die Zusammenarbeit ein eigenes iCloud-Konto, schreiben aber ohne eigenes Abo mit. Um den Datenschutz zu wahren, können Gäste die Datei weder exportieren noch eine eigene Kopie sichern." },
-    { "t": "p", "h": "Für die Veröffentlichung kopiert Hybrid das Dokument als formatiertes HTML mit eingebetteten Bildern – bereit zum Einfügen in WordPress und andere Content-Management-Systeme. Dazu kommen Export als PDF und Word, eine Live-Vorschau als eigenes Fenster oder geteilte Ansicht, ein automatischer Versionsverlauf, Bilder und Tabellen per Drag &amp; Drop sowie eine Touch-ID-Sperre." },
-    { "t": "h", "h": "Automatischer Versionsverlauf" },
-    { "t": "p", "h": "Während des Schreibens sichert Hybrid automatisch Zwischenstände rund zehn Sekunden nach der letzten Eingabe, ohne dass der Autor daran denken muss. Jeder Stand erscheint mit Zeitstempel im Verlauf der Seitenleiste, lässt sich ansehen und mit einem Klick wiederherstellen. Der bisherige Stand wird davor selbst als Version gesichert, es geht also nichts verloren. Der Verlauf liegt dabei nicht in der Datei, sondern im iCloud-Konto des Autors: Die Markdown-Datei bleibt schlank, und weitergegebene Dokumente enthalten keine Altfassungen. Gelöschte Passagen reisen so nicht heimlich mit. Der Verlauf ist über eine stabile Kennung mit dem Dokument verknüpft und findet es auch nach Umbenennen oder Verschieben wieder, selbst auf einem anderen Mac." },
-    { "t": "h", "h": "Für Menschen, die veröffentlichen" },
-    { "t": "p", "h": "Hybrid richtet sich an alle, bei denen Texte aus mehreren Händen entstehen: PR und Öffentlichkeitsarbeit, Marketing und Agenturen, Redaktionen und Journalismus, Unternehmensberatung, KI-Profis sowie Online-Publishing- und Content-Teams. <em>„Der Bedarf ist überall derselbe“</em>, sagt Hugo. <em>„Ob Pressemitteilung, Kampagnentext oder Beratungsbericht: Sobald KI mitschreibt, muss man den Überblick behalten können, was von wem stammt, ohne dass es die Arbeit ausbremst. Genau dafür habe ich Hybrid gebaut.“</em>" },
-    { "t": "h", "h": "Preis und Verfügbarkeit" },
-    { "t": "p", "h": "Hybrid ist im <a href=\"https://apps.apple.com/app/hybrid-editor/id6809209701\" rel=\"noopener\">Mac App Store</a> erhältlich und nach der Installation <strong>7 Tage lang kostenlos und voll nutzbar</strong> – ohne Konto und ohne Angabe von Zahlungsdaten. Danach schaltet das Abo Hybrid Pro für <strong>2,99 Euro im Monat oder 24,99 Euro im Jahr</strong> alle Funktionen frei. Ohne Abo bleibt Hybrid ein Lesegerät für Markdown-Dokumente. Die App läuft auf macOS 13 (Ventura) oder neuer, auf Apple Silicon wie Intel, und ist in neun Sprachen verfügbar: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Japanisch und Chinesisch (vereinfacht). Eine Version für iPhone und iPad ist in Arbeit; der öffentliche Beta-Test über Apples TestFlight ist bereits gestartet. Wer vorab mitschreiben und Rückmeldung geben möchte, kann kostenlos teilnehmen: <a href=\"https://testflight.apple.com/join/vSs27gRv\" rel=\"noopener\">testflight.apple.com/join/vSs27gRv</a>." },
-    { "t": "h", "h": "Über den Entwickler" },
-    { "t": "p", "h": "Pascal Hugo arbeitet seit fast 20 Jahren als Journalist, Redakteur und Medienschaffender. Hybrid ist aus der eigenen redaktionellen Praxis entstanden: als Antwort auf eine Lücke zwischen KI-Werkzeugen, die schreiben, Redaktionswerkzeugen, die davon nichts wissen wollen und unzureichenden Export-Funktionen für das Online-Publishing." }
-  ]
+    {
+      "t": "p",
+      "h": "Mit Hybrid ist ab sofort ein Markdown-Editor für macOS im Mac App Store erhältlich, der bei einer Frage hilft, die sich Redaktionen, Agenturen und Beratungen im KI-Zeitalter täglich stellen: Wer hat das eigentlich geschrieben? In Hybrid trägt jede Passage ihre Herkunft: selbst getippt, als KI-generiert markiert, einer benannten Quelle zugeordnet oder von einer Kollegin beigesteuert. Diese Zuordnung übersteht Speichern, Teilen und gemeinsames Bearbeiten und macht Transparenz damit zur Arbeitsweise statt zum Nachtrag."
+    },
+    {
+      "t": "p",
+      "h": "Entwickelt hat die App der Journalist Pascal Hugo, der seit fast 20 Jahren als Redakteur und Medienschaffender arbeitet. <em>„In Redaktionen, Agenturen und Beratungen schreiben längst Menschen und KI-Systeme gemeinsam an Texten. Aber es gab bislang keine App, die diese Zusammenarbeit ehrlich abbildet“</em>, sagt Hugo. <em>„Die Werkzeuge tun so, als wäre ein Text aus einem Guss. In Wirklichkeit ist er ein Gewebe aus eigenen Sätzen, KI-Vorschlägen und Zitaten. Hybrid zeigt dieses Gewebe.“</em>"
+    },
+    {
+      "t": "h",
+      "h": "Herkunft einer Passage markieren"
+    },
+    {
+      "t": "p",
+      "h": "KI-Passagen markiert der Autor selbst mit einem Klick und kann das Etikett ebenso wieder entfernen. Die Markierung ist damit kein externer Nachweis, sondern ein Arbeitsinstrument: Sie hilft, beim Schreiben und Überarbeiten den Überblick zu behalten, welche Passagen woher stammen. Externe Quellen wie Wikipedia können einen eigenen Namen und ein farbiges Etikett am Absatz erhalten. Die Seitenleiste weist den Anteil jedes Beteiligten am Dokument aus, etwa 57 Prozent selbst geschrieben, 25 Prozent KI-generiert, 18 Prozent aus einer externen Quelle. Gespeichert wird dennoch reines Markdown: Die Herkunftsdaten reisen als einzelner unsichtbarer Kommentar in der .md-Datei mit, die jeder andere Editor öffnen kann."
+    },
+    {
+      "t": "p",
+      "h": "Der geschriebene Text kann mit einem Klick in ein Word-Dokument oder eine pdf exportiert werden, um ihn beispielsweise mit dem Kunden abzustimmen. Für das Online-Publishing bietet Hybrid die Möglichkeit an, den Beitrag als html zu exportieren – inklusive eingebetteter Bilder, Tabellen und Links. Das Dokument kann anschließend in WordPress und andere Content-Management-Systeme eingefügt werden, ohne dass eine weitere Formatierung notwendig wäre. Die Etiketten verbleiben in der Markdown-Datei des Autors und tauchen in keiner der exportierten Versionen auf."
+    },
+    {
+      "t": "q",
+      "h": "„Wer mit KI schreibt, verliert schnell den Überblick, welcher Satz von wem stammt“, sagt Hugo. „Wenn ein Text erscheint, will ich noch wissen, was von mir kommt, was aus dem Interview und was aus dem Chatbot. Diese Auskunft soll mir das Dokument selbst geben, nicht mein Gedächtnis.“"
+    },
+    {
+      "t": "h",
+      "h": "Warum Markdown?"
+    },
+    {
+      "t": "p",
+      "h": "Dass Hybrid auf Markdown setzt, hat einen einfachen Grund: Markdown-Dateien lassen sich von Menschen wie von KI-Tools gleichermaßen leicht lesen und bearbeiten. Es ist damit das perfekte Format für die Zusammenarbeit von Mensch und Maschine. Zugleich bleibt jedes Hybrid-Dokument eine gewöhnliche .md-Datei ohne Herstellerbindung, die jeder andere Editor öffnen kann."
+    },
+    {
+      "t": "h",
+      "h": "Vergleichen, zusammenarbeiten, veröffentlichen"
+    },
+    {
+      "t": "p",
+      "h": "Manchmal möchte man fast gleiche Dokumente miteinander vergleichen, um die Unterschiede festzustellen. Worin unterscheiden sich der von ChatGPT und der von Claude geschriebene Text? Um beispielsweise die Leistungsfähigkeit von KI-Modellen miteinander zu vergleichen, bringt Hybrid einen Seite-an-Seite-Vergleich mit: Unterschiede werden auf Wunsch farbig hervorgehoben und gezählt. Per Klick kann der Text wieder zu ChatGPT, Claude, Perplexity oder einem Werkzeug eigener Wahl zurückgespielt und weiter bearbeitet werden. Wird das Ergebnis in den Text eingefügt, kann der Autor es selbst als „KI-generiert“ markieren."
+    },
+    {
+      "t": "p",
+      "h": "Die Zusammenarbeit mit Kollegen oder Externen in Echtzeit läuft über die iCloud des Dokument-Besitzers: Eingeladene schreiben live mit, jede Passage trägt Namen und Farbe ihres Autors. Während des Tippens erscheint eine Anzeige mit pulsierenden Punkten. Das Dokument verlässt dabei nie das Konto des Besitzers. Gäste benötigen für die Zusammenarbeit ein eigenes iCloud-Konto, schreiben aber ohne eigenes Abo mit. Um den Datenschutz zu wahren, können Gäste die Datei weder exportieren noch eine eigene Kopie sichern."
+    },
+    {
+      "t": "p",
+      "h": "Für die Veröffentlichung kopiert Hybrid das Dokument als formatiertes HTML mit eingebetteten Bildern – bereit zum Einfügen in WordPress und andere Content-Management-Systeme. Dazu kommen Export als PDF und Word, eine Live-Vorschau als eigenes Fenster oder geteilte Ansicht, ein automatischer Versionsverlauf, Bilder und Tabellen per Drag &amp; Drop sowie eine Touch-ID-Sperre."
+    },
+    {
+      "t": "h",
+      "h": "Automatischer Versionsverlauf"
+    },
+    {
+      "t": "p",
+      "h": "Während des Schreibens sichert Hybrid automatisch Zwischenstände rund zehn Sekunden nach der letzten Eingabe, ohne dass der Autor daran denken muss. Jeder Stand erscheint mit Zeitstempel im Verlauf der Seitenleiste, lässt sich ansehen und mit einem Klick wiederherstellen. Der bisherige Stand wird davor selbst als Version gesichert, es geht also nichts verloren. Der Verlauf liegt dabei nicht in der Datei, sondern im iCloud-Konto des Autors: Die Markdown-Datei bleibt schlank, und weitergegebene Dokumente enthalten keine Altfassungen. Gelöschte Passagen reisen so nicht heimlich mit. Der Verlauf ist über eine stabile Kennung mit dem Dokument verknüpft und findet es auch nach Umbenennen oder Verschieben wieder, selbst auf einem anderen Mac."
+    },
+    {
+      "t": "h",
+      "h": "Für Menschen, die veröffentlichen"
+    },
+    {
+      "t": "p",
+      "h": "Hybrid richtet sich an alle, bei denen Texte aus mehreren Händen entstehen: PR und Öffentlichkeitsarbeit, Marketing und Agenturen, Redaktionen und Journalismus, Unternehmensberatung, KI-Profis sowie Online-Publishing- und Content-Teams. <em>„Der Bedarf ist überall derselbe“</em>, sagt Hugo. <em>„Ob Pressemitteilung, Kampagnentext oder Beratungsbericht: Sobald KI mitschreibt, muss man den Überblick behalten können, was von wem stammt, ohne dass es die Arbeit ausbremst. Genau dafür habe ich Hybrid gebaut.“</em>"
+    },
+    {
+      "t": "h",
+      "h": "Preis und Verfügbarkeit"
+    },
+    {
+      "t": "p",
+      "h": "Hybrid ist im <a href=\"https://apps.apple.com/app/hybrid-editor/id6809209701\" rel=\"noopener\">Mac App Store</a> erhältlich und nach der Installation <strong>7 Tage lang kostenlos und voll nutzbar</strong> – ohne Konto und ohne Angabe von Zahlungsdaten. Danach schaltet das Abo Hybrid Pro für <strong>2,99 Euro im Monat oder 24,99 Euro im Jahr</strong> alle Funktionen frei. Ohne Abo bleibt Hybrid ein Lesegerät für Markdown-Dokumente. Die App läuft auf macOS 13 (Ventura) oder neuer, auf Apple Silicon wie Intel, und ist in neun Sprachen verfügbar: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Japanisch und Chinesisch (vereinfacht). Eine Version für iPhone und iPad ist in Arbeit; der öffentliche Beta-Test über Apples TestFlight ist bereits gestartet. Wer vorab mitschreiben und Rückmeldung geben möchte, kann kostenlos teilnehmen: <a href=\"https://testflight.apple.com/join/vSs27gRv\" rel=\"noopener\">testflight.apple.com/join/vSs27gRv</a>."
+    },
+    {
+      "t": "h",
+      "h": "Über den Entwickler"
+    },
+    {
+      "t": "p",
+      "h": "Pascal Hugo arbeitet seit fast 20 Jahren als Journalist, Redakteur und Medienschaffender. Hybrid ist aus der eigenen redaktionellen Praxis entstanden: als Antwort auf eine Lücke zwischen KI-Werkzeugen, die schreiben, Redaktionswerkzeugen, die davon nichts wissen wollen und unzureichenden Export-Funktionen für das Online-Publishing."
+    }
+  ],
+  "kitH": "Pressekit",
+  "kitLabel": "Pressekit herunterladen (ZIP)",
+  "singlesNote": "Falls ZIP-Archive in Ihrem Unternehmen aus Sicherheitsgründen nicht erlaubt sind: Alle Dateien gibt es auch einzeln.",
+  "pdfLabel": "Pressemitteilung (PDF)",
+  "docxLabel": "Pressemitteilung (Word)",
+  "mdLabel": "Pressemitteilung (Markdown)",
+  "printH": "Screenshots – druckfähig (PNG, 2880 px)",
+  "webH": "Screenshots – weboptimiert (JPG, 1600 px)",
+  "iconLabel": "App-Icon (PNG, 1024 px)"
 }

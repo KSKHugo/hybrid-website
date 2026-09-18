@@ -693,6 +693,35 @@ const PRESS_CONTACT = `Pascal Hugo<br>E-Mail: <a href="mailto:pascal@pascalhugo.
 
 const pressUrl = (lang, sub) => `${SITE_URL}/${lang.dir ? lang.dir + "/" : ""}press/${sub}`;
 
+// Dateinamen der Pressekit-Screenshots (druckfähig als PNG, weboptimiert als JPG)
+const PRESS_SHOTS = ["editor", "ai-comparison", "comparison", "collaboration", "preview", "lock"];
+
+// Download-Listen: das Kit als ZIP plus jede Datei einzeln — für Häuser,
+// die ZIP-Archive aus Sicherheitsgründen blocken.
+function pressDownloadsHtml(lang, p, root) {
+  const dl = `${root}press/downloads/`;
+  const doc = (ext, label) => `        <li><a href="${dl}${lang.code}/Hybrid-Press-Release-${lang.code}.${ext}">${esc(label)}</a></li>`;
+  const shots = (folder, ext) => PRESS_SHOTS.map((s) =>
+    `        <li><a href="${dl}${lang.code}/${folder}/${s}.${ext}">${s}.${ext}</a></li>`).join("\n");
+  return `      <h2>${esc(p.kitH)}</h2>
+      <p><a class="btn-primary" href="${dl}Hybrid-Pressekit-${lang.code}.zip">${esc(p.kitLabel)}</a></p>
+      <p>${esc(p.singlesNote)}</p>
+      <ul class="press-downloads">
+${doc("pdf", p.pdfLabel)}
+${doc("docx", p.docxLabel)}
+${doc("md", p.mdLabel)}
+        <li><a href="${dl}Hybrid-Icon-1024.png">${esc(p.iconLabel)}</a></li>
+      </ul>
+      <p><strong>${esc(p.printH)}</strong></p>
+      <ul class="press-downloads shots">
+${shots("screenshots-print", "png")}
+      </ul>
+      <p><strong>${esc(p.webH)}</strong></p>
+      <ul class="press-downloads shots">
+${shots("screenshots-web", "jpg")}
+      </ul>`;
+}
+
 function pressShell(lang, depth, title, desc, canonical, alternatesSub, bodyHtml) {
   const root = "../".repeat(depth);
   const home = lang.dir ? `${root}${lang.dir}/` : root;
@@ -751,10 +780,7 @@ function renderPressIndex(lang, p) {
       <h2>${esc(p.releasesH)}</h2>
       <p class="release-item"><a href="hybrid-1-0/">${esc(p.relTitle)}</a><br><span class="release-sub">${esc(p.relSub)}</span></p>
 
-      <h2>${esc(p.downloadsH)}</h2>
-      <ul class="press-downloads">
-${p.downloads.map((d) => `        <li><a href="${root}press/downloads/${d.href}">${esc(d.label)}</a></li>`).join("\n")}
-      </ul>
+${pressDownloadsHtml(lang, p, root)}
       <p class="legal-note">${esc(p.screenshotsNote)}</p>
 
       <h2>${esc(p.contactH)}</h2>
@@ -774,6 +800,8 @@ function renderPressRelease(lang, p) {
       <p><strong>${esc(p.relSub)}</strong></p>
 
 ${blocks}
+
+${pressDownloadsHtml(lang, p, "../".repeat(depth))}
 
       <h2>${esc(p.contactH)}</h2>
       <p>${PRESS_CONTACT}</p>

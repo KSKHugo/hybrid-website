@@ -4,10 +4,6 @@
   "areaIntro": "Comunicati, materiali e contatti per le redazioni.",
   "releasesH": "Comunicati stampa",
   "downloadsH": "Materiali",
-  "downloads": [
-    { "label": "Comunicato stampa in PDF (tedesco)", "href": "Pressemitteilung-Hybrid.pdf" },
-    { "label": "Comunicato stampa in documento Word (tedesco)", "href": "Pressemitteilung-Hybrid.docx" }
-  ],
   "screenshotsNote": "Gli screenshot nelle nove lingue sono mostrati nelle pagine prodotto di questo sito; altro materiale è disponibile su richiesta.",
   "contactH": "Contatto stampa",
   "kicker": "Comunicato stampa",
@@ -15,25 +11,94 @@
   "relTitle": "Hybrid per Mac: l'editor Markdown per le persone, l'IA e tutti quelli che pubblicano",
   "relSub": "La nuova app per macOS rende visibile la provenienza del testo e porta collaborazione in tempo reale e pubblicazione con un clic nella quotidianità editoriale. Prova gratuita di 7 giorni",
   "blocks": [
-    { "t": "p", "h": "Hybrid, un editor Markdown per macOS, è ora disponibile sul Mac App Store. Aiuta con una domanda che redazioni, agenzie e società di consulenza si pongono ogni giorno nell'era dell'IA: chi l'ha scritto, davvero? In Hybrid ogni passaggio porta la propria provenienza: digitato a mano, marcato come generato dall'IA, attribuito a una fonte con nome o contribuito da un collega. Questa attribuzione sopravvive a salvataggio, condivisione e scrittura a più mani — e fa della trasparenza un metodo di lavoro invece che un rimedio a posteriori." },
-    { "t": "p", "h": "L'app è stata sviluppata dal giornalista Pascal Hugo, da quasi 20 anni redattore e professionista dei media. <em>«In redazioni, agenzie e società di consulenza, persone e sistemi di IA scrivono insieme da tempo. Ma finora non c'era nessuna app che rispecchi onestamente questa collaborazione»</em>, dice Hugo. <em>«Gli strumenti fingono che un testo sia di un pezzo solo. In realtà è un intreccio di frasi proprie, suggerimenti dell'IA e citazioni. Hybrid mostra questo intreccio.»</em>" },
-    { "t": "h", "h": "Marcare la provenienza di un passaggio" },
-    { "t": "p", "h": "I passaggi dell'IA li marca l'autore stesso con un clic — e può togliere l'etichetta con la stessa facilità. La marcatura non è quindi una prova esterna ma uno strumento di lavoro: aiuta a mantenere la visione d'insieme, mentre si scrive e si rivede, su quali passaggi vengono da dove. Le fonti esterne come Wikipedia possono ricevere un proprio nome e un'etichetta colorata sul paragrafo. La barra laterale indica la parte di ogni partecipante nel documento, per esempio 57 per cento scritto da sé, 25 per cento generato dall'IA, 18 per cento da una fonte esterna. Ciò che viene salvato resta comunque puro Markdown: i dati di provenienza viaggiano come un unico commento invisibile nel file .md, che qualsiasi altro editor può aprire." },
-    { "t": "p", "h": "Il testo scritto può essere esportato con un clic in un documento Word o in un PDF, per esempio per concordarlo con il cliente. Per la pubblicazione online, Hybrid consente di esportare l'articolo come HTML, con immagini, tabelle e link incorporati. Il documento può poi essere incollato in WordPress e altri sistemi di gestione dei contenuti senza ulteriore formattazione. Le etichette restano nel file Markdown dell'autore e non compaiono in nessuna versione esportata." },
-    { "t": "q", "h": "«Chi scrive con l'IA perde in fretta il filo di quale frase sia di chi», dice Hugo. «Quando un testo esce, voglio ancora sapere cosa viene da me, cosa dall'intervista e cosa dal chatbot. Questa risposta me la deve dare il documento stesso, non la mia memoria.»" },
-    { "t": "h", "h": "Perché Markdown?" },
-    { "t": "p", "h": "Che Hybrid punti su Markdown ha una ragione semplice: i file Markdown si leggono e si modificano con la stessa facilità per le persone e per gli strumenti di IA. È quindi il formato perfetto per la collaborazione tra uomo e macchina. Allo stesso tempo, ogni documento Hybrid resta un normale file .md senza vincoli proprietari, che qualsiasi altro editor può aprire." },
-    { "t": "h", "h": "Confrontare, collaborare, pubblicare" },
-    { "t": "p", "h": "A volte si vogliono confrontare documenti quasi identici per individuare le differenze. In cosa si distingue il testo scritto da ChatGPT da quello scritto da Claude? Per confrontare, ad esempio, le prestazioni dei modelli di IA, Hybrid include un confronto fianco a fianco: le differenze vengono, su richiesta, evidenziate a colori e contate. Con un clic il testo può tornare a ChatGPT, Claude, Perplexity o a uno strumento a scelta per essere rielaborato. Quando il risultato viene inserito nel testo, l'autore può marcarlo come «generato dall'IA»." },
-    { "t": "p", "h": "La collaborazione in tempo reale con colleghi o esterni passa dall'iCloud del proprietario del documento: gli invitati scrivono in diretta e ogni passaggio porta nome e colore del suo autore. Mentre qualcuno digita appare un indicatore con puntini pulsanti. Il documento non lascia mai l'account del proprietario. Gli ospiti hanno bisogno di un proprio account iCloud, ma scrivono senza un abbonamento proprio. Per tutelare i dati, gli ospiti non possono né esportare il file né salvarne una copia." },
-    { "t": "p", "h": "Per la pubblicazione, Hybrid copia il documento come HTML formattato con immagini incorporate — pronto da incollare in WordPress e altri sistemi di gestione dei contenuti. A questo si aggiungono l'export in PDF e Word, un'anteprima dal vivo come finestra propria o vista divisa, una cronologia delle versioni automatica, immagini e tabelle con il trascinamento e un blocco con Touch ID." },
-    { "t": "h", "h": "Cronologia delle versioni automatica" },
-    { "t": "p", "h": "Mentre si scrive, Hybrid salva automaticamente stati intermedi circa dieci secondi dopo l'ultima battuta, senza che l'autore debba pensarci. Ogni stato compare con data e ora nella cronologia della barra laterale, si può consultare e ripristinare con un clic. Lo stato attuale viene prima salvato a sua volta come versione: non si perde nulla. La cronologia non vive nel file ma nell'account iCloud dell'autore: il file Markdown resta snello e i documenti condivisi non contengono versioni precedenti. I passaggi cancellati non viaggiano di nascosto. La cronologia è legata al documento da un identificativo stabile e lo ritrova anche dopo una rinomina o uno spostamento, persino su un altro Mac." },
-    { "t": "h", "h": "Per chi pubblica" },
-    { "t": "p", "h": "Hybrid si rivolge a tutti coloro i cui testi nascono da più mani: PR e comunicazione, marketing e agenzie, redazioni e giornalismo, consulenza, professionisti dell'IA e team di pubblicazione online e di contenuti. <em>«Il bisogno è ovunque lo stesso»</em>, dice Hugo. <em>«Che sia un comunicato stampa, un testo di campagna o un report di consulenza: appena l'IA scrive insieme a te, devi poter sapere cosa è di chi — senza che questo rallenti il lavoro. È esattamente per questo che ho costruito Hybrid.»</em>" },
-    { "t": "h", "h": "Prezzo e disponibilità" },
-    { "t": "p", "h": "Hybrid è disponibile sul <a href=\"https://apps.apple.com/app/hybrid-editor/id6809209701\" rel=\"noopener\">Mac App Store</a> e dopo l'installazione è <strong>gratuito e pienamente utilizzabile per 7 giorni</strong> — senza account e senza dati di pagamento. Poi l'abbonamento Hybrid Pro sblocca tutte le funzioni per <strong>2,99 euro al mese o 24,99 euro all'anno</strong>. Senza abbonamento Hybrid resta un lettore di documenti Markdown. L'app gira su macOS 13 (Ventura) o successivo, su Apple Silicon e Intel, ed è disponibile in nove lingue: tedesco, inglese, francese, spagnolo, italiano, portoghese, olandese, giapponese e cinese semplificato. Una versione per iPhone e iPad è in lavorazione; la beta pubblica tramite TestFlight di Apple è già iniziata. Chi vuole scrivere in anteprima e dare il proprio riscontro può partecipare gratuitamente: <a href=\"https://testflight.apple.com/join/vSs27gRv\" rel=\"noopener\">testflight.apple.com/join/vSs27gRv</a>." },
-    { "t": "h", "h": "Sullo sviluppatore" },
-    { "t": "p", "h": "Pascal Hugo lavora da quasi 20 anni come giornalista, redattore e professionista dei media. Hybrid è nato dalla sua pratica redazionale: come risposta a un divario tra strumenti di IA che scrivono, strumenti redazionali che non ne vogliono sapere e funzioni di esportazione insufficienti per la pubblicazione online." }
-  ]
+    {
+      "t": "p",
+      "h": "Hybrid, un editor Markdown per macOS, è ora disponibile sul Mac App Store. Aiuta con una domanda che redazioni, agenzie e società di consulenza si pongono ogni giorno nell'era dell'IA: chi l'ha scritto, davvero? In Hybrid ogni passaggio porta la propria provenienza: digitato a mano, marcato come generato dall'IA, attribuito a una fonte con nome o contribuito da un collega. Questa attribuzione sopravvive a salvataggio, condivisione e scrittura a più mani — e fa della trasparenza un metodo di lavoro invece che un rimedio a posteriori."
+    },
+    {
+      "t": "p",
+      "h": "L'app è stata sviluppata dal giornalista Pascal Hugo, da quasi 20 anni redattore e professionista dei media. <em>«In redazioni, agenzie e società di consulenza, persone e sistemi di IA scrivono insieme da tempo. Ma finora non c'era nessuna app che rispecchi onestamente questa collaborazione»</em>, dice Hugo. <em>«Gli strumenti fingono che un testo sia di un pezzo solo. In realtà è un intreccio di frasi proprie, suggerimenti dell'IA e citazioni. Hybrid mostra questo intreccio.»</em>"
+    },
+    {
+      "t": "h",
+      "h": "Marcare la provenienza di un passaggio"
+    },
+    {
+      "t": "p",
+      "h": "I passaggi dell'IA li marca l'autore stesso con un clic — e può togliere l'etichetta con la stessa facilità. La marcatura non è quindi una prova esterna ma uno strumento di lavoro: aiuta a mantenere la visione d'insieme, mentre si scrive e si rivede, su quali passaggi vengono da dove. Le fonti esterne come Wikipedia possono ricevere un proprio nome e un'etichetta colorata sul paragrafo. La barra laterale indica la parte di ogni partecipante nel documento, per esempio 57 per cento scritto da sé, 25 per cento generato dall'IA, 18 per cento da una fonte esterna. Ciò che viene salvato resta comunque puro Markdown: i dati di provenienza viaggiano come un unico commento invisibile nel file .md, che qualsiasi altro editor può aprire."
+    },
+    {
+      "t": "p",
+      "h": "Il testo scritto può essere esportato con un clic in un documento Word o in un PDF, per esempio per concordarlo con il cliente. Per la pubblicazione online, Hybrid consente di esportare l'articolo come HTML, con immagini, tabelle e link incorporati. Il documento può poi essere incollato in WordPress e altri sistemi di gestione dei contenuti senza ulteriore formattazione. Le etichette restano nel file Markdown dell'autore e non compaiono in nessuna versione esportata."
+    },
+    {
+      "t": "q",
+      "h": "«Chi scrive con l'IA perde in fretta il filo di quale frase sia di chi», dice Hugo. «Quando un testo esce, voglio ancora sapere cosa viene da me, cosa dall'intervista e cosa dal chatbot. Questa risposta me la deve dare il documento stesso, non la mia memoria.»"
+    },
+    {
+      "t": "h",
+      "h": "Perché Markdown?"
+    },
+    {
+      "t": "p",
+      "h": "Che Hybrid punti su Markdown ha una ragione semplice: i file Markdown si leggono e si modificano con la stessa facilità per le persone e per gli strumenti di IA. È quindi il formato perfetto per la collaborazione tra uomo e macchina. Allo stesso tempo, ogni documento Hybrid resta un normale file .md senza vincoli proprietari, che qualsiasi altro editor può aprire."
+    },
+    {
+      "t": "h",
+      "h": "Confrontare, collaborare, pubblicare"
+    },
+    {
+      "t": "p",
+      "h": "A volte si vogliono confrontare documenti quasi identici per individuare le differenze. In cosa si distingue il testo scritto da ChatGPT da quello scritto da Claude? Per confrontare, ad esempio, le prestazioni dei modelli di IA, Hybrid include un confronto fianco a fianco: le differenze vengono, su richiesta, evidenziate a colori e contate. Con un clic il testo può tornare a ChatGPT, Claude, Perplexity o a uno strumento a scelta per essere rielaborato. Quando il risultato viene inserito nel testo, l'autore può marcarlo come «generato dall'IA»."
+    },
+    {
+      "t": "p",
+      "h": "La collaborazione in tempo reale con colleghi o esterni passa dall'iCloud del proprietario del documento: gli invitati scrivono in diretta e ogni passaggio porta nome e colore del suo autore. Mentre qualcuno digita appare un indicatore con puntini pulsanti. Il documento non lascia mai l'account del proprietario. Gli ospiti hanno bisogno di un proprio account iCloud, ma scrivono senza un abbonamento proprio. Per tutelare i dati, gli ospiti non possono né esportare il file né salvarne una copia."
+    },
+    {
+      "t": "p",
+      "h": "Per la pubblicazione, Hybrid copia il documento come HTML formattato con immagini incorporate — pronto da incollare in WordPress e altri sistemi di gestione dei contenuti. A questo si aggiungono l'export in PDF e Word, un'anteprima dal vivo come finestra propria o vista divisa, una cronologia delle versioni automatica, immagini e tabelle con il trascinamento e un blocco con Touch ID."
+    },
+    {
+      "t": "h",
+      "h": "Cronologia delle versioni automatica"
+    },
+    {
+      "t": "p",
+      "h": "Mentre si scrive, Hybrid salva automaticamente stati intermedi circa dieci secondi dopo l'ultima battuta, senza che l'autore debba pensarci. Ogni stato compare con data e ora nella cronologia della barra laterale, si può consultare e ripristinare con un clic. Lo stato attuale viene prima salvato a sua volta come versione: non si perde nulla. La cronologia non vive nel file ma nell'account iCloud dell'autore: il file Markdown resta snello e i documenti condivisi non contengono versioni precedenti. I passaggi cancellati non viaggiano di nascosto. La cronologia è legata al documento da un identificativo stabile e lo ritrova anche dopo una rinomina o uno spostamento, persino su un altro Mac."
+    },
+    {
+      "t": "h",
+      "h": "Per chi pubblica"
+    },
+    {
+      "t": "p",
+      "h": "Hybrid si rivolge a tutti coloro i cui testi nascono da più mani: PR e comunicazione, marketing e agenzie, redazioni e giornalismo, consulenza, professionisti dell'IA e team di pubblicazione online e di contenuti. <em>«Il bisogno è ovunque lo stesso»</em>, dice Hugo. <em>«Che sia un comunicato stampa, un testo di campagna o un report di consulenza: appena l'IA scrive insieme a te, devi poter sapere cosa è di chi — senza che questo rallenti il lavoro. È esattamente per questo che ho costruito Hybrid.»</em>"
+    },
+    {
+      "t": "h",
+      "h": "Prezzo e disponibilità"
+    },
+    {
+      "t": "p",
+      "h": "Hybrid è disponibile sul <a href=\"https://apps.apple.com/app/hybrid-editor/id6809209701\" rel=\"noopener\">Mac App Store</a> e dopo l'installazione è <strong>gratuito e pienamente utilizzabile per 7 giorni</strong> — senza account e senza dati di pagamento. Poi l'abbonamento Hybrid Pro sblocca tutte le funzioni per <strong>2,99 euro al mese o 24,99 euro all'anno</strong>. Senza abbonamento Hybrid resta un lettore di documenti Markdown. L'app gira su macOS 13 (Ventura) o successivo, su Apple Silicon e Intel, ed è disponibile in nove lingue: tedesco, inglese, francese, spagnolo, italiano, portoghese, olandese, giapponese e cinese semplificato. Una versione per iPhone e iPad è in lavorazione; la beta pubblica tramite TestFlight di Apple è già iniziata. Chi vuole scrivere in anteprima e dare il proprio riscontro può partecipare gratuitamente: <a href=\"https://testflight.apple.com/join/vSs27gRv\" rel=\"noopener\">testflight.apple.com/join/vSs27gRv</a>."
+    },
+    {
+      "t": "h",
+      "h": "Sullo sviluppatore"
+    },
+    {
+      "t": "p",
+      "h": "Pascal Hugo lavora da quasi 20 anni come giornalista, redattore e professionista dei media. Hybrid è nato dalla sua pratica redazionale: come risposta a un divario tra strumenti di IA che scrivono, strumenti redazionali che non ne vogliono sapere e funzioni di esportazione insufficienti per la pubblicazione online."
+    }
+  ],
+  "kitH": "Press kit",
+  "kitLabel": "Scarica il press kit (ZIP)",
+  "singlesNote": "Se nella vostra azienda gli archivi ZIP non sono consentiti per motivi di sicurezza, tutti i file sono disponibili anche singolarmente.",
+  "pdfLabel": "Comunicato stampa (PDF)",
+  "docxLabel": "Comunicato stampa (Word)",
+  "mdLabel": "Comunicato stampa (Markdown)",
+  "printH": "Screenshot – qualità di stampa (PNG, 2880 px)",
+  "webH": "Screenshot – ottimizzati per il web (JPG, 1600 px)",
+  "iconLabel": "Icona dell'app (PNG, 1024 px)"
 }

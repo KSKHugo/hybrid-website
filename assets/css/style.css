@@ -594,3 +594,6 @@ main > section.feature-scene { max-width: 1280px; }
 
 /* Bernstein-Hervorhebung in Überschriften (wie in den Store-Bildern) */
 h1 .hl, h2 .hl { color: var(--amber); }
+
+.press-downloads.shots { columns: 2; }
+.press .btn-primary { margin-bottom: 6px; }
