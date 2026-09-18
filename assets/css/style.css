@@ -528,6 +528,11 @@ main > section {
     scroll-padding-top: 72px;
   }
   .segment { scroll-snap-align: start; }
+  /* Die letzte Szene rastet nicht ein — sonst schnappt die Seite vom
+     kurzen Footer immer wieder zur CTA-Szene zurück und das Seitenende
+     bleibt unerreichbar. */
+  .cta.segment { scroll-snap-align: none; }
+  .site-footer { scroll-snap-align: end; }
   .hero, .feature-scene, .provenance, .cards-scene,
   .audiences, .pro, .ios, .cta {
     min-height: 100svh;
