@@ -120,8 +120,9 @@ function render(t, lang) {
           <p>${esc(a.p)}</p>
         </article>`).join("\n");
 
-  const badge = (extra) => `<a class="store-badge${extra || ""}" href="${APP_STORE_URL}" rel="noopener">
-            <img src="${abs(`assets/badges/badge-${lang.code}.svg`)}" alt="${esc(t.hero.badgeAlt)}" width="195" height="49"></a>`;
+  // white: die weiße Badge-Variante für dunkle/farbige Flächen (CTA-Band).
+  const badge = (extra, white) => `<a class="store-badge${extra || ""}" href="${APP_STORE_URL}" rel="noopener">
+            <img src="${abs(`assets/badges/badge-${lang.code}${white ? "-w" : ""}.svg`)}" alt="${esc(t.hero.badgeAlt)}" width="195" height="49"></a>`;
 
   return `<!doctype html>
 <html lang="${lang.hreflang}">
@@ -247,7 +248,7 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
     <section class="cta segment reveal-group" id="download">
       <h2>${hl(t.cta.h2)}</h2>
       <p>${esc(t.cta.p)}</p>
-      ${badge(" badge-lg")}
+      ${badge(" badge-lg", true)}
       <p class="requirements">${esc(t.footer.requirements)}</p>
     </section>
   </main>

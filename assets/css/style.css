@@ -9,6 +9,7 @@
   --amber: #B45208;
   --amber-deep: #92400E;
   --amber-tint: #F6EADC;
+  --amber-wash: #FAF1E5;
   --line: #E8E4E0;
   --ai: #8F3FD6;
   --ai-tint: #F3EAFB;
@@ -48,6 +49,8 @@ p { margin: 0 0 1em; }
 
 a { color: var(--amber); text-decoration: none; }
 a:hover { color: var(--amber-deep); }
+
+::selection { background: var(--amber-tint); }
 
 main > section {
   max-width: 1080px;
@@ -170,7 +173,11 @@ main > section {
 .lang-menu-list a[aria-current="page"] { color: var(--amber); font-weight: 600; }
 
 /* ── Hero ─────────────────────────────────────────────────────────────── */
-.hero { text-align: center; padding-top: 56px; }
+.hero {
+  text-align: center;
+  padding-top: 56px;
+  background: radial-gradient(58% 42% at 50% 0%, var(--amber-tint) 0%, rgba(246, 234, 220, 0) 74%);
+}
 .eyebrow {
   display: inline-block;
   font-size: 0.85rem;
@@ -241,7 +248,7 @@ main > section {
   flex-wrap: wrap;
 }
 .ios-pill {
-  background: var(--ink);
+  background: var(--amber);
   color: var(--paper);
   font-size: 0.75rem;
   font-weight: 700;
@@ -463,6 +470,32 @@ main > section {
   padding-left: 14px;
 }
 .legal-back { margin-top: 3em; }
+
+/* ── Bernstein-Bänder und -Akzente ────────────────────────────────────── */
+/* Volle Seitenbreite trotz zentrierter Sektionen: der box-shadow/clip-
+   path-Trick malt den Hintergrund über den Viewport hinaus. */
+.provenance, .pro {
+  background: var(--amber-wash);
+  box-shadow: 0 0 0 100vmax var(--amber-wash);
+  clip-path: inset(0 -100vmax);
+}
+
+.cta {
+  background: var(--amber);
+  box-shadow: 0 0 0 100vmax var(--amber);
+  clip-path: inset(0 -100vmax);
+}
+.cta h2 { color: #FFFFFF; }
+.cta h2 .hl { color: #FFD9AE; }
+.cta p, .cta .requirements { color: rgba(255, 247, 239, 0.9); }
+
+.card, .aud-card, .pro-point {
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover, .aud-card:hover, .pro-point:hover {
+  border-color: #DDAF80;
+  box-shadow: 0 6px 20px rgba(180, 82, 8, 0.12);
+}
 
 /* ── Segmentierter Scroll (Apple-artig) ───────────────────────────────── */
 /* Vollhohe Szenen mit sanftem Einrasten — proximity statt mandatory,

@@ -35,7 +35,10 @@ http.createServer((req, res) => {
       res.writeHead(404, { "Content-Type": "text/plain" });
       return res.end("404");
     }
-    res.writeHead(200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream" });
+    res.writeHead(200, {
+      "Content-Type": TYPES[path.extname(file)] || "application/octet-stream",
+      "Cache-Control": "no-store",
+    });
     res.end(data);
   });
 }).listen(PORT, () => console.log(`http://localhost:${PORT}/`));
