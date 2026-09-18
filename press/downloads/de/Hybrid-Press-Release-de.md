@@ -48,4 +48,6 @@ Pascal Hugo
 E-Mail: pascal@pascalhugo.de
 Web: [hybrid-editor.com](https://hybrid-editor.com)
 
+Hochauflösende (druckfähige) und weboptimierte Screenshots stehen auf der Website zum Download bereit: [hybrid-editor.com/de/press/hybrid-1-0/](https://hybrid-editor.com/de/press/hybrid-1-0/)
+
 *Abdruck honorarfrei, Belegexemplar erbeten.*

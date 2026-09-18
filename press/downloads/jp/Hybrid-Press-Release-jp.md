@@ -48,4 +48,6 @@ Pascal Hugo
 E-Mail: pascal@pascalhugo.de
 Web: [hybrid-editor.com](https://hybrid-editor.com)
 
+高解像度（印刷用）およびWeb用に最適化したスクリーンショットは、ウェブサイトからダウンロードできます：[hybrid-editor.com/jp/press/hybrid-1-0/](https://hybrid-editor.com/jp/press/hybrid-1-0/)
+
 *転載自由・使用料不要。掲載紙（誌）のご恵送をお願いします。*
