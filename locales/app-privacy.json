@@ -3,7 +3,7 @@
     "htmlLang": "en",
     "homeDir": "",
     "title": "Privacy Policy for the Hybrid App",
-    "desc": "Privacy policy of the Hybrid Mac app: no developer servers, no analytics — documents stay local or in your iCloud, the subscription is handled by Apple.",
+    "desc": "Privacy policy of the Hybrid app for Mac, iPhone, and iPad: no developer servers, no analytics — documents stay local or in your iCloud, the subscription is handled by Apple.",
     "note": "This is a courtesy translation; the <a href=\"../\">German version</a> is the binding one.",
     "back": "← Back to the home page",
     "sections": [
@@ -16,7 +16,7 @@
       {
         "h": "2. The essentials first",
         "html": [
-          "Hybrid is a Markdown editor for macOS. The app has no account system, operates no servers of its own, and contains no analytics, advertising, or tracking services. Your documents are processed exclusively on your Mac and — if you use it — in your own iCloud account. As the developer, I never have access to your documents, their contents, or their metadata."
+          "Hybrid is a Markdown editor for macOS, iPhone, and iPad. The app has no account system, operates no servers of its own, and contains no analytics, advertising, or tracking services. Your documents are processed exclusively on your device and — if you use it — in your own iCloud account. As the developer, I never have access to your documents, their contents, or their metadata."
         ]
       },
       {
@@ -35,7 +35,7 @@
       {
         "h": "5. Subscription and free trial (App Store)",
         "html": [
-          "The subscription is handled entirely through Apple's App Store (StoreKit). Purchase, payment, billing, renewal, and cancellation are processed by Apple under Apple's own privacy policy; I receive neither your name nor your address or payment details. The app merely asks the App Store whether a valid subscription exists in order to unlock its features. The start of the free trial is stored locally in your Mac's keychain. You can manage and cancel the subscription at any time in the App Store settings of your Apple account."
+          "The subscription is handled entirely through Apple's App Store (StoreKit). Purchase, payment, billing, renewal, and cancellation are processed by Apple under Apple's own privacy policy; I receive neither your name nor your address or payment details. The app merely asks the App Store whether a valid subscription exists in order to unlock its features. The start of the free trial is stored locally in your device's keychain. You can manage and cancel the subscription at any time in the App Store settings of your Apple account."
         ]
       },
       {
@@ -47,19 +47,19 @@
       {
         "h": "7. Apple Writing Tools",
         "html": [
-          "If you use Apple's Writing Tools (proofread, rewrite, summarize; macOS 15.2 or later), Apple processes the selected text under the rules of Apple Intelligence — on device or in Apple's Private Cloud Compute. This processing is Apple's; Hybrid only passes your selection to the system."
+          "If you use Apple's Writing Tools (proofread, rewrite, summarize; on the Mac from macOS 15.2, on iPhone and iPad from iOS 18), Apple processes the selected text under the rules of Apple Intelligence — on device or in Apple's Private Cloud Compute. This processing is Apple's; Hybrid only passes your selection to the system."
         ]
       },
       {
-        "h": "8. Touch ID lock",
+        "h": "8. Touch ID / Face ID lock",
         "html": [
-          "The optional lock uses the biometric features of macOS. Your biometric data remains in your Mac's Secure Enclave and is not accessible to Hybrid — the app only learns whether unlocking succeeded."
+          "The optional lock uses the biometric features of your device. Your biometric data remains in your device's Secure Enclave and is not accessible to Hybrid — the app only learns whether unlocking succeeded."
         ]
       },
       {
         "h": "9. No data collection by the developer",
         "html": [
-          "Hybrid contacts no developer servers and contains no third-party analytics or crash-reporting services. Crash reports reach me at most in anonymized form via Apple — and only if you have allowed the sharing of diagnostic data in your macOS settings yourself."
+          "Hybrid contacts no developer servers and contains no third-party analytics or crash-reporting services. Crash reports reach me at most in anonymized form via Apple — and only if you have allowed the sharing of diagnostic data in your device's settings yourself."
         ]
       },
       {
@@ -80,7 +80,7 @@
     "htmlLang": "fr",
     "homeDir": "fr",
     "title": "Politique de confidentialité de l'app Hybrid",
-    "desc": "Politique de confidentialité de l'app Mac Hybrid : pas de serveurs du développeur, pas d'analyse — les documents restent en local ou dans votre iCloud, l'abonnement est géré par Apple.",
+    "desc": "Politique de confidentialité de l'app Hybrid pour Mac, iPhone et iPad : pas de serveurs du développeur, pas d'analyse — les documents restent en local ou dans votre iCloud, l'abonnement est géré par Apple.",
     "note": "Ceci est une traduction de courtoisie ; la <a href=\"../\">version allemande</a> fait foi.",
     "back": "← Retour à l'accueil",
     "sections": [
@@ -93,7 +93,7 @@
       {
         "h": "2. L'essentiel d'abord",
         "html": [
-          "Hybrid est un éditeur Markdown pour macOS. L'app n'a pas de système de compte, n'exploite aucun serveur propre et ne contient aucun service d'analyse, de publicité ou de suivi. Vos documents sont traités exclusivement sur votre Mac et — si vous l'utilisez — dans votre propre compte iCloud. En tant que développeur, je n'ai jamais accès à vos documents, à leur contenu ni à leurs métadonnées."
+          "Hybrid est un éditeur Markdown pour macOS, iPhone et iPad. L'app n'a pas de système de compte, n'exploite aucun serveur propre et ne contient aucun service d'analyse, de publicité ou de suivi. Vos documents sont traités exclusivement sur votre appareil et — si vous l'utilisez — dans votre propre compte iCloud. En tant que développeur, je n'ai jamais accès à vos documents, à leur contenu ni à leurs métadonnées."
         ]
       },
       {
@@ -112,7 +112,7 @@
       {
         "h": "5. Abonnement et essai gratuit (App Store)",
         "html": [
-          "L'abonnement est entièrement géré par l'App Store d'Apple (StoreKit). Achat, paiement, facturation, renouvellement et résiliation sont traités par Apple selon sa propre politique de confidentialité ; je ne reçois ni votre nom, ni votre adresse, ni vos données de paiement. L'app demande seulement à l'App Store si un abonnement valide existe afin de débloquer ses fonctions. Le début de l'essai gratuit est enregistré localement dans le trousseau de votre Mac. Vous pouvez gérer et résilier l'abonnement à tout moment dans les réglages App Store de votre compte Apple."
+          "L'abonnement est entièrement géré par l'App Store d'Apple (StoreKit). Achat, paiement, facturation, renouvellement et résiliation sont traités par Apple selon sa propre politique de confidentialité ; je ne reçois ni votre nom, ni votre adresse, ni vos données de paiement. L'app demande seulement à l'App Store si un abonnement valide existe afin de débloquer ses fonctions. Le début de l'essai gratuit est enregistré localement dans le trousseau de votre appareil. Vous pouvez gérer et résilier l'abonnement à tout moment dans les réglages App Store de votre compte Apple."
         ]
       },
       {
@@ -124,19 +124,19 @@
       {
         "h": "7. Outils d'écriture Apple",
         "html": [
-          "Si vous utilisez les outils d'écriture d'Apple (relecture, réécriture, résumé ; macOS 15.2 ou ultérieur), Apple traite le texte sélectionné selon les règles d'Apple Intelligence — sur l'appareil ou dans le Private Cloud Compute d'Apple. Ce traitement relève d'Apple ; Hybrid ne fait que transmettre votre sélection au système."
+          "Si vous utilisez les outils d'écriture d'Apple (relecture, réécriture, résumé ; sur Mac à partir de macOS 15.2, sur iPhone et iPad à partir d'iOS 18), Apple traite le texte sélectionné selon les règles d'Apple Intelligence — sur l'appareil ou dans le Private Cloud Compute d'Apple. Ce traitement relève d'Apple ; Hybrid ne fait que transmettre votre sélection au système."
         ]
       },
       {
-        "h": "8. Verrouillage Touch ID",
+        "h": "8. Verrouillage Touch ID / Face ID",
         "html": [
-          "Le verrouillage optionnel utilise les fonctions biométriques de macOS. Vos données biométriques restent dans la Secure Enclave de votre Mac et ne sont pas accessibles à Hybrid — l'app apprend seulement si le déverrouillage a réussi."
+          "Le verrouillage optionnel utilise les fonctions biométriques de votre appareil. Vos données biométriques restent dans la Secure Enclave de votre appareil et ne sont pas accessibles à Hybrid — l'app apprend seulement si le déverrouillage a réussi."
         ]
       },
       {
         "h": "9. Aucune collecte de données par le développeur",
         "html": [
-          "Hybrid ne contacte aucun serveur du développeur et ne contient aucun service tiers d'analyse ou de rapport de plantage. Les rapports de plantage ne me parviennent au plus qu'anonymisés via Apple — et seulement si vous avez vous-même autorisé le partage des données de diagnostic dans les réglages de macOS."
+          "Hybrid ne contacte aucun serveur du développeur et ne contient aucun service tiers d'analyse ou de rapport de plantage. Les rapports de plantage ne me parviennent au plus qu'anonymisés via Apple — et seulement si vous avez vous-même autorisé le partage des données de diagnostic dans les réglages de votre appareil."
         ]
       },
       {
@@ -157,7 +157,7 @@
     "htmlLang": "es",
     "homeDir": "es",
     "title": "Política de privacidad de la app Hybrid",
-    "desc": "Política de privacidad de la app para Mac Hybrid: sin servidores del desarrollador, sin análisis — los documentos quedan en local o en tu iCloud, la suscripción la gestiona Apple.",
+    "desc": "Política de privacidad de la app Hybrid para Mac, iPhone y iPad: sin servidores del desarrollador, sin análisis — los documentos quedan en local o en tu iCloud, la suscripción la gestiona Apple.",
     "note": "Esta es una traducción de cortesía; la <a href=\"../\">versión alemana</a> es la vinculante.",
     "back": "← Volver a la página principal",
     "sections": [
@@ -170,7 +170,7 @@
       {
         "h": "2. Lo esencial primero",
         "html": [
-          "Hybrid es un editor Markdown para macOS. La app no tiene sistema de cuentas, no opera servidores propios y no contiene servicios de análisis, publicidad o rastreo. Tus documentos se procesan exclusivamente en tu Mac y — si lo usas — en tu propia cuenta de iCloud. Como desarrollador, nunca tengo acceso a tus documentos, su contenido o sus metadatos."
+          "Hybrid es un editor Markdown para macOS, iPhone y iPad. La app no tiene sistema de cuentas, no opera servidores propios y no contiene servicios de análisis, publicidad o rastreo. Tus documentos se procesan exclusivamente en tu dispositivo y — si lo usas — en tu propia cuenta de iCloud. Como desarrollador, nunca tengo acceso a tus documentos, su contenido o sus metadatos."
         ]
       },
       {
@@ -189,7 +189,7 @@
       {
         "h": "5. Suscripción y prueba gratuita (App Store)",
         "html": [
-          "La suscripción se gestiona íntegramente a través del App Store de Apple (StoreKit). Compra, pago, facturación, renovación y cancelación los procesa Apple conforme a su propia política de privacidad; yo no recibo ni tu nombre ni tu dirección ni tus datos de pago. La app solo pregunta al App Store si existe una suscripción válida para desbloquear sus funciones. El inicio de la prueba gratuita se guarda localmente en el llavero de tu Mac. Puedes gestionar y cancelar la suscripción en cualquier momento en los ajustes del App Store de tu cuenta de Apple."
+          "La suscripción se gestiona íntegramente a través del App Store de Apple (StoreKit). Compra, pago, facturación, renovación y cancelación los procesa Apple conforme a su propia política de privacidad; yo no recibo ni tu nombre ni tu dirección ni tus datos de pago. La app solo pregunta al App Store si existe una suscripción válida para desbloquear sus funciones. El inicio de la prueba gratuita se guarda localmente en el llavero de tu dispositivo. Puedes gestionar y cancelar la suscripción en cualquier momento en los ajustes del App Store de tu cuenta de Apple."
         ]
       },
       {
@@ -201,19 +201,19 @@
       {
         "h": "7. Herramientas de escritura de Apple",
         "html": [
-          "Si usas las herramientas de escritura de Apple (corregir, reescribir, resumir; macOS 15.2 o posterior), Apple procesa el texto seleccionado según las reglas de Apple Intelligence — en el dispositivo o en el Private Cloud Compute de Apple. Ese procesamiento es de Apple; Hybrid solo pasa tu selección al sistema."
+          "Si usas las herramientas de escritura de Apple (corregir, reescribir, resumir; en el Mac desde macOS 15.2, en iPhone y iPad desde iOS 18), Apple procesa el texto seleccionado según las reglas de Apple Intelligence — en el dispositivo o en el Private Cloud Compute de Apple. Ese procesamiento es de Apple; Hybrid solo pasa tu selección al sistema."
         ]
       },
       {
-        "h": "8. Bloqueo con Touch ID",
+        "h": "8. Bloqueo con Touch ID o Face ID",
         "html": [
-          "El bloqueo opcional usa las funciones biométricas de macOS. Tus datos biométricos permanecen en la Secure Enclave de tu Mac y no son accesibles para Hybrid — la app solo sabe si el desbloqueo tuvo éxito."
+          "El bloqueo opcional usa las funciones biométricas de tu dispositivo. Tus datos biométricos permanecen en la Secure Enclave de tu dispositivo y no son accesibles para Hybrid — la app solo sabe si el desbloqueo tuvo éxito."
         ]
       },
       {
         "h": "9. Ninguna recogida de datos por el desarrollador",
         "html": [
-          "Hybrid no contacta con servidores del desarrollador y no contiene servicios de terceros de análisis o informes de fallos. Los informes de fallos me llegan, como mucho, anonimizados a través de Apple — y solo si tú mismo has permitido compartir datos de diagnóstico en los ajustes de macOS."
+          "Hybrid no contacta con servidores del desarrollador y no contiene servicios de terceros de análisis o informes de fallos. Los informes de fallos me llegan, como mucho, anonimizados a través de Apple — y solo si tú mismo has permitido compartir datos de diagnóstico en los ajustes de tu dispositivo."
         ]
       },
       {
@@ -234,7 +234,7 @@
     "htmlLang": "it",
     "homeDir": "it",
     "title": "Informativa sulla privacy dell'app Hybrid",
-    "desc": "Informativa sulla privacy dell'app per Mac Hybrid: nessun server dello sviluppatore, nessuna analisi — i documenti restano in locale o nel tuo iCloud, l'abbonamento è gestito da Apple.",
+    "desc": "Informativa sulla privacy dell'app Hybrid per Mac, iPhone e iPad: nessun server dello sviluppatore, nessuna analisi — i documenti restano in locale o nel tuo iCloud, l'abbonamento è gestito da Apple.",
     "note": "Questa è una traduzione di cortesia; fa fede la <a href=\"../\">versione tedesca</a>.",
     "back": "← Torna alla pagina iniziale",
     "sections": [
@@ -247,7 +247,7 @@
       {
         "h": "2. L'essenziale",
         "html": [
-          "Hybrid è un editor Markdown per macOS. L'app non ha un sistema di account, non gestisce server propri e non contiene servizi di analisi, pubblicità o tracciamento. I tuoi documenti vengono elaborati esclusivamente sul tuo Mac e — se lo usi — nel tuo account iCloud. Come sviluppatore non ho mai accesso ai tuoi documenti, ai loro contenuti o ai loro metadati."
+          "Hybrid è un editor Markdown per macOS, iPhone e iPad. L'app non ha un sistema di account, non gestisce server propri e non contiene servizi di analisi, pubblicità o tracciamento. I tuoi documenti vengono elaborati esclusivamente sul tuo dispositivo e — se lo usi — nel tuo account iCloud. Come sviluppatore non ho mai accesso ai tuoi documenti, ai loro contenuti o ai loro metadati."
         ]
       },
       {
@@ -266,7 +266,7 @@
       {
         "h": "5. Abbonamento e prova gratuita (App Store)",
         "html": [
-          "L'abbonamento è gestito interamente tramite l'App Store di Apple (StoreKit). Acquisto, pagamento, fatturazione, rinnovo e disdetta sono elaborati da Apple secondo la propria informativa; io non ricevo né il tuo nome né il tuo indirizzo né i tuoi dati di pagamento. L'app chiede all'App Store soltanto se esiste un abbonamento valido per sbloccare le funzioni. L'inizio della prova gratuita è salvato localmente nel portachiavi del tuo Mac. Puoi gestire e disdire l'abbonamento in qualsiasi momento nelle impostazioni App Store del tuo account Apple."
+          "L'abbonamento è gestito interamente tramite l'App Store di Apple (StoreKit). Acquisto, pagamento, fatturazione, rinnovo e disdetta sono elaborati da Apple secondo la propria informativa; io non ricevo né il tuo nome né il tuo indirizzo né i tuoi dati di pagamento. L'app chiede all'App Store soltanto se esiste un abbonamento valido per sbloccare le funzioni. L'inizio della prova gratuita è salvato localmente nel portachiavi del tuo dispositivo. Puoi gestire e disdire l'abbonamento in qualsiasi momento nelle impostazioni App Store del tuo account Apple."
         ]
       },
       {
@@ -278,19 +278,19 @@
       {
         "h": "7. Strumenti di scrittura Apple",
         "html": [
-          "Se usi gli strumenti di scrittura di Apple (correggere, riscrivere, riassumere; macOS 15.2 o successivo), Apple elabora il testo selezionato secondo le regole di Apple Intelligence — sul dispositivo o nel Private Cloud Compute di Apple. Questa elaborazione è di Apple; Hybrid passa soltanto la tua selezione al sistema."
+          "Se usi gli strumenti di scrittura di Apple (correggere, riscrivere, riassumere; su Mac da macOS 15.2, su iPhone e iPad da iOS 18), Apple elabora il testo selezionato secondo le regole di Apple Intelligence — sul dispositivo o nel Private Cloud Compute di Apple. Questa elaborazione è di Apple; Hybrid passa soltanto la tua selezione al sistema."
         ]
       },
       {
-        "h": "8. Blocco con Touch ID",
+        "h": "8. Blocco con Touch ID o Face ID",
         "html": [
-          "Il blocco opzionale usa le funzioni biometriche di macOS. I tuoi dati biometrici restano nella Secure Enclave del tuo Mac e non sono accessibili a Hybrid — l'app sa soltanto se lo sblocco è riuscito."
+          "Il blocco opzionale usa le funzioni biometriche del tuo dispositivo. I tuoi dati biometrici restano nella Secure Enclave del tuo dispositivo e non sono accessibili a Hybrid — l'app sa soltanto se lo sblocco è riuscito."
         ]
       },
       {
         "h": "9. Nessuna raccolta di dati da parte dello sviluppatore",
         "html": [
-          "Hybrid non contatta server dello sviluppatore e non contiene servizi di terzi per analisi o segnalazione di arresti anomali. Le segnalazioni mi raggiungono al massimo in forma anonimizzata tramite Apple — e solo se hai consentito tu stesso la condivisione dei dati di diagnosi nelle impostazioni di macOS."
+          "Hybrid non contatta server dello sviluppatore e non contiene servizi di terzi per analisi o segnalazione di arresti anomali. Le segnalazioni mi raggiungono al massimo in forma anonimizzata tramite Apple — e solo se hai consentito tu stesso la condivisione dei dati di diagnosi nelle impostazioni del tuo dispositivo."
         ]
       },
       {
@@ -311,7 +311,7 @@
     "htmlLang": "pt",
     "homeDir": "pt",
     "title": "Política de privacidade do app Hybrid",
-    "desc": "Política de privacidade do app para Mac Hybrid: sem servidores do desenvolvedor, sem análise — os documentos ficam no local ou no seu iCloud, a assinatura é processada pela Apple.",
+    "desc": "Política de privacidade do app Hybrid para Mac, iPhone e iPad: sem servidores do desenvolvedor, sem análise — os documentos ficam no local ou no seu iCloud, a assinatura é processada pela Apple.",
     "note": "Esta é uma tradução de cortesia; a <a href=\"../\">versão alemã</a> é a vinculante.",
     "back": "← Voltar à página inicial",
     "sections": [
@@ -324,7 +324,7 @@
       {
         "h": "2. O essencial primeiro",
         "html": [
-          "O Hybrid é um editor Markdown para macOS. O app não tem sistema de contas, não opera servidores próprios e não contém serviços de análise, publicidade ou rastreamento. Seus documentos são processados exclusivamente no seu Mac e — se você usar — na sua própria conta iCloud. Como desenvolvedor, eu nunca tenho acesso aos seus documentos, ao seu conteúdo ou aos seus metadados."
+          "O Hybrid é um editor Markdown para macOS, iPhone e iPad. O app não tem sistema de contas, não opera servidores próprios e não contém serviços de análise, publicidade ou rastreamento. Seus documentos são processados exclusivamente no seu dispositivo e — se você usar — na sua própria conta iCloud. Como desenvolvedor, eu nunca tenho acesso aos seus documentos, ao seu conteúdo ou aos seus metadados."
         ]
       },
       {
@@ -343,7 +343,7 @@
       {
         "h": "5. Assinatura e teste gratuito (App Store)",
         "html": [
-          "A assinatura é processada inteiramente pela App Store da Apple (StoreKit). Compra, pagamento, cobrança, renovação e cancelamento são processados pela Apple conforme a política de privacidade dela; eu não recebo seu nome, endereço ou dados de pagamento. O app apenas pergunta à App Store se existe uma assinatura válida para liberar as funções. O início do teste gratuito é salvo localmente nas chaves (keychain) do seu Mac. Você pode gerenciar e cancelar a assinatura a qualquer momento nos ajustes da App Store da sua conta Apple."
+          "A assinatura é processada inteiramente pela App Store da Apple (StoreKit). Compra, pagamento, cobrança, renovação e cancelamento são processados pela Apple conforme a política de privacidade dela; eu não recebo seu nome, endereço ou dados de pagamento. O app apenas pergunta à App Store se existe uma assinatura válida para liberar as funções. O início do teste gratuito é salvo localmente nas chaves (keychain) do seu dispositivo. Você pode gerenciar e cancelar a assinatura a qualquer momento nos ajustes da App Store da sua conta Apple."
         ]
       },
       {
@@ -355,19 +355,19 @@
       {
         "h": "7. Ferramentas de escrita da Apple",
         "html": [
-          "Se você usar as ferramentas de escrita da Apple (revisar, reescrever, resumir; macOS 15.2 ou mais recente), a Apple processa o texto selecionado segundo as regras da Apple Intelligence — no aparelho ou no Private Cloud Compute da Apple. Esse processamento é da Apple; o Hybrid apenas repassa sua seleção ao sistema."
+          "Se você usar as ferramentas de escrita da Apple (revisar, reescrever, resumir; no Mac a partir do macOS 15.2, no iPhone e iPad a partir do iOS 18), a Apple processa o texto selecionado segundo as regras da Apple Intelligence — no aparelho ou no Private Cloud Compute da Apple. Esse processamento é da Apple; o Hybrid apenas repassa sua seleção ao sistema."
         ]
       },
       {
-        "h": "8. Bloqueio por Touch ID",
+        "h": "8. Bloqueio por Touch ID ou Face ID",
         "html": [
-          "O bloqueio opcional usa os recursos biométricos do macOS. Seus dados biométricos permanecem na Secure Enclave do seu Mac e não são acessíveis ao Hybrid — o app só fica sabendo se o desbloqueio teve êxito."
+          "O bloqueio opcional usa os recursos biométricos do seu dispositivo. Seus dados biométricos permanecem na Secure Enclave do seu dispositivo e não são acessíveis ao Hybrid — o app só fica sabendo se o desbloqueio teve êxito."
         ]
       },
       {
         "h": "9. Nenhuma coleta de dados pelo desenvolvedor",
         "html": [
-          "O Hybrid não contata servidores do desenvolvedor e não contém serviços de terceiros de análise ou relatório de falhas. Relatórios de falhas me chegam, no máximo, anonimizados via Apple — e somente se você mesmo permitiu o compartilhamento de dados de diagnóstico nos ajustes do macOS."
+          "O Hybrid não contata servidores do desenvolvedor e não contém serviços de terceiros de análise ou relatório de falhas. Relatórios de falhas me chegam, no máximo, anonimizados via Apple — e somente se você mesmo permitiu o compartilhamento de dados de diagnóstico nos ajustes do seu dispositivo."
         ]
       },
       {
@@ -388,7 +388,7 @@
     "htmlLang": "nl",
     "homeDir": "nl",
     "title": "Privacybeleid van de Hybrid-app",
-    "desc": "Privacybeleid van de Mac-app Hybrid: geen servers van de ontwikkelaar, geen analyse — documenten blijven lokaal of in je iCloud, het abonnement loopt via Apple.",
+    "desc": "Privacybeleid van de Hybrid-app voor Mac, iPhone en iPad: geen servers van de ontwikkelaar, geen analyse — documenten blijven lokaal of in je iCloud, het abonnement loopt via Apple.",
     "note": "Dit is een vrijblijvende vertaling; de <a href=\"../\">Duitse versie</a> is bindend.",
     "back": "← Terug naar de startpagina",
     "sections": [
@@ -401,7 +401,7 @@
       {
         "h": "2. De essentie eerst",
         "html": [
-          "Hybrid is een Markdown-editor voor macOS. De app heeft geen accountsysteem, draait geen eigen servers en bevat geen analyse-, advertentie- of trackingdiensten. Je documenten worden uitsluitend op je Mac verwerkt en — als je dat gebruikt — in je eigen iCloud-account. Als ontwikkelaar heb ik nooit toegang tot je documenten, hun inhoud of hun metadata."
+          "Hybrid is een Markdown-editor voor macOS, iPhone en iPad. De app heeft geen accountsysteem, draait geen eigen servers en bevat geen analyse-, advertentie- of trackingdiensten. Je documenten worden uitsluitend op je apparaat verwerkt en — als je dat gebruikt — in je eigen iCloud-account. Als ontwikkelaar heb ik nooit toegang tot je documenten, hun inhoud of hun metadata."
         ]
       },
       {
@@ -420,7 +420,7 @@
       {
         "h": "5. Abonnement en gratis proefperiode (App Store)",
         "html": [
-          "Het abonnement loopt volledig via Apples App Store (StoreKit). Aankoop, betaling, facturering, verlenging en opzegging verwerkt Apple volgens haar eigen privacybeleid; ik ontvang je naam, adres of betaalgegevens niet. De app vraagt de App Store alleen of er een geldig abonnement bestaat om de functies te ontgrendelen. Het begin van de gratis proefperiode wordt lokaal in de sleutelhanger van je Mac bewaard. Je kunt het abonnement altijd beheren en opzeggen in de App Store-instellingen van je Apple-account."
+          "Het abonnement loopt volledig via Apples App Store (StoreKit). Aankoop, betaling, facturering, verlenging en opzegging verwerkt Apple volgens haar eigen privacybeleid; ik ontvang je naam, adres of betaalgegevens niet. De app vraagt de App Store alleen of er een geldig abonnement bestaat om de functies te ontgrendelen. Het begin van de gratis proefperiode wordt lokaal in de sleutelhanger van je apparaat bewaard. Je kunt het abonnement altijd beheren en opzeggen in de App Store-instellingen van je Apple-account."
         ]
       },
       {
@@ -432,19 +432,19 @@
       {
         "h": "7. Apple-schrijfhulpmiddelen",
         "html": [
-          "Gebruik je Apples schrijfhulpmiddelen (proeflezen, herschrijven, samenvatten; macOS 15.2 of nieuwer), dan verwerkt Apple de geselecteerde tekst volgens de regels van Apple Intelligence — op het apparaat of in Apples Private Cloud Compute. Die verwerking is van Apple; Hybrid geeft alleen je selectie aan het systeem door."
+          "Gebruik je Apples schrijfhulpmiddelen (proeflezen, herschrijven, samenvatten; op de Mac vanaf macOS 15.2, op iPhone en iPad vanaf iOS 18), dan verwerkt Apple de geselecteerde tekst volgens de regels van Apple Intelligence — op het apparaat of in Apples Private Cloud Compute. Die verwerking is van Apple; Hybrid geeft alleen je selectie aan het systeem door."
         ]
       },
       {
-        "h": "8. Touch ID-vergrendeling",
+        "h": "8. Vergrendeling met Touch ID of Face ID",
         "html": [
-          "De optionele vergrendeling gebruikt de biometrische functies van macOS. Je biometrische gegevens blijven in de Secure Enclave van je Mac en zijn voor Hybrid niet toegankelijk — de app verneemt alleen of het ontgrendelen is gelukt."
+          "De optionele vergrendeling gebruikt de biometrische functies van je apparaat. Je biometrische gegevens blijven in de Secure Enclave van je apparaat en zijn voor Hybrid niet toegankelijk — de app verneemt alleen of het ontgrendelen is gelukt."
         ]
       },
       {
         "h": "9. Geen gegevensverzameling door de ontwikkelaar",
         "html": [
-          "Hybrid maakt geen contact met servers van de ontwikkelaar en bevat geen analyse- of crashrapportagediensten van derden. Crashmeldingen bereiken mij hoogstens geanonimiseerd via Apple — en alleen als je het delen van diagnosegegevens in de macOS-instellingen zelf hebt toegestaan."
+          "Hybrid maakt geen contact met servers van de ontwikkelaar en bevat geen analyse- of crashrapportagediensten van derden. Crashmeldingen bereiken mij hoogstens geanonimiseerd via Apple — en alleen als je het delen van diagnosegegevens in de instellingen van je apparaat zelf hebt toegestaan."
         ]
       },
       {
@@ -465,7 +465,7 @@
     "htmlLang": "ja",
     "homeDir": "jp",
     "title": "Hybridアプリのプライバシーポリシー",
-    "desc": "Mac用アプリHybridのプライバシーポリシー：開発者のサーバーなし、分析なし — ドキュメントはローカルまたはあなたのiCloudに、サブスクリプションはAppleが処理します。",
+    "desc": "Mac・iPhone・iPad用アプリHybridのプライバシーポリシー：開発者のサーバーなし、分析なし — ドキュメントはローカルまたはあなたのiCloudに、サブスクリプションはAppleが処理します。",
     "note": "これは参考訳です。法的に有効なのは<a href=\"../\">ドイツ語版</a>です。",
     "back": "← ホームへ戻る",
     "sections": [
@@ -478,7 +478,7 @@
       {
         "h": "2. まず大切なこと",
         "html": [
-          "HybridはmacOS用のMarkdownエディタです。アプリにアカウント制度はなく、独自のサーバーも運用せず、分析・広告・トラッキングのサービスも含みません。ドキュメントはあなたのMac上で、また利用する場合はあなた自身のiCloudアカウント内でのみ処理されます。開発者である私が、ドキュメントやその内容・メタデータにアクセスすることは一切ありません。"
+          "HybridはmacOS、iPhone、iPad用のMarkdownエディタです。アプリにアカウント制度はなく、独自のサーバーも運用せず、分析・広告・トラッキングのサービスも含みません。ドキュメントはあなたのデバイス上で、また利用する場合はあなた自身のiCloudアカウント内でのみ処理されます。開発者である私が、ドキュメントやその内容・メタデータにアクセスすることは一切ありません。"
         ]
       },
       {
@@ -497,7 +497,7 @@
       {
         "h": "5. サブスクリプションと無料トライアル（App Store）",
         "html": [
-          "サブスクリプションはすべてAppleのApp Store（StoreKit）を通じて処理されます。購入・支払い・請求・更新・解約はAppleが自社のプライバシーポリシーに基づき処理し、私があなたの名前・住所・支払い情報を受け取ることはありません。アプリは機能を解放するために、有効なサブスクリプションがあるかをApp Storeに問い合わせるだけです。無料トライアルの開始日はMacのキーチェーンにローカルに保存されます。サブスクリプションはいつでもApple アカウントのApp Store設定で管理・解約できます。"
+          "サブスクリプションはすべてAppleのApp Store（StoreKit）を通じて処理されます。購入・支払い・請求・更新・解約はAppleが自社のプライバシーポリシーに基づき処理し、私があなたの名前・住所・支払い情報を受け取ることはありません。アプリは機能を解放するために、有効なサブスクリプションがあるかをApp Storeに問い合わせるだけです。無料トライアルの開始日はデバイスのキーチェーンにローカルに保存されます。サブスクリプションはいつでもApple アカウントのApp Store設定で管理・解約できます。"
         ]
       },
       {
@@ -509,19 +509,19 @@
       {
         "h": "7. Appleの作文ツール",
         "html": [
-          "Appleの作文ツール（校正・書き直し・要約。macOS 15.2以降）を使うと、Appleが選択テキストをApple Intelligenceのルールに従って処理します — デバイス上またはAppleのPrivate Cloud Computeで。この処理はAppleによるもので、Hybridは選択をシステムに渡すだけです。"
+          "Appleの作文ツール（校正・書き直し・要約。MacではmacOS 15.2以降、iPhoneとiPadではiOS 18以降）を使うと、Appleが選択テキストをApple Intelligenceのルールに従って処理します — デバイス上またはAppleのPrivate Cloud Computeで。この処理はAppleによるもので、Hybridは選択をシステムに渡すだけです。"
         ]
       },
       {
-        "h": "8. Touch IDロック",
+        "h": "8. Touch ID／Face IDロック",
         "html": [
-          "任意のロック機能はmacOSの生体認証を使います。生体データはMacのSecure Enclaveに留まり、Hybridからはアクセスできません — アプリが知るのは解除が成功したかどうかだけです。"
+          "任意のロック機能はデバイスの生体認証を使います。生体データはデバイスのSecure Enclaveに留まり、Hybridからはアクセスできません — アプリが知るのは解除が成功したかどうかだけです。"
         ]
       },
       {
         "h": "9. 開発者によるデータ収集はありません",
         "html": [
-          "Hybridは開発者のサーバーに接続せず、第三者の分析・クラッシュレポートサービスも含みません。クラッシュレポートは、あなたがmacOS設定で診断データの共有を許可した場合に限り、Apple経由で匿名化されて届くことがあるだけです。"
+          "Hybridは開発者のサーバーに接続せず、第三者の分析・クラッシュレポートサービスも含みません。クラッシュレポートは、あなたがデバイスの設定で診断データの共有を許可した場合に限り、Apple経由で匿名化されて届くことがあるだけです。"
         ]
       },
       {
@@ -542,7 +542,7 @@
     "htmlLang": "zh-Hans",
     "homeDir": "zh",
     "title": "Hybrid应用隐私政策",
-    "desc": "Mac应用Hybrid的隐私政策：没有开发者服务器，没有分析服务——文档保留在本地或你的iCloud中，订阅由Apple处理。",
+    "desc": "Hybrid应用（Mac、iPhone和iPad）的隐私政策：没有开发者服务器，没有分析服务——文档保留在本地或你的iCloud中，订阅由Apple处理。",
     "note": "本页为参考译文，具有法律效力的是<a href=\"../\">德语版本</a>。",
     "back": "← 返回首页",
     "sections": [
@@ -555,7 +555,7 @@
       {
         "h": "2. 最重要的事",
         "html": [
-          "Hybrid是一款macOS版Markdown编辑器。应用没有账户系统，不运营自己的服务器，也不包含任何分析、广告或跟踪服务。你的文档只在你的Mac上处理，如果你使用iCloud，则在你自己的iCloud账户中处理。作为开发者，我在任何时候都无法访问你的文档、其内容或元数据。"
+          "Hybrid是一款适用于macOS、iPhone和iPad的Markdown编辑器。应用没有账户系统，不运营自己的服务器，也不包含任何分析、广告或跟踪服务。你的文档只在你的设备上处理，如果你使用iCloud，则在你自己的iCloud账户中处理。作为开发者，我在任何时候都无法访问你的文档、其内容或元数据。"
         ]
       },
       {
@@ -574,7 +574,7 @@
       {
         "h": "5. 订阅与免费试用（App Store）",
         "html": [
-          "订阅完全通过Apple的App Store（StoreKit）处理。购买、支付、账单、续订和取消由Apple按其隐私政策处理；我不会收到你的姓名、地址或支付信息。应用只向App Store查询是否存在有效订阅，以解锁功能。免费试用的开始时间保存在你Mac本地的钥匙串中。你可以随时在Apple账户的App Store设置中管理和取消订阅。"
+          "订阅完全通过Apple的App Store（StoreKit）处理。购买、支付、账单、续订和取消由Apple按其隐私政策处理；我不会收到你的姓名、地址或支付信息。应用只向App Store查询是否存在有效订阅，以解锁功能。免费试用的开始时间保存在你设备本地的钥匙串中。你可以随时在Apple账户的App Store设置中管理和取消订阅。"
         ]
       },
       {
@@ -586,19 +586,19 @@
       {
         "h": "7. Apple写作工具",
         "html": [
-          "如果你使用Apple写作工具（校对、改写、摘要；macOS 15.2及以上），Apple会按照Apple Intelligence的规则处理所选文本——在设备上或在Apple的Private Cloud Compute中。该处理由Apple负责；Hybrid只是把你的选择交给系统。"
+          "如果你使用Apple写作工具（校对、改写、摘要；Mac上需macOS 15.2及以上，iPhone和iPad上需iOS 18及以上），Apple会按照Apple Intelligence的规则处理所选文本——在设备上或在Apple的Private Cloud Compute中。该处理由Apple负责；Hybrid只是把你的选择交给系统。"
         ]
       },
       {
-        "h": "8. 触控ID锁定",
+        "h": "8. 触控ID／面容ID锁定",
         "html": [
-          "可选的锁定功能使用macOS的生物识别。你的生物数据保留在Mac的安全隔区（Secure Enclave）中，Hybrid无法访问——应用只知道解锁是否成功。"
+          "可选的锁定功能使用设备的生物识别。你的生物数据保留在设备的安全隔区（Secure Enclave）中，Hybrid无法访问——应用只知道解锁是否成功。"
         ]
       },
       {
         "h": "9. 开发者不收集数据",
         "html": [
-          "Hybrid不连接开发者的服务器，也不包含第三方分析或崩溃报告服务。崩溃报告至多经Apple以匿名形式送达我——且仅当你自己在macOS设置中允许共享诊断数据时。"
+          "Hybrid不连接开发者的服务器，也不包含第三方分析或崩溃报告服务。崩溃报告至多经Apple以匿名形式送达我——且仅当你自己在设备设置中允许共享诊断数据时。"
         ]
       },
       {
@@ -619,7 +619,7 @@
     "htmlLang": "pt-PT",
     "homeDir": "pt",
     "title": "Política de privacidade da app Hybrid",
-    "desc": "Política de privacidade da app para Mac Hybrid: sem servidores do programador, sem análise — os documentos ficam no local ou no seu iCloud, a subscrição é processada pela Apple.",
+    "desc": "Política de privacidade da app Hybrid para Mac, iPhone e iPad: sem servidores do programador, sem análise — os documentos ficam no local ou no seu iCloud, a subscrição é processada pela Apple.",
     "note": "Esta é uma tradução de cortesia; a <a href=\"../\">versão alemã</a> é a vinculante.",
     "back": "← Voltar à página inicial",
     "sections": [
@@ -632,7 +632,7 @@
       {
         "h": "2. O essencial primeiro",
         "html": [
-          "O Hybrid é um editor Markdown para macOS. A app não tem sistema de contas, não opera servidores próprios e não contém serviços de análise, publicidade ou rastreio. Os seus documentos são processados exclusivamente no seu Mac e — se o utilizar — na sua própria conta iCloud. Como programador, nunca tenho acesso aos seus documentos, ao seu conteúdo ou aos seus metadados."
+          "O Hybrid é um editor Markdown para macOS, iPhone e iPad. A app não tem sistema de contas, não opera servidores próprios e não contém serviços de análise, publicidade ou rastreio. Os seus documentos são processados exclusivamente no seu dispositivo e — se o utilizar — na sua própria conta iCloud. Como programador, nunca tenho acesso aos seus documentos, ao seu conteúdo ou aos seus metadados."
         ]
       },
       {
@@ -651,7 +651,7 @@
       {
         "h": "5. Subscrição e período de teste gratuito (App Store)",
         "html": [
-          "A subscrição é processada inteiramente pela App Store da Apple (StoreKit). Compra, pagamento, faturação, renovação e cancelamento são processados pela Apple conforme a sua própria política de privacidade; eu não recebo o seu nome, a sua morada nem os seus dados de pagamento. A app apenas pergunta à App Store se existe uma subscrição válida para desbloquear as funções. O início do período de teste gratuito é guardado localmente no porta-chaves do seu Mac. Pode gerir e cancelar a subscrição a qualquer momento nas definições da App Store da sua conta Apple."
+          "A subscrição é processada inteiramente pela App Store da Apple (StoreKit). Compra, pagamento, faturação, renovação e cancelamento são processados pela Apple conforme a sua própria política de privacidade; eu não recebo o seu nome, a sua morada nem os seus dados de pagamento. A app apenas pergunta à App Store se existe uma subscrição válida para desbloquear as funções. O início do período de teste gratuito é guardado localmente no porta-chaves do seu dispositivo. Pode gerir e cancelar a subscrição a qualquer momento nas definições da App Store da sua conta Apple."
         ]
       },
       {
@@ -663,19 +663,19 @@
       {
         "h": "7. Ferramentas de escrita da Apple",
         "html": [
-          "Se usar as ferramentas de escrita da Apple (rever, reescrever, resumir; macOS 15.2 ou posterior), a Apple processa o texto selecionado segundo as regras da Apple Intelligence — no dispositivo ou no Private Cloud Compute da Apple. Esse processamento é da Apple; o Hybrid apenas passa a sua seleção ao sistema."
+          "Se usar as ferramentas de escrita da Apple (rever, reescrever, resumir; no Mac a partir do macOS 15.2, no iPhone e iPad a partir do iOS 18), a Apple processa o texto selecionado segundo as regras da Apple Intelligence — no dispositivo ou no Private Cloud Compute da Apple. Esse processamento é da Apple; o Hybrid apenas passa a sua seleção ao sistema."
         ]
       },
       {
-        "h": "8. Bloqueio por Touch ID",
+        "h": "8. Bloqueio por Touch ID ou Face ID",
         "html": [
-          "O bloqueio opcional usa as funções biométricas do macOS. Os seus dados biométricos permanecem na Secure Enclave do seu Mac e não são acessíveis ao Hybrid — a app só fica a saber se o desbloqueio teve êxito."
+          "O bloqueio opcional usa as funções biométricas do seu dispositivo. Os seus dados biométricos permanecem na Secure Enclave do seu dispositivo e não são acessíveis ao Hybrid — a app só fica a saber se o desbloqueio teve êxito."
         ]
       },
       {
         "h": "9. Nenhuma recolha de dados pelo programador",
         "html": [
-          "O Hybrid não contacta servidores do programador e não contém serviços de terceiros de análise ou de relatórios de falhas. Relatórios de falhas chegam-me, no máximo, anonimizados através da Apple — e apenas se o próprio tiver permitido a partilha de dados de diagnóstico nas definições do macOS."
+          "O Hybrid não contacta servidores do programador e não contém serviços de terceiros de análise ou de relatórios de falhas. Relatórios de falhas chegam-me, no máximo, anonimizados através da Apple — e apenas se o próprio tiver permitido a partilha de dados de diagnóstico nas definições do seu dispositivo."
         ]
       },
       {

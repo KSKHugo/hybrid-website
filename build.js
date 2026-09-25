@@ -428,7 +428,7 @@ function renderAppDatenschutz() {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Datenschutzerklärung für die Hybrid-App</title>
-  <meta name="description" content="Datenschutzerklärung der Mac-App Hybrid: keine eigenen Server, keine Analyse-Dienste — Dokumente bleiben lokal oder in Ihrer iCloud, das Abo läuft über Apple.">
+  <meta name="description" content="Datenschutzerklärung der Hybrid-App für Mac, iPhone und iPad: keine eigenen Server, keine Analyse-Dienste — Dokumente bleiben lokal oder in Ihrer iCloud, das Abo läuft über Apple.">
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="${SITE_URL}/datenschutz-app/">
   <meta name="theme-color" content="#F9F8F7">
@@ -448,7 +448,7 @@ function renderAppDatenschutz() {
   <main>
     <section class="legal">
       <h1>Datenschutzerklärung für die Hybrid-App</h1>
-      <p lang="en" class="legal-note"><a href="#english">English version below.</a> In short: Hybrid has no account system and no servers of its own, and collects no analytics. Your documents stay on your Mac or in your own iCloud; the subscription is handled entirely by Apple.</p>
+      <p lang="en" class="legal-note"><a href="#english">English version below.</a> In short: Hybrid has no account system and no servers of its own, and collects no analytics. Your documents stay on your device or in your own iCloud; the subscription is handled entirely by Apple.</p>
       <p class="legal-note">Weitere Sprachen: <a href="en/" lang="en">English</a> · <a href="fr/" lang="fr">Français</a> · <a href="es/" lang="es">Español</a> · <a href="it/" lang="it">Italiano</a> · <a href="pt/" lang="pt-BR">Português (Brasil)</a> · <a href="pt-pt/" lang="pt-PT">Português (Portugal)</a> · <a href="nl/" lang="nl">Nederlands</a> · <a href="jp/" lang="ja">日本語</a> · <a href="zh/" lang="zh-Hans">简体中文</a></p>
 
       <h2>1. Verantwortlicher</h2>
@@ -461,7 +461,7 @@ function renderAppDatenschutz() {
       </p>
 
       <h2>2. Das Wichtigste vorab</h2>
-      <p>Hybrid ist ein Markdown-Editor für macOS. Die App hat kein Konto-System, betreibt keine eigenen Server und enthält keine Analyse-, Werbe- oder Tracking-Dienste. Ihre Dokumente werden ausschließlich auf Ihrem Mac und — wenn Sie das nutzen — in Ihrem eigenen iCloud-Konto verarbeitet. Ich als Entwickler habe zu keinem Zeitpunkt Zugriff auf Ihre Dokumente, deren Inhalte oder Metadaten.</p>
+      <p>Hybrid ist ein Markdown-Editor für macOS, iPhone und iPad. Die App hat kein Konto-System, betreibt keine eigenen Server und enthält keine Analyse-, Werbe- oder Tracking-Dienste. Ihre Dokumente werden ausschließlich auf Ihrem Gerät und — wenn Sie das nutzen — in Ihrem eigenen iCloud-Konto verarbeitet. Ich als Entwickler habe zu keinem Zeitpunkt Zugriff auf Ihre Dokumente, deren Inhalte oder Metadaten.</p>
 
       <h2>3. Dokumente und Herkunftsdaten</h2>
       <p>Hybrid speichert Dokumente als Markdown-Dateien dort, wo Sie sie ablegen — lokal oder z. B. in iCloud Drive. Die Herkunftsinformationen, die Hybrid festhält (welche Passage von Ihnen, einer KI, einer benannten Quelle oder einer anderen Person stammt, samt Namen der Beteiligten), liegen als unsichtbarer Kommentar in der Datei selbst. Diese Verarbeitung findet vollständig auf Ihrem Gerät statt.</p>
@@ -471,19 +471,19 @@ function renderAppDatenschutz() {
       <p>Wenn Sie an einer Zusammenarbeit teilnehmen, sehen die anderen aktuell Teilnehmenden Ihren Namen (wie in macOS bzw. Ihrem Apple-Konto hinterlegt), Ihre Beiträge und eine Tipp-Anzeige, während Sie schreiben. Eingeladene sehen Beiträge früherer Teilnehmer nur anonymisiert als „Anderer Teilnehmer"; die vollständige Mitwirkenden-Historie und die Anteils-Statistik sieht nur der Besitzer. Der Versionsverlauf liegt in Ihrem eigenen iCloud-Konto, nicht in der Datei — weitergegebene Dateien enthalten keine Altfassungen.</p>
 
       <h2>5. Abo und Testphase (App Store)</h2>
-      <p>Das Abonnement wird vollständig über Apples App Store abgewickelt (StoreKit). Kauf, Bezahlung, Rechnung, Verlängerung und Kündigung verarbeitet Apple nach eigenen Datenschutzbestimmungen; ich erhalte dabei weder Ihren Namen noch Ihre Adresse oder Zahlungsdaten. Die App fragt beim App Store lediglich ab, ob ein gültiges Abo besteht, um die Funktionen freizuschalten. Der Beginn der kostenlosen Testphase wird lokal im Schlüsselbund Ihres Macs gespeichert. Verwalten und kündigen können Sie das Abo jederzeit in den App-Store-Einstellungen Ihres Apple-Kontos.</p>
+      <p>Das Abonnement wird vollständig über Apples App Store abgewickelt (StoreKit). Kauf, Bezahlung, Rechnung, Verlängerung und Kündigung verarbeitet Apple nach eigenen Datenschutzbestimmungen; ich erhalte dabei weder Ihren Namen noch Ihre Adresse oder Zahlungsdaten. Die App fragt beim App Store lediglich ab, ob ein gültiges Abo besteht, um die Funktionen freizuschalten. Der Beginn der kostenlosen Testphase wird lokal im Schlüsselbund Ihres Geräts gespeichert. Verwalten und kündigen können Sie das Abo jederzeit in den App-Store-Einstellungen Ihres Apple-Kontos.</p>
 
       <h2>6. Weitergabe an KI-Tools — nur auf Ihren Befehl</h2>
       <p>Die Funktion „Bereitstellen für KI-Tool" kopiert den Dokumenttext in die Zwischenablage und öffnet das von Ihnen eingestellte Ziel (z. B. ChatGPT, Claude, Perplexity, eine eigene App oder Webseite). Das geschieht ausschließlich, wenn Sie den Befehl selbst auslösen — Hybrid sendet niemals von sich aus Inhalte an KI-Dienste. Ab der Übergabe gelten die Datenschutzbestimmungen des jeweiligen Anbieters.</p>
 
       <h2>7. Apple-Schreibtools</h2>
-      <p>Nutzen Sie Apples Schreibtools (Korrekturlesen, Umschreiben, Zusammenfassen; ab macOS 15.2), verarbeitet Apple den ausgewählten Text nach den Regeln von Apple Intelligence — auf dem Gerät oder in Apples Private Cloud Compute. Diese Verarbeitung liegt bei Apple; Hybrid reicht nur Ihre Auswahl an das System weiter.</p>
+      <p>Nutzen Sie Apples Schreibtools (Korrekturlesen, Umschreiben, Zusammenfassen; auf dem Mac ab macOS 15.2, auf iPhone und iPad ab iOS 18), verarbeitet Apple den ausgewählten Text nach den Regeln von Apple Intelligence — auf dem Gerät oder in Apples Private Cloud Compute. Diese Verarbeitung liegt bei Apple; Hybrid reicht nur Ihre Auswahl an das System weiter.</p>
 
-      <h2>8. Touch-ID-Sperre</h2>
-      <p>Die optionale Sperre nutzt die Biometrie-Funktionen von macOS. Ihre biometrischen Daten verbleiben in der Secure Enclave Ihres Macs und sind für Hybrid nicht zugänglich — die App erfährt nur, ob das Entsperren erfolgreich war.</p>
+      <h2>8. Sperre mit Touch ID oder Face ID</h2>
+      <p>Die optionale Sperre nutzt die Biometrie-Funktionen Ihres Geräts. Ihre biometrischen Daten verbleiben in der Secure Enclave Ihres Geräts und sind für Hybrid nicht zugänglich — die App erfährt nur, ob das Entsperren erfolgreich war.</p>
 
       <h2>9. Keine Datenerhebung durch den Entwickler</h2>
-      <p>Hybrid kontaktiert keine Server des Entwicklers und enthält keine Analyse- oder Absturzberichts-Dienste von Drittanbietern. Absturzberichte erreichen mich höchstens anonymisiert über Apple — und nur, wenn Sie die Weitergabe von Diagnosedaten in den macOS-Einstellungen selbst erlaubt haben.</p>
+      <p>Hybrid kontaktiert keine Server des Entwicklers und enthält keine Analyse- oder Absturzberichts-Dienste von Drittanbietern. Absturzberichte erreichen mich höchstens anonymisiert über Apple — und nur, wenn Sie die Weitergabe von Diagnosedaten in den Einstellungen Ihres Geräts selbst erlaubt haben.</p>
 
       <h2>10. Ihre Rechte</h2>
       <p>Soweit ich überhaupt personenbezogene Daten verarbeite (praktisch nur bei E-Mail-Kontakt), haben Sie die Rechte aus Art. 15–21 DSGVO: Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch. Außerdem haben Sie das Recht auf Beschwerde bei einer Aufsichtsbehörde (Art. 77 DSGVO); zuständig ist der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Rheinland-Pfalz, Hintere Bleiche 34, 55116 Mainz. Für Daten in Ihrem iCloud-Konto und beim App Store ist Apple Ihr Ansprechpartner.</p>
