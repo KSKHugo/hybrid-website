@@ -310,7 +310,8 @@ function renderImpressum() {
       </p>
 
       <h2>Kontakt</h2>
-      <p>E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a></p>
+      <p>E-Mail: <a href="mailto:pascal@pascalhugo.de">pascal@pascalhugo.de</a><br>
+      Web: <a href="https://pascalhugo.de" rel="noopener">pascalhugo.de</a></p>
 
       <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
       <p>
