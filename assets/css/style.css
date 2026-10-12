@@ -230,7 +230,6 @@ main > section {
   font-weight: 600;
 }
 .btn-primary:hover { background: var(--amber-deep); color: #FFFFFF; }
-.ios .btn-primary { margin-top: 8px; }
 .trial-note {
   margin: 14px 0 0;
   font-size: 0.92rem;
@@ -418,19 +417,42 @@ main > section {
 /* ── iOS & Sprachen ───────────────────────────────────────────────────── */
 .ios, .langs { text-align: center; }
 .ios {
-  max-width: 760px;
+  max-width: 1080px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 .ios h2, .langs h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); }
 .ios p, .langs p { color: var(--ink-soft); max-width: 40em; margin-inline: auto; }
+/* iPhone- und iPad-Screenshot nebeneinander: die Spaltenbreiten entsprechen
+   den Seitenverhältnissen (640×1390 bzw. 1600×1200), so enden beide Bilder
+   auf gleicher Höhe. */
+.ios-shots {
+  display: grid;
+  grid-template-columns: 25.7fr 74.3fr;
+  gap: 24px;
+  max-width: 880px;
+  width: 100%;
+  margin: 36px auto 0;
+}
+.ios-shots .shot img { display: block; width: 100%; height: auto; }
+.ios-badge-row { margin-top: 32px; }
+@media (max-width: 640px) {
+  .ios-shots { grid-template-columns: 1fr; }
+  .ios-shot-iphone { max-width: 260px; margin-inline: auto; }
+}
 .langs { padding-top: 56px; padding-bottom: 8px; }
 
 /* ── Abschluss-CTA ────────────────────────────────────────────────────── */
 .cta { text-align: center; }
 .cta h2 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); }
 .cta p { color: var(--ink-soft); max-width: 40em; margin: 0 auto 28px; }
-.cta .store-badge { display: inline-block; }
+.cta-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
 .requirements { margin-top: 18px; font-size: 0.88rem; color: var(--ink-soft); }
 
 /* ── Fußzeile ─────────────────────────────────────────────────────────── */
@@ -543,9 +565,8 @@ main > section {
   .hero { min-height: calc(100svh - 72px); }
   .ios { border: 0; }
   /* Inline-Elemente nicht auf Flex-Breite strecken */
-  .hero .eyebrow,
-  .cta .store-badge,
-  .ios .btn-primary { align-self: center; }
+  .hero .eyebrow { align-self: center; }
+  .ios .ios-shots { align-self: center; }
 }
 .feature-scene .feature-row { margin-bottom: 0; }
 /* Mehr Bühne für die Screenshots: die Funktions-Szenen dürfen breiter

@@ -1,10 +1,10 @@
 {
   "langName": "日本語",
   "meta": {
-    "title": "Hybrid — Mac用Markdownエディタ | AIと書き、チームで公開する",
-    "description": "HybridはMac用のMarkdownエディタ。誰が何を書いたか — あなた、AI、名前付きの出典 — を記録します。リアルタイム共同編集、共有、ワンクリックのオンライン公開。PR・マーケティング・代理店・編集部・ジャーナリズムのために。",
-    "keywords": "Markdownエディタ, Mac, macOS, AI, 人工知能, 共同編集, 共有, PR, 広報, マーケティング, 代理店, 編集部, ジャーナリズム, オンラインパブリッシング, 由来",
-    "jsonLdAlternateName": "Hybrid Mac用Markdownエディタ"
+    "title": "Hybrid — Mac・iPhone・iPad用Markdownエディタ | AIと書き、チームで公開する",
+    "description": "HybridはMac・iPhone・iPad用のMarkdownエディタ。誰が何を書いたか — あなた、AI、名前付きの出典 — を記録します。リアルタイム共同編集、共有、ワンクリックのオンライン公開。PR・マーケティング・代理店・編集部・ジャーナリズムのために。",
+    "keywords": "Markdownエディタ, Mac, macOS, AI, 人工知能, 共同編集, 共有, PR, 広報, マーケティング, 代理店, 編集部, ジャーナリズム, オンラインパブリッシング, 由来, iPhone, iPad, iOS, App Store",
+    "jsonLdAlternateName": "Hybrid Mac・iPhone・iPad用Markdownエディタ"
   },
   "nav": {
     "ariaLabel": "メインナビゲーション",
@@ -14,16 +14,17 @@
     "languageMenu": "言語を選択"
   },
   "hero": {
-    "eyebrow": "Hybrid for macOS",
+    "eyebrow": "Hybrid for Mac, iPhone & iPad",
     "h1": "**誰が何を書いたか**を知っているMarkdownエディタ。",
     "sub": "Hybridはすべての文章の由来を記録します。自分で書いたのか、AIが生成したのか、名前付きの出典からの引用か、同僚の寄稿か。PR、マーケティング、代理店、編集部 — 「公開する人」のためのエディタです。",
     "secondary": "すべての機能を見る",
-    "iosPill": "iOSベータ",
-    "ios": "iPhoneとiPad版Hybridがベータ版として登場しました。",
+    "iosPill": "新登場",
+    "ios": "HybridはiPhoneとiPadでも利用できるようになりました。",
     "shotAlt": "macOS上のHybridエディタ。AIテキストは紫の下線、出典引用は緑のラベル、サイドバーには貢献度メーターが表示されている",
     "badgeAlt": "Mac App Storeでダウンロード",
     "trial": "7日間無料で試せます",
-    "betaCta": "ベータに参加 →"
+    "iosCta": "詳しく見る →",
+    "iosBadgeAlt": "App Storeでダウンロード"
   },
   "prov": {
     "h2": "誰が何を書いたか？**ドキュメントが知っています。**",
@@ -120,9 +121,10 @@
     }
   ],
   "ios": {
-    "h2": "**iPhoneとiPad**のベータ版が登場",
-    "p": "HybridがiPhoneとiPadにやってきます — 一足先に試せます。ベータはAppleのTestFlightで配信：リンクをタップし、TestFlightをインストールして書き始めるだけ。同じドキュメント、同じ由来 — あなたのフィードバックがそのまま製品版に活きます。",
-    "cta": "ベータに参加する"
+    "h2": "**iPhoneとiPad**にも登場",
+    "p": "HybridはiPhoneとiPad向けにApp Storeで配信中 — 同じドキュメント、同じ由来、同じ共同編集。iCloudでMacと常に同期：外出先で書き続け、デスクで公開できます。",
+    "iphoneAlt": "iPhone上のHybrid：AIテキストと出典の由来マーク付きエディタ",
+    "ipadAlt": "iPad上のHybrid：2人の著者によるリアルタイム共同編集、各パッセージに著者名のラベル付き"
   },
   "langSection": {
     "h2": "**あなたの言語**で",
@@ -130,11 +132,11 @@
   },
   "cta": {
     "h2": "AIと書く。**自信を持って公開する。**",
-    "p": "Hybrid for Mac — 人とAI、そして公開するすべてのもののためのMarkdownエディタ。"
+    "p": "Hybrid for Mac, iPhone & iPad — 人とAI、そして公開するすべてのもののためのMarkdownエディタ。"
   },
   "footer": {
-    "tagline": "HybridはmacOS用のMarkdownエディタ。人とAIの共同作業のために作られました — PR、マーケティング、広報、代理店、編集部、ジャーナリズム、コンサルティング、オンラインパブリッシングのために。書く、共有する、比較する、公開する — あなたのMacで。",
-    "requirements": "macOS 13（Ventura）以降 · Apple Silicon & Intel",
+    "tagline": "HybridはMac・iPhone・iPad用のMarkdownエディタ。人とAIの共同作業のために作られました — PR、マーケティング、広報、代理店、編集部、ジャーナリズム、コンサルティング、オンラインパブリッシングのために。書く、共有する、比較する、公開する — Mac、iPhone、iPadで。",
+    "requirements": "Mac: macOS 13（Ventura）以降 · Apple Silicon & Intel · iPhone/iPad: iOS 16以降",
     "languagesLabel": "このページの他の言語版",
     "imprint": "法的情報（Impressum）",
     "privacy": "プライバシー",
@@ -143,7 +145,7 @@
   },
   "pro": {
     "h2": "Hybrid **Pro**",
-    "intro": "インストール後7日間は、Hybridを無料でフル機能のまま使えます。その後はサブスクリプション「Hybrid Pro」が全機能を解放します — 価格はMac App Storeでご確認ください。",
+    "intro": "インストール後7日間は、Hybridを無料でフル機能のまま使えます。その後はサブスクリプション「Hybrid Pro」が全機能を解放します — 価格はApp Storeでご確認ください。",
     "points": [
       {
         "h3": "7日間無料で試す",

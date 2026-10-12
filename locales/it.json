@@ -1,10 +1,10 @@
 {
   "langName": "Italiano",
   "meta": {
-    "title": "Hybrid — Editor Markdown per Mac | Scrivi con l'IA, pubblica in team",
-    "description": "Hybrid è l'editor Markdown per Mac che ricorda chi ha scritto cosa: tu, un'IA o una fonte con nome. Collaborazione in tempo reale, condivisione e pubblicazione online con un clic — per PR, marketing, agenzie, redazioni e giornalismo.",
-    "keywords": "editor Markdown, Mac, macOS, IA, intelligenza artificiale, collaborazione, condivisione, PR, relazioni pubbliche, marketing, comunicazione, agenzia, redazione, giornalismo, pubblicazione online, provenienza",
-    "jsonLdAlternateName": "Hybrid, editor Markdown per Mac"
+    "title": "Hybrid — Editor Markdown per Mac, iPhone e iPad | Scrivi con l'IA, pubblica in team",
+    "description": "Hybrid è l'editor Markdown per Mac, iPhone e iPad che ricorda chi ha scritto cosa: tu, un'IA o una fonte con nome. Collaborazione in tempo reale, condivisione e pubblicazione online con un clic — per PR, marketing, agenzie, redazioni e giornalismo.",
+    "keywords": "editor Markdown, Mac, macOS, IA, intelligenza artificiale, collaborazione, condivisione, PR, relazioni pubbliche, marketing, comunicazione, agenzia, redazione, giornalismo, pubblicazione online, provenienza, iPhone, iPad, iOS, App Store",
+    "jsonLdAlternateName": "Hybrid, editor Markdown per Mac, iPhone e iPad"
   },
   "nav": {
     "ariaLabel": "Navigazione principale",
@@ -14,16 +14,17 @@
     "languageMenu": "Scegli la lingua"
   },
   "hero": {
-    "eyebrow": "Hybrid per macOS",
+    "eyebrow": "Hybrid per Mac, iPhone e iPad",
     "h1": "L'editor Markdown che sa **chi ha scritto cosa**.",
     "sub": "Hybrid registra da dove viene ogni passaggio: scritto da te, generato da un'IA, citato da una fonte con nome o aggiunto da un collega. Fatto per chi pubblica — PR, marketing, agenzie e redazioni.",
     "secondary": "Tutte le funzioni",
-    "iosPill": "Beta iOS",
-    "ios": "Hybrid per iPhone e iPad è ora in beta.",
+    "iosPill": "Novità",
+    "ios": "Hybrid è ora disponibile anche per iPhone e iPad.",
     "shotAlt": "L'editor Hybrid su macOS con le marcature di provenienza: testo IA sottolineato in viola, una citazione etichettata in verde e l'indicatore dei contributi nella barra laterale",
     "badgeAlt": "Scarica sul Mac App Store",
     "trial": "Prova gratis per 7 giorni",
-    "betaCta": "Partecipa alla beta →"
+    "iosCta": "Scopri di più →",
+    "iosBadgeAlt": "Scarica su App Store"
   },
   "prov": {
     "h2": "Chi ha scritto cosa? **Il tuo documento lo sa.**",
@@ -120,9 +121,10 @@
     }
   ],
   "ios": {
-    "h2": "La beta per **iPhone e iPad** è arrivata",
-    "p": "Hybrid arriva su iPhone e iPad — e puoi esserci in anticipo. La beta passa da TestFlight di Apple: tocca il link, installa TestFlight, scrivi. Gli stessi documenti, la stessa provenienza — e il tuo riscontro entra direttamente nella versione finale.",
-    "cta": "Partecipa alla beta"
+    "h2": "Ora anche su **iPhone e iPad**",
+    "p": "Hybrid è ora sull'App Store per iPhone e iPad — con gli stessi documenti, la stessa provenienza e la stessa collaborazione. Tutto resta sincronizzato con il tuo Mac tramite iCloud: continua a scrivere in mobilità, pubblica alla scrivania.",
+    "iphoneAlt": "Hybrid su iPhone: l'editor con le marcature di provenienza per il testo IA e le fonti",
+    "ipadAlt": "Hybrid su iPad: collaborazione in tempo reale con due autori, ogni passaggio etichettato con il nome del suo autore"
   },
   "langSection": {
     "h2": "Parla **la tua lingua**",
@@ -130,11 +132,11 @@
   },
   "cta": {
     "h2": "Scrivi con l'IA. **Pubblica con fiducia.**",
-    "p": "Hybrid per Mac — l'editor Markdown per le persone, l'IA e tutto ciò che pubblichi."
+    "p": "Hybrid per Mac, iPhone e iPad — l'editor Markdown per le persone, l'IA e tutto ciò che pubblichi."
   },
   "footer": {
-    "tagline": "Hybrid è un editor Markdown per macOS costruito per la collaborazione tra persone e IA — per PR, marketing, comunicazione, agenzie, redazioni, giornalismo, consulenza e pubblicazione online. Scrivi, condividi, confronta e pubblica — dal tuo Mac.",
-    "requirements": "macOS 13 (Ventura) o successivo · Apple Silicon & Intel",
+    "tagline": "Hybrid è un editor Markdown per Mac, iPhone e iPad costruito per la collaborazione tra persone e IA — per PR, marketing, comunicazione, agenzie, redazioni, giornalismo, consulenza e pubblicazione online. Scrivi, condividi, confronta e pubblica — su Mac, iPhone e iPad.",
+    "requirements": "Mac: macOS 13 (Ventura) o successivo · Apple Silicon & Intel · iPhone/iPad: iOS 16 o successivo",
     "languagesLabel": "Questa pagina in altre lingue",
     "imprint": "Note legali",
     "privacy": "Privacy",
@@ -143,7 +145,7 @@
   },
   "pro": {
     "h2": "Hybrid **Pro**",
-    "intro": "Dopo l'installazione, Hybrid è gratuito e pienamente utilizzabile per 7 giorni. Poi l'abbonamento Hybrid Pro sblocca tutte le funzioni — il prezzo è indicato nel Mac App Store.",
+    "intro": "Dopo l'installazione, Hybrid è gratuito e pienamente utilizzabile per 7 giorni. Poi l'abbonamento Hybrid Pro sblocca tutte le funzioni — il prezzo è indicato nel App Store.",
     "points": [
       {
         "h3": "Prova gratis per 7 giorni",

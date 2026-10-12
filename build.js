@@ -10,10 +10,10 @@ const path = require("path");
 // Die Domain der Website (ohne Schrägstrich am Ende). Muss zur Datei CNAME
 // passen; nach einer Änderung build.js erneut ausführen.
 const SITE_URL = "https://hybrid-editor.com";
-// Der Mac-App-Store-Eintrag der App.
+// Der App-Store-Eintrag der App (eine Seite für Mac, iPhone und iPad).
 const APP_STORE_URL = "https://apps.apple.com/app/hybrid-editor/id6809209701";
-// Öffentliche TestFlight-Einladung zur iOS-Beta.
-const TESTFLIGHT_URL = "https://testflight.apple.com/join/vSs27gRv";
+// ?platform=iphone zeigt auf der Store-Seite direkt die iOS-Fassung.
+const IOS_STORE_URL = `${APP_STORE_URL}?platform=iphone`;
 // ─────────────────────────────────────────────────────────────────────────────
 
 const LANGS = [
@@ -37,6 +37,10 @@ const APP_PRIVACY_DIR = {
   de: "", en: "en", fr: "fr", es: "es", it: "it",
   pt: "pt-pt", nl: "nl", jp: "jp", zh: "zh",
 };
+
+// Breite der iOS-App-Store-Badges bei 49px Höhe (die SVG-Zeichenflächen von
+// Apple sind je nach Sprache unterschiedlich breit; fr breiter, jp/zh schmaler).
+const IOS_BADGE_W = { en: 147, de: 147, fr: 155, es: 147, it: 147, pt: 147, nl: 147, jp: 133, zh: 133 };
 
 const esc = (s) => String(s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -87,7 +91,7 @@ function render(t, lang) {
     name: "Hybrid",
     alternateName: t.meta.jsonLdAlternateName,
     description: t.meta.description,
-    operatingSystem: "macOS 13.0",
+    operatingSystem: "macOS 13.0, iOS 16.0, iPadOS 16.0",
     applicationCategory: "ProductivityApplication",
     inLanguage: LANGS.map((l) => l.hreflang),
     url: pageUrl,
@@ -123,6 +127,8 @@ function render(t, lang) {
   // white: die weiße Badge-Variante für dunkle/farbige Flächen (CTA-Band).
   const badge = (extra, white) => `<a class="store-badge${extra || ""}" href="${APP_STORE_URL}" rel="noopener">
             <img src="${abs(`assets/badges/badge-${lang.code}${white ? "-w" : ""}.svg`)}" alt="${esc(t.hero.badgeAlt)}" width="195" height="49"></a>`;
+  const iosBadge = (extra, white) => `<a class="store-badge${extra || ""}" href="${IOS_STORE_URL}" rel="noopener">
+            <img src="${abs(`assets/badges/appstore-${lang.code}${white ? "-w" : ""}.svg`)}" alt="${esc(t.hero.iosBadgeAlt)}" width="${IOS_BADGE_W[lang.code]}" height="49"></a>`;
 
   return `<!doctype html>
 <html lang="${lang.hreflang}">
@@ -177,10 +183,11 @@ ${alternates}
       <p class="hero-sub">${esc(t.hero.sub)}</p>
       <div class="hero-cta">
         ${badge()}
+        ${iosBadge()}
         <a class="btn-secondary" href="#features">${esc(t.hero.secondary)}</a>
       </div>
       <p class="trial-note">${esc(t.hero.trial)}</p>
-      <p class="ios-note"><span class="ios-pill">${esc(t.hero.iosPill)}</span> ${esc(t.hero.ios)} <a href="${TESTFLIGHT_URL}" rel="noopener">${esc(t.hero.betaCta)}</a></p>
+      <p class="ios-note"><span class="ios-pill">${esc(t.hero.iosPill)}</span> ${esc(t.hero.ios)} <a href="#ios">${esc(t.hero.iosCta)}</a></p>
       <figure class="shot hero-shot reveal">
         <img src="${abs(`assets/img/${lang.code}/editor.jpg`)}" alt="${esc(t.hero.shotAlt)}" width="1600" height="778" fetchpriority="high">
       </figure>
@@ -234,10 +241,20 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
       </div>
     </section>
 
-    <section class="ios segment reveal-group" id="ios">
-      <h2>${hl(t.ios.h2)}</h2>
-      <p>${esc(t.ios.p)}</p>
-      <a class="btn-primary" href="${TESTFLIGHT_URL}" rel="noopener">${esc(t.ios.cta)}</a>
+    <section class="ios segment" id="ios">
+      <div class="section-head reveal">
+        <h2>${hl(t.ios.h2)}</h2>
+        <p>${esc(t.ios.p)}</p>
+      </div>
+      <div class="ios-shots reveal-group">
+        <figure class="shot ios-shot-iphone">
+          <img src="${abs(`assets/img/${lang.code}/ios-iphone.jpg`)}" alt="${esc(t.ios.iphoneAlt)}" loading="lazy" width="640" height="1390">
+        </figure>
+        <figure class="shot ios-shot-ipad">
+          <img src="${abs(`assets/img/${lang.code}/ios-ipad.jpg`)}" alt="${esc(t.ios.ipadAlt)}" loading="lazy" width="1600" height="1200">
+        </figure>
+      </div>
+      <p class="ios-badge-row reveal">${iosBadge()}</p>
     </section>
 
     <section class="langs reveal-group" id="languages">
@@ -248,7 +265,10 @@ ${t.pro.points.map((p) => `        <article class="pro-point">
     <section class="cta segment reveal-group" id="download">
       <h2>${hl(t.cta.h2)}</h2>
       <p>${esc(t.cta.p)}</p>
-      ${badge(" badge-lg", true)}
+      <div class="cta-badges">
+        ${badge(" badge-lg", true)}
+        ${iosBadge(" badge-lg", true)}
+      </div>
       <p class="requirements">${esc(t.footer.requirements)}</p>
     </section>
   </main>
@@ -327,7 +347,7 @@ function renderImpressum() {
       <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 
       <h2>Urheberrecht</h2>
-      <p>Die Inhalte dieser Website unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verbreitung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des Anbieters. Das „Laden im Mac App Store“-Zeichen ist eine Marke der Apple Inc.</p>
+      <p>Die Inhalte dieser Website unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung und Verbreitung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des Anbieters. Die Zeichen „Laden im Mac App Store“ und „Laden im App Store“ sind Marken der Apple Inc.</p>
 
       <p class="legal-back"><a href="../">← Zurück zur Startseite</a></p>
     </section>
@@ -397,7 +417,7 @@ function renderDatenschutz() {
       <p>Wenn Sie mir per E-Mail schreiben, verarbeite ich die übermittelten Daten (E-Mail-Adresse, Inhalt der Nachricht), um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO bzw. Art. 6 Abs. 1 lit. b DSGVO, wenn sich die Anfrage auf ein Vertragsverhältnis bezieht. Die Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
 
       <h2>6. Externe Links</h2>
-      <p>Die Website verlinkt auf den Mac App Store von Apple und auf Dokumentationsseiten von GitHub. Erst wenn Sie einem solchen Link folgen, verarbeitet der jeweilige Anbieter Daten nach seinen eigenen Datenschutzbestimmungen.</p>
+      <p>Die Website verlinkt auf den App Store von Apple (für die Mac-, iPhone- und iPad-Fassung der App) und auf Dokumentationsseiten von GitHub. Erst wenn Sie einem solchen Link folgen, verarbeitet der jeweilige Anbieter Daten nach seinen eigenen Datenschutzbestimmungen.</p>
 
       <h2>7. Ihre Rechte</h2>
       <p>Sie haben gegenüber dem Verantwortlichen das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20) sowie das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen Ihrer besonderen Situation zu widersprechen (Art. 21 DSGVO).</p>
